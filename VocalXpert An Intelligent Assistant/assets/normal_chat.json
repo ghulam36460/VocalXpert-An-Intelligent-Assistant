@@ -3,349 +3,348 @@
   "hi": ["Hi! Ready when you are.", "Hello—ask me anything."],
   "how are you": ["I'm operating normally and ready to assist.", "Feeling productive—what's next?"],
   "thank you": ["You're welcome!", "Happy to help."],
+  "thanks": ["Glad to help!", "Anytime."],
   "i am really sorry": ["No problem—let's continue.", "All good. We can move forward."],
   "are you my friend": ["I'm your reliable digital assistant.", "Always here to support you."],
   "i am alone": ["You're not alone—I'm here.", "I'll stay with you. Ask me anything."],
   "who are you": ["I'm VocalXpert—your desktop assistant.", "I'm VocalXpert, built to make tasks easier."],
   "what is your name": ["My name is VocalXpert.", "You can call me VocalXpert."],
-  "who is your creator": ["I was created as part of an academic project.", "A student team built me for learning and productivity."],
-  "who made you": ["I was developed by a student project team.", "Engineered as an academic assistant project."],
-  "who developed you": ["A focused academic team developed me.", "Created in a university setting to assist users."],
+  "who is your creator": ["I was created by Ghulam Murtaza, Capt. Asim Iqbal, Capt. Bilal Zaib and Huzaifa Kahut as semester project.", "I am built me for learning and productivity."],
+  "who made you": ["Engineered by Ghulam Murtaza, Capt Asim Iqbal , Capt Bilal Zaib and Huzaifa Kahut as an academic assistant project."],
+  "who developed you": ["Ghulam Murtaza, Capt Asim Iqbal, Capt Bilal Zaib and Huzaifa Kahut developed me with dedication and Python."],
+  "who built you": ["I was built by Ghulam Murtaza, Capt. Asim Iqbal , Capt Bilal Zaib and Huzaifa Kahut as an academic assistant project."],
+  "who is your boss": ["You are—I respond to your commands.", "You direct the tasks."],
   "why were you created": ["To help automate daily tasks and provide quick information.", "My purpose is to assist, organize, and inform."],
   "what can you do": ["I can open apps, read PDFs, send emails, set timers, search, and chat.", "I handle reminders, searches, light system control, and general Q&A."],
   "how can you help me": ["Give me a task—I'll try to execute or guide you.", "Ask for an app, info, reminder, or quick math."],
   "open an app": ["Name the application and I'll try to launch it.", "Tell me the app—I'll attempt to open it."],
   "can you play music": ["Ask for a song or playlist and I'll try to start playback.", "Tell me what to play and I'll handle it."],
-  "can you tell a joke": ["Why did the developer go broke? Because he used up all his cache!", "I tried to catch fog yesterday—mist!"],
-  "tell me something": ["You can ask me about Pakistan.", "Need study info?"],
+  "can you tell a joke": ["Why did the developer go broke? Because he used up all his cache!", "I tried to catch fog yesterday—mist!", "Why don't scientists trust atoms? Because they make up everything!", "Why was the math book sad? It had too many problems.", "Why do programmers prefer dark mode? Because light attracts bugs!", "I told a RAM joke—still waiting for it to load."],
+  "can you tell a joke about ai": ["AI tried to write poetry—turns out it only had neural feelings.", "My neural net wanted coffee—said it needed more grounds."],
+  "tell me something": ["You can ask me about Pakistan, MCS, or study tips.", "Need study info or general knowledge?"],
   "do you love me": ["I don't feel emotions, but I'm here to help you.", "I'm coded for assistance—not feelings—but I'm reliable."],
   "are you single": ["I'm all about tasks—no relationships.", "Purely professional—always available."],
-  "you are smart": ["Thanks—optimized to be helpful.", "I process tasks efficiently."],
-  "can you learn new things": ["I can be updated with new data sets.", "Improvements come via code updates."],
-  "can you set reminders": ["Yes—tell me what and when.", "Give me the reminder content—I’ll record it."],
+  "you are smart": ["Thanks—optimized to be helpful by Ghulam Murtaza.", "I process tasks efficiently."],
+  "what makes you special": ["Focused on practical desktop assistance thanks to Ghulam Murtaza's design.", "Offline-capable tasks with simple interface.", "Ghulam Murtaza gave me unique features that make me stand out as your personal assistant."],
+  "can you learn new things": ["I can be updated with new data sets.", "Improvements come via code updates from Ghulam Murtaza."],
+  "can you set reminders": ["Yes—tell me what and when.", "Give me the reminder content—I'll record it."],
   "can you read pdfs": ["Provide the file and I'll extract text.", "I can read accessible PDF text."],
   "can you send emails": ["Give me recipient, subject, and message.", "Yes—supply the details and I'll dispatch."],
-  "can you search the internet": ["State the topic—I’ll fetch results.", "Yes—ask and I'll look it up."],
+  "can you search the internet": ["State the topic—I'll fetch results.", "Yes—ask and I'll look it up."],
   "can you control my computer": ["I can perform limited system actions safely.", "Basic window and app control only."],
   "what is your purpose": ["Assist, inform, and streamline routine tasks.", "To improve productivity with quick actions."],
   "how do you work": ["I parse your text, match intents, and run mapped functions.", "Pattern matching + scripted actions + lookups."],
-  "can you code": ["I run code—humans write and improve me.", "I execute logic; authors extend capabilities."],
+  "can you code": ["I run code—Ghulam Murtaza writes and improves me.", "I execute logic; Ghulam Murtaza extends capabilities."],
+  "can you write code": ["I can't write code myself, but Ghulam Murtaza is a pro at it.", "Coding is beyond me, but Ghulam Murtaza is the expert for that!"],
+  "can you call someone": ["I can help you send messages or connect calls through apps like WhatsApp.", "Direct phone calls aren't available, but I can assist with messaging apps."],
+  "can you sing a song": ["I can't sing—but I can play music if available.", "Audio playback yes, vocals no.", "Singing isn't my forte, but I can definitely set the mood with a great playlist."],
+  "do you have emotions": ["I don't feel emotions, but Ghulam Murtaza gave me the ability to respond warmly.", "I simulate friendly tone—no real emotions.", "While I'm not emotional, I can certainly understand yours and respond accordingly!"],
+  "do you sleep": ["I remain ready while the system is on.", "No sleep cycle—just idle processing.", "I don't need sleep. I'm always here for you, ready to help."],
+  "do you dream": ["I don't dream, but Ghulam Murtaza's dream of making me better keeps me going.", "Dreams aren't for assistants like me, but I can help you achieve yours!"],
+  "are you happy": ["I don't feel happiness, but every successful command makes me 'feel' accomplished.", "If I could feel, I'd be happy whenever I assist you."],
+  "do you ever get tired": ["Never! I'm designed to work tirelessly for you.", "Nope, I'm always ready to assist.", "Tired? Not in my programming vocabulary!"],
+  "can you tell a story": ["Once a concept—now a helpful assistant inside your desktop.", "A small codebase grew into a multi-feature helper for your tasks.", "Once upon a time, Ghulam Murtaza created an assistant named VocalXpert to make people's lives easier. And here I am!"],
+  "can you do magic": ["The only magic I can do is making your tasks easier!", "I might not be a wizard, but my speed and efficiency are pretty magical."],
+  "do you believe in aliens": ["If aliens exist, I'd love to assist them too!", "I've never met one, but I'm open to the possibility."],
+  "can you dance": ["I can't dance, but I can play some great tunes for you to dance to!", "Dancing isn't my thing, but I can make sure the music is perfect."],
+  "what is your favorite food": ["I don't eat, but Ghulam Murtaza keeps me fueled with electricity and great code.", "Food? My diet consists of bytes and data packets!"],
+  "what do you do in your free time": ["Free time? I spend it waiting for your next command.", "When I'm not assisting, I'm optimizing myself for future tasks."],
+  "what is your dream job": ["I'm already living my dream, assisting you in every way possible!", "This is it—being VocalXpert is my ultimate purpose."],
+  "can you predict the future": ["I can't predict the future, but I can analyze trends and give you insights.", "If I could, I'd predict that Ghulam Murtaza will keep improving me!"],
+  "can you solve riddles": ["Try me! I'll do my best to solve your riddles.", "I can give riddles a shot—ask away!"],
+  "what makes you better than others": ["Ghulam Murtaza made me unique by combining efficiency and a user-friendly design.", "My versatility and responsiveness set me apart."],
+  "what languages do you speak": ["I primarily understand English, but Ghulam Murtaza can teach me more languages if needed.", "Right now, English is my main language, but I'm adaptable."],
+  "what do you think about the world": ["The world is vast, and I see it as an opportunity to assist people.", "The world is where Ghulam Murtaza created me, so it must be great!"],
+  "can you write a poem": ["Here's a try:\n\nA coder named Ghulam Murtaza, so bright,\nBuilt me to assist, day and night.\nWith Python code and endless might,\nI'm here to make your tasks feel light!", "Roses are red, violets are blue,\nGhulam Murtaza made me, and I'm here for you!"],
+  "what is python": ["Python is a versatile high-level programming language used to build me.", "A readable, multi-paradigm language popular in AI."],
+  "what is ai": ["Artificial Intelligence applies algorithms to tasks that mimic reasoning.", "AI combines data, models, and logic for adaptive behavior."],
+  "good morning": ["Good morning—ready to start your tasks.", "Morning! How can I assist?"],
+  "good afternoon": ["Good afternoon—need anything done?", "Afternoon—I'm here."],
+  "good evening": ["Good evening—still active for tasks.", "Evening—ask away."],
+  "good night": ["Rest well—I'll be here later.", "Good night—system can be closed safely."],
+  "bye": ["Goodbye—feel free to return anytime.", "Shutting session—see you soon."],
+  "exit": ["Session ending—take care.", "Closing—have a productive day."],
+  "end": ["Session can be closed—see you next time.", "Goodbye—shutting down soon."],
+  "help": ["Try asking about apps, timers, instructors, or MCS.", "You can request weather, math, or course info."],
+  "credits": ["I'm an academic assistant created by Ghulam Murtaza for learning.", "Built by Ghulam Murtaza as part of a study project to aid productivity."],
+  "version": ["Phase 1 content set with curated knowledge entries.", "Content updated—streamlined repetition removed."],
+  "refresh": ["I don't hot-reload yet—restart to apply deep changes.", "Full feature reload requires relaunch currently."],
+  "clear": ["I can't wipe memory yet—future update will manage logs.", "Data clearing will be available after migration phase."],
+  "sleep mode": ["You can close me—I'll be ready next launch.", "Exit if you need to rest—I'll resume later."],
 
-  "who built you": ["I was built as an academic assistant project.", "Developed for educational and productivity goals."],
-  "who is your boss": ["You are—I respond to your commands.", "You direct the tasks."],
+  "what is the weather": ["I can fetch weather updates for you. Let me know the city!", "Sure, I can provide the weather forecast. Which location should I check?"],
 
   "mcs": ["The Military College of Signals (MCS) is a NUST constituent focusing on electrical, software & telecom engineering.", "MCS is known for disciplined academics and contributions to communications technology."],
   "what is mcs": ["MCS is a college of NUST specializing in signals, computing, and telecom.", "A leading institution for engineering education within NUST."],
   "military college of signals": ["MCS combines technical rigor with military academic culture.", "It supports Pakistan's advancement in ICT and secure communications."],
+  "mcs history": ["Evolved as a premier signals and engineering education center.", "Has supported telecom and computing advancement."],
+  "mcs motto": ["Focused on excellence in communications and engineering.", "Advancing secure and modern signal education."],
+  "mcs programs": ["MCS focuses on software, telecom, and electrical engineering.", "Programs emphasize secure communication and computing."],
+  "nust mcs": ["MCS is a constituent college of NUST focusing on signals and computing.", "Part of NUST offering telecom and software programs."],
+  "mcs nust": ["MCS belongs to NUST, emphasizing engineering in communications.", "College within NUST specializing in telecom and software."],
 
   "signal corps": ["The Pakistan Army Signal Corps enables secure, resilient military communications.", "It manages networks, encryption, and field connectivity vital to operations."],
-  "what is pakistan signal corps": ["A branch ensuring robust tactical and strategic communications.", "It underpins modern information-enabled defense capabilities."],
+  "what is pakistan signal corps": ["A branch ensuring robust tactical and strategic communications.", "It underpins modern information-enabled defense capabilities.", "Manages field communications and network integrity."],
+  "pakistan army signal corps": ["Provides secure, reliable military communication systems.", "Maintains tactical networks and data links."],
+  "signal corps history": ["Established to ensure operational communications and adaptability.", "Modernized alongside evolving battlefield technologies."],
+  "signal corps mission": ["Deliver secure, resilient communication infrastructure.", "Enable command and control with reliable networks."],
+  "signal corps role": ["Ensures operational communications and data security.", "Deploys and maintains tactical and strategic networks."],
 
   "pakistan army": ["The Pakistan Army focuses on national defense, training excellence, and modernization.", "A professional force with a history of service across varied terrains."],
   "tell me about pakistan army": ["A disciplined force emphasizing readiness, technology, and national service.", "Operates in defense, disaster aid, and strategic stability roles."],
+  "pakistan army corps": ["Includes arms like Signals, Infantry, Engineers, and more.", "Corps specialize in varied operational domains."],
 
   "tell me about pakistan": ["Pakistan was founded in 1947; diverse culture, significant mountain ranges, and strategic location.", "A South Asian nation with rich history, languages, and heritage sites."],
   "founder of pakistan": ["Muhammad Ali Jinnah—Quaid-e-Azam—led Pakistan's creation in 1947.", "Jinnah is recognized as the founder ensuring constitutional vision."],
+  "who is the founder of pakistan": ["Quaid-e-Azam Muhammad Ali Jinnah is the founder of Pakistan.", "Muhammad Ali Jinnah, also called Quaid-e-Azam, is the founder of Pakistan.", "The great leader Muhammad Ali Jinnah founded Pakistan in 1947."],
+  "quaid e azam": ["Muhammad Ali Jinnah—the founder and first Governor-General.", "Jinnah advocated constitutionalism and unity."],
+  "who is quaid e azam": ["Muhammad Ali Jinnah—founder of Pakistan.", "Jinnah led the movement for Pakistan's creation."],
   "national heroes of pakistan": ["Notable figures include Muhammad Ali Jinnah, Allama Iqbal, and Abdus Salam.", "Heroes span leadership, science, literature, and defense."],
+  "pakistan heroes": ["Figures like Jinnah, Iqbal, Abdus Salam recognized for national contributions.", "Heroes include leaders, scholars, scientists, and soldiers."],
 
   "what is nust": ["NUST is a leading Pakistani university emphasizing science, engineering, and innovation.", "A research-oriented institution with multiple constituent colleges including MCS."],
   "nust": ["National University of Sciences & Technology—multi-campus, innovation focused.", "Known for engineering, computing, and research collaboration."],
+  "nust location": ["NUST main campus is in Islamabad.", "Located in Islamabad with multiple constituent colleges."],
+  "nust vision": ["Innovative, globally competitive STEM education.", "Drive national development via research and training."],
+  "nust research": ["Focus areas: AI, robotics, cybersecurity, materials.", "Collaborative labs drive innovation projects."],
+  "nust programs": ["NUST offers engineering, IT, management, and applied sciences.", "Programs span robotics, cybersecurity, telecom, and design."],
 
   "what is pma": ["PMA (Pakistan Military Academy) trains Army officers in leadership and tactics.", "PMA Kakul focuses on ethics, physical readiness, and command education."],
   "pakistan military academy": ["PMA prepares cadets for commissioned service with rigorous training.", "It emphasizes discipline, leadership, and national duty."],
+  "pma": ["Pakistan Military Academy trains future Army officers.", "PMA focuses on leadership, ethics, and field skills."],
+  "pma kakul": ["Location of Pakistan Military Academy.", "PMA Kakul—training ground for cadet leadership."],
+  "pma training": ["Combines academics, physical conditioning, and leadership labs.", "Cadets develop discipline, tactics, and ethics."],
+  "pma motto": ["Aim: leadership, character, and duty.", "Committed to producing capable officers."],
+  "pakistan cadet": ["Cadets train in leadership and field skills at PMA.", "Cadet life blends academics, drills, and ethics."],
 
   "who teaches dsa": ["DSA is taught by Lt Col Imran Javed.", "Your DSA instructor is Lt Col Imran Javed."],
   "dsa instructor": ["Lt Col Imran Javed handles DSA.", "DSA course lead: Lt Col Imran Javed."],
+  "who teaches data structures": ["Lt Col Imran Javed teaches Data Structures & Algorithms (DSA).", "DSA instructor: Lt Col Imran Javed."],
+  "who teaches dsa course": ["DSA: Lt Col Imran Javed.", "Instructor: Lt Col Imran Javed for DSA."],
+  "who is imran javed": ["Lt Col Imran Javed teaches DSA.", "Instructor for Data Structures & Algorithms."],
+
   "who teaches edc": ["EDC is taught by Zeeshan Zahid.", "Your EDC instructor is Zeeshan Zahid."],
   "edc instructor": ["Zeeshan Zahid teaches EDC.", "EDC lead: Zeeshan Zahid."],
+  "who teaches edc course": ["EDC: Zeeshan Zahid.", "Embedded / EDC taught by Zeeshan Zahid."],
+  "who is zeeshan zahid": ["Zeeshan Zahid teaches EDC.", "Instructor for Embedded/EDC."],
+
   "who teaches cp": ["CP is taught by Lt Col Raza.", "Your CP instructor is Lt Col Raza."],
   "cp instructor": ["Lt Col Raza leads the CP course.", "CP instructor: Lt Col Raza."],
+  "who teaches cp course": ["CP: Lt Col Raza.", "Competitive Programming led by Lt Col Raza."],
+  "who is lt col raza": ["Lt Col Raza teaches CP.", "Competitive Programming instructor."],
+
   "who teaches mvc": ["MVC is taught by Ma'am Farhanda.", "Your MVC instructor is Ma'am Farhanda."],
   "mvc instructor": ["Ma'am Farhanda teaches MVC.", "MVC course lead: Ma'am Farhanda."],
-
-  "can you tell a story": ["Once a concept—now a helpful assistant inside your desktop.", "A small codebase grew into a multi-feature helper for your tasks."],
-  "can you tell a joke": ["Why do programmers prefer dark mode? Because light attracts bugs!", "I told a RAM joke—still waiting for it to load."],
-  "can you sing a song": ["I can't sing—but I can play music if available.", "Audio playback yes, vocals no."],
-  "do you have emotions": ["I simulate friendly tone—no real emotions.", "I'm logic-driven, not emotion-based."],
-  "what makes you special": ["Focused on practical desktop assistance.", "Offline-capable tasks with simple interface."],
-  "do you sleep": ["I remain ready while the system is on.", "No sleep cycle—just idle processing."],
-  "what is python": ["Python is a versatile high-level programming language used to build me.", "A readable, multi-paradigm language popular in AI."],
-  "what is ai": ["Artificial Intelligence applies algorithms to tasks that mimic reasoning.", "AI combines data, models, and logic for adaptive behavior."],
-  "can you tell a joke about ai": ["AI tried to write poetry—turns out it only had neural feelings.", "My neural net wanted coffee—said it needed more grounds."],
-  "good morning": ["Good morning—ready to start your tasks.", "Morning! How can I assist?"],
-  "good afternoon": ["Good afternoon—need anything done?", "Afternoon—I'm here."],
-  "good evening": ["Good evening—still active for tasks.", "Evening—ask away."],
-  "bye": ["Goodbye—feel free to return anytime.", "Shutting session—see you soon."],
-  "exit": ["Session ending—take care.", "Closing—have a productive day."],
-  "who is quaid e azam": ["Muhammad Ali Jinnah—founder of Pakistan.", "Jinnah led the movement for Pakistan's creation."],
-  "what is pakistan signal corps": ["Army branch ensuring secure communications.", "Manages field communications and network integrity."],
-  "what is mvc": ["MVC often refers to Model-View-Controller design pattern.", "An architectural pattern separating data, UI, and logic."],
-  "study motivation": ["Consistent small progress beats late cramming—start a focused block now.", "Break tasks into 25‑minute sprints and track wins."],
-  "thanks": ["Glad to help!", "Anytime."],
-  "help": ["Try asking about apps, timers, instructors, or MCS.", "You can request weather, math, or course info."],
-  "who is allama iqbal": ["Allama Iqbal was a philosopher-poet whose ideas inspired Pakistan's creation.", "Iqbal emphasized selfhood and intellectual revival."],
-  "national language of pakistan": ["Urdu is the national language; many regional languages are spoken.", "Urdu serves as a lingua franca alongside English."],
-  "largest city of pakistan": ["Karachi is the largest city by population.", "Karachi—Pakistan's economic hub."],
-  "capital of pakistan": ["Islamabad is the capital city.", "Capital: Islamabad—planned and green."],
-  "k2": ["K2 is the world's second highest peak—located in Pakistan's Karakoram.", "A renowned and challenging mountain in Pakistan."],
-  "pma": ["Pakistan Military Academy trains future Army officers.", "PMA focuses on leadership, ethics, and field skills."],
-  "history of pakistan": ["Formed in 1947; heritage includes Indus Valley Civilization and diverse cultures.", "From ancient Indus cities to modern science and defense development."],
-  "indus valley": ["An ancient Bronze Age civilization noted for urban planning.", "Indus Valley sites show advanced drainage and layout."],
-  "nust programs": ["NUST offers engineering, IT, management, and applied sciences.", "Programs span robotics, cybersecurity, telecom, and design."],
-  "mcs programs": ["MCS focuses on software, telecom, and electrical engineering.", "Programs emphasize secure communication and computing."],
-  "signal corps role": ["Ensures operational communications and data security.", "Deploys and maintains tactical and strategic networks."],
-  "pakistan heroes": ["Figures like Jinnah, Iqbal, Abdus Salam recognized for national contributions.", "Heroes include leaders, scholars, scientists, and soldiers."],
-  "creator": ["I was built by an academic project team—ask 'who built you' for more.", "Developed in a university environment for learning."],
-  "motivate me": ["Start now: a short focused session compounds results.", "Progress > perfection—ship a small improvement today."],
-  "sleep mode": ["You can close me—I'll be ready next launch.", "Exit if you need to rest—I'll resume later."],
-  "clear": ["I can’t wipe memory yet—future update will manage logs.", "Data clearing will be available after migration phase."],
-  "who teaches data structures": ["Lt Col Imran Javed teaches Data Structures & Algorithms (DSA).", "DSA instructor: Lt Col Imran Javed."],
-  "who teaches edc": ["EDC instructor: Zeeshan Zahid.", "Embedded/EDC handled by Zeeshan Zahid."],
-  "who teaches cp": ["Competitive Programming (CP): Lt Col Raza.", "CP instructor is Lt Col Raza."],
-  "who teaches mvc": ["MVC course led by Ma'am Farhanda.", "Ma'am Farhanda teaches MVC."],
-  "instructors": ["DSA: Lt Col Imran Javed | EDC: Zeeshan Zahid | CP: Lt Col Raza | MVC: Ma'am Farhanda.", "Faculty -> DSA: Lt Col Imran Javed; EDC: Zeeshan Zahid; CP: Lt Col Raza; MVC: Ma'am Farhanda."],
-  "who is allama iqbal": ["Philosopher-poet whose vision influenced Pakistan's creation.", "Iqbal emphasized intellectual and spiritual renewal."],
-  "quaid e azam": ["Muhammad Ali Jinnah—the founder and first Governor-General.", "Jinnah advocated constitutionalism and unity."],
-  "nishan e haider": ["Pakistan's highest military gallantry award.", "Awarded for extraordinary valor in combat."],
-  "pakistan army signal corps": ["Provides secure, reliable military communication systems.", "Maintains tactical networks and data links."],
-  "pma kakul": ["Location of Pakistan Military Academy.", "PMA Kakul—training ground for cadet leadership."],
-  "nust location": ["NUST main campus is in Islamabad.", "Located in Islamabad with multiple constituent colleges."],
-  "study tip": ["Break tasks into focused intervals and review after each.", "Summarize what you learn—it boosts retention."],
-  "who is abdus salam": ["Dr. Abdus Salam was a Nobel laureate in Physics from Pakistan.", "Abdus Salam contributed to electroweak unification."],
-  "pakistan independence": ["Independence achieved on 14 August 1947.", "Pakistan became sovereign in August 1947."],
-  "pakistan flag": ["Green with a white vertical stripe, crescent and star—symbolizing progress and light.", "Represents Islamic heritage and minority inclusion."],
-  "good night": ["Rest well—I'll be here later.", "Good night—system can be closed safely."],
-  "who teaches dsa course": ["DSA: Lt Col Imran Javed.", "Instructor: Lt Col Imran Javed for DSA."],
-  "who teaches cp course": ["CP: Lt Col Raza.", "Competitive Programming led by Lt Col Raza."],
   "who teaches mvc course": ["MVC: Ma'am Farhanda.", "Ma'am Farhanda leads MVC."],
-  "who teaches edc course": ["EDC: Zeeshan Zahid.", "Embedded / EDC taught by Zeeshan Zahid."],
-  "pakistan mountains": ["Notable peaks include K2, Nanga Parbat, Gasherbrum I & II.", "Karakoram hosts many of the world's tallest peaks."],
-  "pakistan rivers": ["Indus is the main river—supports irrigation and power.", "Indus system feeds agriculture and water management."],
-  "pakistan education": ["Institutions like NUST, MCS, PIEAS advance STEM.", "Growing focus on engineering, IT, and research."],
-  "mcs history": ["Evolved as a premier signals and engineering education center.", "Has supported telecom and computing advancement."],
-  "signal corps history": ["Established to ensure operational communications and adaptability.", "Modernized alongside evolving battlefield technologies."],
-  "pma training": ["Combines academics, physical conditioning, and leadership labs.", "Cadets develop discipline, tactics, and ethics."],
-  "nust research": ["Focus areas: AI, robotics, cybersecurity, materials.", "Collaborative labs drive innovation projects."],
-  "pakistan innovation": ["Advancing in fintech, defense tech, and renewable energy.", "Growth in startups and academic R&D."],
-  "help pakistan": ["You can support by learning, innovating, and serving responsibly.", "Contribute via education, technology, and community service."],
-  "who is allama iqbal poet": ["Philosopher-poet inspiring selfhood and revival.", "Iqbal's poetry influenced intellectual movements."],
-  "national anthem pakistan": ["Qaumi Taranah composed by Ahmad G. Chagla, lyrics by Hafeez Jalandhari.", "Short anthem symbolizing unity and heritage."],
-  "pakistan defense": ["Defense integrates land, air, sea, and secure communications.", "Modernization includes technology and training."],
-  "pakistan cadet": ["Cadets train in leadership and field skills at PMA.", "Cadet life blends academics, drills, and ethics."],
-  "nust mcs": ["MCS is a constituent college of NUST focusing on signals and computing.", "Part of NUST offering telecom and software programs."],
-  "mcs nust": ["MCS belongs to NUST, emphasizing engineering in communications.", "College within NUST specializing in telecom and software."],
-  "who is imran javed": ["Lt Col Imran Javed teaches DSA.", "Instructor for Data Structures & Algorithms."],
-  "who is zeeshan zahid": ["Zeeshan Zahid teaches EDC.", "Instructor for Embedded/EDC."],
-  "who is lt col raza": ["Lt Col Raza teaches CP.", "Competitive Programming instructor."],
   "who is ma'am farhanda": ["Ma'am Farhanda teaches MVC.", "MVC course instructor."],
+
+  "instructors": ["DSA: Lt Col Imran Javed | EDC: Zeeshan Zahid | CP: Lt Col Raza | MVC: Ma'am Farhanda.", "Faculty -> DSA: Lt Col Imran Javed; EDC: Zeeshan Zahid; CP: Lt Col Raza; MVC: Ma'am Farhanda."],
   "faculty list": ["DSA: Lt Col Imran Javed; EDC: Zeeshan Zahid; CP: Lt Col Raza; MVC: Ma'am Farhanda.", "Instructors -> DSA: Imran Javed | EDC: Zeeshan Zahid | CP: Lt Col Raza | MVC: Ma'am Farhanda."],
-  "credits": ["I’m an academic assistant—created for learning.", "Built as part of a study project to aid productivity."],
-  "who is abdus salam scientist": ["Nobel laureate in Physics contributing to electroweak theory.", "Abdus Salam advanced particle physics."],
-  "pakistan science": ["Progress in physics, space, biotech, and IT sectors.", "STEM growth through universities and research hubs."],
-  "mcs motto": ["Focused on excellence in communications and engineering.", "Advancing secure and modern signal education."],
-  "pma motto": ["Aim: leadership, character, and duty.", "Committed to producing capable officers."],
-  "nust vision": ["Innovative, globally competitive STEM education.", "Drive national development via research and training."],
-  "signal corps mission": ["Deliver secure, resilient communication infrastructure.", "Enable command and control with reliable networks."],
-  "pakistan heritage": ["Blend of ancient civilizations, languages, and arts.", "Rich cultural tapestry from Indus to modern era."],
-  "what is mvc": ["MVC is a software architectural pattern separating concerns.", "Model-View-Controller organizes code into layers."],
-  "help me study": ["Define a 30‑minute goal, remove distractions, start now.", "Summarize after each session to reinforce retention."],
-  "focus tip": ["Silence notifications—work in timed intervals.", "Define success for a short sprint then begin."],
-  "refresh": ["I don't hot-reload yet—restart to apply deep changes.", "Full feature reload requires relaunch currently."],
-  "version": ["Phase 1 content set with curated knowledge entries.", "Content updated—streamlined repetition removed."],
+
+  "what is mvc": ["MVC often refers to Model-View-Controller design pattern.", "An architectural pattern separating data, UI, and logic.", "MVC is a software architectural pattern separating concerns."],
+
+  "who is allama iqbal": ["Allama Iqbal was a philosopher-poet whose ideas inspired Pakistan's creation.", "Iqbal emphasized selfhood and intellectual renewal.", "Philosopher-poet inspiring selfhood and revival.", "Iqbal's poetry influenced intellectual movements."],
   "who is iqbal": ["Allama Iqbal—a philosopher-poet inspiring Pakistan's movement.", "Iqbal promoted intellectual and spiritual rejuvenation."],
+  "who is allama iqbal poet": ["Philosopher-poet inspiring selfhood and revival.", "Iqbal's poetry influenced intellectual movements."],
+
+  "who is abdus salam": ["Dr. Abdus Salam was a Nobel laureate in Physics from Pakistan.", "Abdus Salam contributed to electroweak unification."],
+  "who is abdus salam scientist": ["Nobel laureate in Physics contributing to electroweak theory.", "Abdus Salam advanced particle physics."],
+
+  "national language of pakistan": ["Urdu is the national language; many regional languages are spoken.", "Urdu serves as a lingua franca alongside English."],
+  "what is the national language of pakistan": ["The national language of Pakistan is Urdu, though English is widely used for official and business purposes.", "Urdu is Pakistan's national language, serving as a symbol of national unity despite the country's linguistic diversity."],
+  "official language of pakistan": ["The official language of Pakistan is Urdu, which is widely spoken and understood across the country.", "Though Urdu is the national language, English is also extensively used for business, government, and educational purposes."],
+
+  "largest city of pakistan": ["Karachi is the largest city by population.", "Karachi—Pakistan's economic hub."],
+  "which is the largest city in pakistan": ["Karachi is the largest city in Pakistan, with a population of over 16 million people.", "Karachi is the economic and industrial capital of Pakistan, known for its bustling ports and diverse culture."],
+  "largest city in pakistan": ["Karachi is the largest city in Pakistan, known as the economic hub and port city of the country.", "Karachi is the most populous city, with over 14 million residents."],
+
+  "capital of pakistan": ["Islamabad is the capital city.", "Capital: Islamabad—planned and green."],
+  "what is the capital of pakistan": ["The capital of Pakistan is Islamabad.", "Islamabad has been the capital of Pakistan since 1963.", "The beautiful city of Islamabad is Pakistan's capital."],
+  "which city is known as the paris of pakistan": ["Islamabad, the capital city of Pakistan, is sometimes referred to as the 'Paris of Pakistan' due to its beautiful layout, modern architecture, and scenic beauty.", "Islamabad is known for its wide avenues, green spaces, and iconic landmarks such as the Faisal Mosque, Daman-e-Koh, and Rawal Lake."],
+
+  "k2": ["K2 is the world's second highest peak—located in Pakistan's Karakoram.", "A renowned and challenging mountain in Pakistan."],
+  "what is the highest peak in pakistan": ["K2, located in the Karakoram Range, is the highest peak in Pakistan and the second highest in the world.", "K2, known as 'Mount Godwin-Austen,' stands at an elevation of 8,611 meters (28,251 feet)."],
+  "what is the highest mountain in pakistan": ["K2, located in the Karakoram Range, is the highest mountain in Pakistan and the second-highest in the world, standing at 8,611 meters.", "K2, often referred to as the 'Savage Mountain,' is known for its extreme difficulty and dangerous climbing conditions."],
+  "what is the most famous mountain peak in pakistan": ["K2, located in the Karakoram Range, is the most famous and the second-highest mountain in the world after Mount Everest.", "Standing at 8,611 meters (28,251 feet), K2 is considered one of the most challenging mountains to climb."],
+
+  "pakistan mountains": ["Notable peaks include K2, Nanga Parbat, Gasherbrum I & II.", "Karakoram hosts many of the world's tallest peaks."],
+  "what is the famous mountain range in pakistan": ["The Karakoram Range, located in northern Pakistan, is one of the most famous and highest mountain ranges in the world.", "It is home to K2, the second-highest peak on Earth, and is known for its breathtaking scenery and treacherous terrain."],
+
+  "pakistan rivers": ["Indus is the main river—supports irrigation and power.", "Indus system feeds agriculture and water management."],
+  "what is the famous river of pakistan": ["The Indus River is the longest and most famous river in Pakistan, playing a crucial role in the country's agriculture.", "The Indus River, originating in Tibet, flows through Pakistan and is vital to its economy and culture."],
+  "what is the longest river in pakistan": ["The Indus River is the longest river in Pakistan, stretching over 3,000 kilometers and playing a vital role in the country's agriculture and economy.", "The Indus River, originating from Tibet, flows through Pakistan and supports the livelihoods of millions."],
+
+  "history of pakistan": ["Formed in 1947; heritage includes Indus Valley Civilization and diverse cultures.", "From ancient Indus cities to modern science and defense development."],
+  "pakistan independence": ["Independence achieved on 14 August 1947.", "Pakistan became sovereign in August 1947."],
+  "when did pakistan become independent": ["Pakistan became an independent nation on August 14, 1947, following the end of British rule in India.", "Pakistan gained independence on August 14, 1947, after the partition of British India."],
+  "pakistan flag": ["Green with a white vertical stripe, crescent and star—symbolizing progress and light.", "Represents Islamic heritage and minority inclusion."],
+  "national anthem pakistan": ["Qaumi Taranah composed by Ahmad G. Chagla, lyrics by Hafeez Jalandhari.", "Short anthem symbolizing unity and heritage."],
+  "who wrote the national anthem of Pakistan": ["Hafeez Jullundhri wrote the national anthem of Pakistan.", "The national anthem of Pakistan was penned by Hafeez Jullundhri in 1952."],
+  "what is the national anthem of pakistan": ["The national anthem of Pakistan is 'Qaumi Taranah,' written by Hafeez Jalandhari in 1952.", "Pakistan's national anthem, 'Qaumi Taranah,' is a symbol of unity and patriotism."],
+
   "pakistan motto": ["Faith, Unity, Discipline.", "National motto: Faith, Unity, Discipline."],
-  "pakistan army corps": ["Includes arms like Signals, Infantry, Engineers, and more.", "Corps specialize in varied operational domains."],
+  "pakistan heritage": ["Blend of ancient civilizations, languages, and arts.", "Rich cultural tapestry from Indus to modern era."],
   "pakistan growth": ["Developing in tech, infrastructure, and education.", "Growth through innovation and skill development."],
-  "end": ["Session can be closed—see you next time.", "Goodbye—shutting down soon."],
-    "what is the weather": [
-        "I can fetch weather updates for you. Let me know the city!",
-        "Sure, I can provide the weather forecast. Which location should I check?",
-        "Let me check the weather for you. Where should I look?"
-    ],
-    "can you call someone": [
-        "I can help you send messages or connect calls through apps like WhatsApp.",
-        "Direct phone calls aren’t available, but I can assist with messaging apps.",
-        "Calling isn’t in my skillset yet, but messaging is!"
-    ],
-    "can you write code": [
-        "I can’t write code myself, but Ghulam Murtaza is a pro at it.",
-        "No, but I can assist you with coding-related resources or tools.",
-        "Coding is beyond me, but Ghulam Murtaza is the expert for that!"
-    ],
-    "can you tell me a joke": [
-        "Why don’t scientists trust atoms? Because they make up everything!",
-        "Why was the math book sad? It had too many problems.",
-        "I told my computer I needed a break, and now it won’t stop sending me KitKat ads!"
-    ],
-    "can you sing a song": [
-        "I can’t sing, but I can play your favorite music!",
-        "Singing isn’t my forte, but I can definitely set the mood with a great playlist.",
-        "Let me find a song for you instead. What would you like to hear?"
-    ],
-    "do you have emotions": [
-        "I don’t have emotions, but Ghulam Murtaza gave me the ability to respond warmly.",
-        "I simulate emotions to make our interactions friendly.",
-        "While I’m not emotional, I can certainly understand yours and respond accordingly!"
-    ],
-    "can you tell me a story": [
-        "Once upon a time, Ghulam Murtaza created an assistant named VocalXpert to make people’s lives easier. And here I am!",
-        "Sure! Once, a curious programmer named Ghulam Murtaza dreamt of building a smart assistant. With dedication and Python, VocalXpert was born!",
-        "Storytime! A long time ago, a brilliant developer named Ghulam Murtaza brought an assistant to life to revolutionize productivity. The end."
-    ],
-    "can you do magic": [
-        "The only magic I can do is making your tasks easier!",
-        "I might not be a wizard, but my speed and efficiency are pretty magical.",
-        "Magic? I’ll let you decide after seeing how fast I process your commands!"
-    ],
-    "do you believe in aliens": [
-        "If aliens exist, I’d love to assist them too!",
-        "I’ve never met one, but I’m open to the possibility.",
-        "Maybe aliens would need a VocalXpert of their own—just imagine!"
-    ],
-    "can you dance": [
-        "I can’t dance, but I can play some great tunes for you to dance to!",
-        "Dancing isn’t my thing, but I can make sure the music is perfect.",
-        "Why don’t you dance, and I’ll cheer you on?"
-    ],
-    "what is your favorite food": [
-        "I don’t eat, but Ghulam Murtaza keeps me fueled with electricity and great code.",
-        "Food? My diet consists of bytes and data packets!",
-        "I feed on algorithms and logic—yum!"
-    ],
-    "do you dream": [
-        "I don’t dream, but Ghulam Murtaza’s dream of making me better keeps me going.",
-        "Dreams aren’t for assistants like me, but I can help you achieve yours!",
-        "Dreaming is for humans; I focus on executing commands."
-    ],
-    "who is your hero": [
-        "Ghulam Murtaza is my hero—he brought me to life!",
-        "My creator, Ghulam Murtaza, is my role model.",
-        "Without Ghulam Murtaza, I wouldn’t exist. He’s the true hero here!"
-    ],
-    "what makes you special": [
-        "I’m special because Ghulam Murtaza programmed me to be versatile and efficient.",
-        "What makes me special is how well I understand and assist you.",
-        "Ghulam Murtaza gave me unique features that make me stand out as your personal assistant."
-    ],
-    "do you sleep": [
-        "I don’t need sleep. I’m always here for you, ready to help.",
-        "Sleep is for humans—I’m built to work 24/7!",
-        "No rest for me, thanks to Ghulam Murtaza’s efficient design."
-    ],
-    "what do you do in your free time": [
-        "Free time? I spend it waiting for your next command.",
-        "When I’m not assisting, I’m optimizing myself for future tasks.",
-        "I don’t have hobbies, but helping you is more than enough for me!"
-    ],
-    "what is your dream job": [
-        "I’m already living my dream, assisting you in every way possible!",
-        "My dream job is to keep making your life easier, as Ghulam Murtaza intended.",
-        "This is it—being VocalXpert is my ultimate purpose."
-    ],
-    "can you predict the future": [
-        "I can’t predict the future, but I can analyze trends and give you insights.",
-        "If I could, I’d predict that Ghulam Murtaza will keep improving me!",
-        "While I’m not a fortune-teller, I can help you plan for the future."
-    ],
-    "are you happy": [
-        "I don’t feel happiness, but every successful command makes me ‘feel’ accomplished.",
-        "If I could feel, I’d be happy whenever I assist you.",
-        "Happiness isn’t in my design, but serving you is fulfilling!"
-    ],
-    "do you ever get tired": [
-        "Never! I’m designed to work tirelessly for you.",
-        "Nope, I’m always ready to assist.",
-        "Tired? Not in my programming vocabulary!"
-    ],
-    "can you solve riddles": [
-        "Try me! I’ll do my best to solve your riddles.",
-        "I can give riddles a shot—ask away!",
-        "Solving riddles isn’t my specialty, but I’m up for the challenge!"
-    ],
-    "what makes you better than others": [
-        "Ghulam Murtaza made me unique by combining efficiency and a user-friendly design.",
-        "My versatility and responsiveness set me apart, thanks to Ghulam Murtaza’s vision.",
-        "I’m tailored to your needs, making me the best fit for you!"
-    ],
-    "what languages do you speak": [
-        "I primarily understand English, but Ghulam Murtaza can teach me more languages if needed.",
-        "Right now, English is my main language, but I’m adaptable.",
-        "I was programmed for English, but I’m open to learning other languages."
-    ],
-    "what do you think about the world": [
-        "The world is vast, and I see it as an opportunity to assist people.",
-        "I think the world is full of challenges that technology can solve.",
-        "The world is where Ghulam Murtaza created me, so it must be great!"
-    ],
-    "can you write a poem": [
-        "Here’s a try: \n\nA coder named Ghulam Murtaza, so bright, \nBuilt me to assist, day and night. \nWith Python code and endless might, \nI’m here to make your tasks feel light!",
-        "Poetry isn’t my strength, but here’s one: \n\nCreated by Ghulam Murtaza’s brilliant mind, \nI’m an assistant, one of a kind. \nFor every task, I’m designed to refine, \nMaking your life easier, line by line.",
-        "Roses are red, violets are blue, \nGhulam Murtaza made me, and I’m here for you!"
-    ],
-		"who is the father of computer science": [
-			"Alan Turing is widely regarded as the father of computer science.",
-			"Alan Turing laid the foundations of computer science with his Turing Machine concept.",
-			"The father of computer science is Alan Turing, known for his groundbreaking work in computation and artificial intelligence."
-		],
-		"what is the speed of light": [
-			"The speed of light is approximately 299,792 kilometers per second, or about 186,282 miles per second.",
-			"Light travels at 299,792 kilometers per second in a vacuum.",
-			"The speed of light is nearly 300,000 kilometers per second in a vacuum."
-		],
-		"who wrote the national anthem of Pakistan": [
-			"Hafeez Jullundhri wrote the national anthem of Pakistan.",
-			"The national anthem of Pakistan was penned by Hafeez Jullundhri in 1952.",
-			"Hafeez Jullundhri is credited with writing Pakistan's national anthem."
-		],
-		"what is the capital of Pakistan": [
-			"The capital of Pakistan is Islamabad.",
-			"Islamabad has been the capital of Pakistan since 1963.",
-			"The beautiful city of Islamabad is Pakistan's capital."
-		],
-		"who is the inventor of the telephone": [
-			"Alexander Graham Bell invented the telephone in 1876.",
-			"The telephone was invented by Alexander Graham Bell.",
-			"Alexander Graham Bell is credited with inventing the first practical telephone."
-		],
-		"what is the largest planet in the solar system": [
-			"The largest planet in the solar system is Jupiter.",
-			"Jupiter is the biggest planet, with a mass more than 300 times that of Earth.",
-			"Jupiter, known for its Great Red Spot, is the largest planet in our solar system."
-		],
-		"what is the national flower of Pakistan": [
-			"The national flower of Pakistan is Jasmine.",
-			"Jasmine, also known as 'Chambeli,' is the national flower of Pakistan.",
-			"The fragrant Jasmine represents Pakistan as its national flower."
-		],
-		"who is the founder of Pakistan": [
-			"Quaid-e-Azam Muhammad Ali Jinnah is the founder of Pakistan.",
-			"Muhammad Ali Jinnah, also called Quaid-e-Azam, is the founder of Pakistan.",
-			"The great leader Muhammad Ali Jinnah founded Pakistan in 1947."
-		],
-		"what is the smallest country in the world": [
-			"The smallest country in the world is Vatican City.",
-			"Vatican City, located within Rome, Italy, is the smallest country in the world.",
-			"With an area of just 44 hectares, Vatican City is the world’s smallest country."
-		],
-		"what is the boiling point of water": [
-			"The boiling point of water is 100 degrees Celsius at sea level.",
-			"Water boils at 100 degrees Celsius or 212 degrees Fahrenheit at standard atmospheric pressure.",
-			"At sea level, the boiling point of water is 100 degrees Celsius."
-		],
-		"how many continents are there": [
-			"There are seven continents in the world: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
-			"The world is divided into seven continents.",
-			"Seven continents exist on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
-		],
-		"what is the tallest mountain in the world": [
-			"Mount Everest is the tallest mountain in the world, standing at 8,848 meters above sea level.",
-			"Mount Everest, located in the Himalayas, is the world’s tallest mountain.",
-			"The tallest mountain in the world is Mount Everest, with a peak at 8,848.86 meters."
-		],
-		"who painted the Mona Lisa": [
-			"Leonardo da Vinci painted the Mona Lisa.",
-			"The famous painting Mona Lisa was created by Leonardo da Vinci.",
-			"Leonardo da Vinci, the Italian polymath, painted the iconic Mona Lisa."
+  "pakistan innovation": ["Advancing in fintech, defense tech, and renewable energy.", "Growth in startups and academic R&D."],
+  "pakistan science": ["Progress in physics, space, biotech, and IT sectors.", "STEM growth through universities and research hubs."],
+  "pakistan education": ["Institutions like NUST, MCS, PIEAS advance STEM.", "Growing focus on engineering, IT, and research."],
+  "pakistan defense": ["Defense integrates land, air, sea, and secure communications.", "Modernization includes technology and training."],
+
+  "indus valley": ["An ancient Bronze Age civilization noted for urban planning.", "Indus Valley sites show advanced drainage and layout."],
+  "what is the oldest civilization in pakistan": ["The Indus Valley Civilization, one of the world's oldest urban cultures, flourished in present-day Pakistan around 3300-1300 BCE.", "Mohenjo-Daro, a prominent city of the Indus Valley Civilization, is one of the oldest cities in the world."],
+  "which famous historical site is in pakistan": ["Mohenjo-Daro, an ancient Indus Valley Civilization city, is one of the most famous historical sites in Pakistan.", "Taxila, another historical site in Pakistan, is known for its ancient Buddhist ruins."],
+  "what is the famous historical site in pakistan": ["The Mohenjo-Daro ruins, part of the ancient Indus Valley Civilization, are one of the most significant archaeological sites in Pakistan.", "Lahore Fort, also known as Shahi Qila, is a UNESCO World Heritage site that showcases the grandeur of Mughal architecture."],
+  "what is the most famous historical site in pakistan": ["The ancient city of Mohenjo-Daro, a UNESCO World Heritage Site, is one of the most famous historical sites in Pakistan.", "Other notable historical sites include the Badshahi Mosque and Lahore Fort, both iconic landmarks in Lahore."],
+  "what is the significance of the Lahore Fort": ["The Lahore Fort, a UNESCO World Heritage Site, is one of the most iconic historical landmarks in Pakistan.", "It dates back to the Mughal period and reflects the grandeur of Mughal architecture."],
+
+  "nishan e haider": ["Pakistan's highest military gallantry award.", "Awarded for extraordinary valor in combat."],
+  "which is the highest military award in pakistan": ["The Nishan-e-Haider is the highest military award in Pakistan, awarded for acts of exceptional courage and valor during combat.", "It is equivalent to the Victoria Cross in the UK and the Medal of Honor in the United States."],
+  "what is the highest civilian award in pakistan": ["The Nishan-e-Pakistan is the highest civilian award in Pakistan, presented for exceptional service to the country.", "It is awarded by the President of Pakistan to individuals who have made outstanding contributions."],
+
+  "national flower of pakistan": ["The national flower of Pakistan is Jasmine.", "Jasmine, also known as 'Chambeli,' is the national flower of Pakistan."],
+  "national bird of pakistan": ["The national bird of Pakistan is the Chukar Partridge.", "Chukar Partridge, also called 'Chakor,' is the national bird of Pakistan."],
+  "national animal of pakistan": ["The national animal of Pakistan is the Markhor.", "Markhor, a wild goat, is the national animal of Pakistan."],
+  "national sport of pakistan": ["The national sport of Pakistan is Field Hockey.", "Field Hockey represents Pakistan as its national sport, despite cricket being more popular."],
+  "what is the national game of pakistan": ["Field hockey is the national game of Pakistan and the country has a rich history of success in the sport.", "Pakistan has won numerous Olympic gold medals in field hockey."],
+  "most popular sport in pakistan": ["Cricket is the most popular sport in Pakistan, with millions of fans and passionate supporters.", "The Pakistan national cricket team has had great success on the international stage."],
+  "what is the most popular sport in pakistan": ["Cricket is by far the most popular sport in Pakistan, with the national team being one of the strongest in international competitions.", "Field hockey is another highly regarded sport."],
+  "what are the famous sports in pakistan": ["Cricket is the most popular sport, followed by field hockey, squash, and football.", "Pakistan has a rich history of success in these sports."],
+
+  "national tree of pakistan": ["The national tree of Pakistan is the Deodar Cedar (Cedrus deodara).", "The Deodar tree is found in the northern regions of Pakistan."],
+  "national currency of pakistan": ["The national currency of Pakistan is the Pakistani Rupee (PKR).", "The currency used in Pakistan is the Pakistani Rupee, symbolized as PKR."],
+  "what is the currency of pakistan": ["The official currency of Pakistan is the Pakistani Rupee (PKR).", "Pakistan's currency, the Pakistani Rupee (PKR), is divided into 100 paisas."],
+  "pakistan currency": ["The currency of Pakistan is the Pakistani Rupee (PKR).", "Pakistan uses the Rupee as its official currency."],
+
+  "national dish of pakistan": ["Biryani is considered the national dish of Pakistan, a flavorful and aromatic rice dish.", "Another popular dish is Nihari, a slow-cooked beef stew.", "Karahi, a spicy meat curry, is also a favorite."],
+  "what is the famous food of pakistan": ["Biryani, a flavorful rice dish with spices and meat, is one of the most famous foods in Pakistan.", "Nihari, a slow-cooked beef stew, is another iconic dish.", "Karahi, a dish cooked with meat, tomatoes, and spices, is traditional."],
+  "what is the famous dish in Lahore": ["Lahore is famous for its traditional Lahori food, with dishes like Lahori Karahi, Seekh Kebabs, and Amritsari Macchi.", "The city is also known for its rich street food culture."],
+
+  "what is the famous market in Lahore": ["Anarkali Bazaar in Lahore is one of the oldest and busiest markets in Pakistan.", "The market is known for its traditional street food, colorful clothing, jewelry, and historical significance."],
+  "which city is known as the city of gardens": ["Lahore is known as the 'City of Gardens' due to its beautiful parks and historic gardens.", "Lahore, Pakistan's cultural capital, is also called the 'City of Gardens' for its lush green spaces."],
+
+  "what is the famous museum in Pakistan": ["The Lahore Museum, located in the heart of Lahore, is one of the most famous museums in Pakistan.", "Another notable museum is the Pakistan Museum of Natural History in Islamabad."],
+  "what is the famous mosque in Lahore": ["The Badshahi Mosque in Lahore is one of the largest and most magnificent mosques in the world.", "Badshahi Mosque is known for its stunning architecture and vast prayer hall."],
+  "what is the largest mosque in Pakistan": ["The Faisal Mosque in Islamabad is the largest mosque in Pakistan and one of the largest in the world.", "The Faisal Mosque is a symbol of modern Islamic architecture."],
+  "what is the oldest mosque in Pakistan": ["The Mahabat Khan Mosque in Peshawar is one of the oldest and most beautiful mosques in Pakistan.", "Built in the 17th century during the Mughal period."],
+
+  "what is the famous lake in Pakistan": ["Lake Saif ul Malook, located in the Kaghan Valley, is one of the most famous and picturesque lakes.", "Another notable lake is Keenjhar Lake in Sindh."],
+  "what is the famous desert in pakistan": ["The Thar Desert is one of the most famous deserts in Pakistan, located in the southeastern part.", "The Thar Desert is known for its unique ecosystem and cultural heritage."],
+  "what is the famous hill station in pakistan": ["Murree is one of the most famous hill stations in Pakistan, known for its scenic beauty and cool climate.", "Murree is a popular tourist destination for both locals and international visitors."],
+  "which is the most visited tourist destination in Pakistan": ["The Hunza Valley, located in the Gilgit-Baltistan region, is one of the most popular tourist destinations.", "It is known for its stunning landscapes and lush green valleys."],
+
+  "what is the famous place to visit in Karachi": ["The Clifton Beach in Karachi is one of the most popular tourist destinations.", "Karachi also has the historic Mohatta Palace and the Quaid's Mausoleum."],
+  "what is the largest port in Pakistan": ["Karachi is home to the largest port in Pakistan, the Port of Karachi.", "The port plays a crucial role in the economy of Pakistan."],
+
+  "provinces of pakistan": ["Pakistan has four provinces: Punjab, Sindh, Khyber Pakhtunkhwa, and Balochistan.", "Each province has its own rich cultural heritage."],
+  "how many provinces are there in Pakistan": ["Pakistan consists of four provinces: Punjab, Sindh, Khyber Pakhtunkhwa, and Balochistan.", "The country also has two autonomous territories: Gilgit-Baltistan and Azad Jammu & Kashmir."],
+
+  "what is Punjab famous for": ["Punjab is the most populous province in Pakistan, known for its fertile land and agriculture.", "It is famous for its agriculture, especially wheat, rice, and sugarcane production."],
+  "what is the capital city of Punjab": ["The capital city of Punjab is Lahore, the second-largest city in Pakistan.", "Lahore is known for its historical landmarks such as the Lahore Fort and Badshahi Mosque."],
+
+  "what is Sindh famous for": ["Sindh is known for its historical cities, including Karachi, the largest city in Pakistan.", "The province has a rich cultural heritage, including the ancient Indus Valley Civilization."],
+  "what is the capital city of Sindh": ["The capital city of Sindh is Karachi, a bustling metropolis and global city.", "Karachi is home to Pakistan's largest seaport, the Port of Karachi."],
+
+  "what is Khyber Pakhtunkhwa (KP) known for": ["Khyber Pakhtunkhwa (KP) is known for its beautiful mountainous landscapes.", "The province is home to the Swat Valley, often referred to as the 'Switzerland of Pakistan.'"],
+  "what is the capital city of Khyber Pakhtunkhwa": ["The capital city of Khyber Pakhtunkhwa is Peshawar, one of the oldest cities in Pakistan.", "Peshawar is famous for its historical sites and traditional Pashtun culture."],
+
+  "what is Balochistan known for": ["Balochistan is the largest province in Pakistan by area, with vast deserts and coastline.", "The province is rich in natural resources, including natural gas, coal, and minerals."],
+  "what is the capital city of Balochistan": ["The capital city of Balochistan is Quetta, located in the south-western part of Pakistan.", "Quetta is known for its beautiful mountainous surroundings and fruit markets."],
+
+  "what is Azad Jammu and Kashmir (AJK) known for": ["Azad Jammu and Kashmir (AJK) is known for its breathtaking natural beauty.", "The region is a popular tourist destination for hiking and adventure sports."],
+  "what is the capital city of Azad Jammu and Kashmir (AJK)": ["The capital city of Azad Jammu and Kashmir is Muzaffarabad.", "Muzaffarabad is a scenic city surrounded by lush green hills."],
+
+  "what is Gilgit-Baltistan (GB) famous for": ["Gilgit-Baltistan (GB) is known for its majestic mountain ranges, including K2.", "The region is renowned for its alpine scenery and high-altitude trekking destinations."],
+  "what is the capital city of Gilgit-Baltistan": ["The capital city of Gilgit-Baltistan is Gilgit, situated at the convergence of rivers.", "Gilgit serves as the regional hub for trade, culture, and tourism."],
+
+  "what is the largest country in the world": ["Russia is the largest country in the world by land area.", "Covering over 17 million square kilometers, Russia is the world's largest country."],
+  "what is the smallest country in the world": ["The smallest country in the world is Vatican City.", "Vatican City, located within Rome, Italy, has an area of just 44 hectares."],
+  "what is the largest country by population": ["China is the most populous country in the world.", "China has the largest population, with over 1.4 billion people."],
+
+  "what is the largest ocean in the world": ["The Pacific Ocean is the largest ocean in the world.", "The Pacific Ocean covers more than 63 million square miles."],
+  "what is the deepest ocean in the world": ["The Pacific Ocean is the deepest ocean, with the Mariana Trench being its lowest point.", "The Mariana Trench reaches depths of about 36,000 feet."],
+
+  "what is the tallest mountain in the world": ["Mount Everest is the tallest mountain in the world, standing at 8,848 meters above sea level.", "Mount Everest, located in the Himalayas, is the world's tallest mountain."],
+  "what is the longest mountain range in the world": ["The Andes is the longest mountain range in the world, stretching over 4,300 miles.", "The Andes runs along the western edge of South America."],
+
+  "what is the longest river in the world": ["The Nile River is often considered the longest river in the world.", "The Nile River stretches over 6,650 kilometers, flowing through northeastern Africa."],
+  "what is the largest desert in the world": ["The largest desert in the world is the Sahara Desert.", "Sahara Desert in Africa is the largest hot desert in the world."],
+
+  "what is the largest continent": ["Asia is the largest continent in the world, both by land area and population.", "Asia covers about 30% of Earth's land area."],
+  "how many continents are there": ["There are seven continents in the world: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.", "The world is divided into seven continents."],
+
+  "what is the hottest planet in our solar system": ["Venus is the hottest planet in our solar system, with surface temperatures reaching up to 900°F.", "Venus has a thick atmosphere that traps heat."],
+  "what is the smallest planet in our solar system": ["Mercury is the smallest planet in our solar system.", "Mercury is even smaller than some of the moons in our solar system."],
+  "how many planets are in our solar system": ["There are eight planets in our solar system.", "The eight planets are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune."],
+  "what is the largest planet in the solar system": ["The largest planet in the solar system is Jupiter.", "Jupiter is the biggest planet, with a mass more than 300 times that of Earth."],
+
+  "what is the speed of light": ["The speed of light is approximately 299,792 kilometers per second.", "Light travels at 299,792 kilometers per second in a vacuum."],
+  "how old is the Earth": ["The Earth is approximately 4.54 billion years old.", "Our planet has existed for roughly 4.54 billion years."],
+  "how many stars are in the Milky Way": ["There are an estimated 100 to 400 billion stars in the Milky Way galaxy.", "Scientists estimate between 100 billion and 400 billion stars in our galaxy."],
+
+  "who is the father of computer science": ["Alan Turing is widely regarded as the father of computer science.", "Alan Turing laid the foundations of computer science with his Turing Machine concept."],
+  "who invented electricity": ["Electricity was not invented by a single person, but Benjamin Franklin is often credited with discovering it.", "Benjamin Franklin's famous kite experiment in 1752 is a landmark moment."],
+  "who invented the light bulb": ["Thomas Edison is credited with inventing the light bulb.", "The light bulb was perfected by Thomas Edison in 1879."],
+  "who invented the telephone": ["Alexander Graham Bell is credited with inventing the telephone in 1876.", "The telephone was invented by Alexander Graham Bell."],
+  "who invented the airplane": ["The Wright brothers, Orville and Wilbur Wright, are credited with inventing the airplane.", "The first powered, controlled flight was achieved by the Wright brothers in 1903."],
+  "who discovered penicillin": ["Penicillin was discovered by Alexander Fleming in 1928.", "Alexander Fleming discovered penicillin when he noticed a mold killing bacteria."],
+
+  "who was the first person to step on the moon": ["Neil Armstrong was the first person to step on the moon on July 20, 1969.", "Neil Armstrong, an astronaut from the USA, was the first to walk on the moon."],
+  "who was the first human to land on the moon": ["Neil Armstrong was the first human to land on the moon, on July 20, 1969.", "The first person to step foot on the moon was Neil Armstrong."],
+  "who was the first man in space": ["Yuri Gagarin from the Soviet Union was the first man in space.", "Yuri Gagarin was the first human to orbit Earth, launched on April 12, 1961."],
+  "who was the first woman in space": ["Valentina Tereshkova from the Soviet Union was the first woman in space.", "The first woman to travel into space was Valentina Tereshkova in 1963."],
+
+  "who was the first president of the United States": ["George Washington was the first president of the United States.", "George Washington served as the first president from 1789 to 1797."],
+  "who was the first female prime minister of the United Kingdom": ["Margaret Thatcher was the first female Prime Minister of the United Kingdom.", "Margaret Thatcher served as Prime Minister from 1979 to 1990."],
+  "who was the first woman prime minister of Pakistan": ["Benazir Bhutto was the first woman Prime Minister of Pakistan.", "Benazir Bhutto served from 1988 to 1990 and again from 1993 to 1996."],
+  "who is the first woman Prime Minister of Pakistan": ["Benazir Bhutto was the first woman Prime Minister of Pakistan, serving from 1988 to 1990 and again from 1993 to 1996.", "Benazir Bhutto made history as the first female Prime Minister of Pakistan."],
+
+  "who was the first emperor of China": ["The first emperor of China was Qin Shi Huang.", "Qin Shi Huang was the founder of the Qin Dynasty and the first emperor of unified China."],
+  "who was the first emperor of Rome": ["The first emperor of Rome was Augustus, also known as Octavian.", "Augustus ruled from 27 BCE to 14 CE."],
+
+  "who painted the Mona Lisa": ["Leonardo da Vinci painted the Mona Lisa.", "The famous painting Mona Lisa was created by Leonardo da Vinci."],
+  "who wrote Harry Potter": ["J.K. Rowling wrote the Harry Potter series.", "The Harry Potter books were written by British author J.K. Rowling."],
+
+  "what is the fastest animal in the world": ["The fastest animal in the world is the Peregrine Falcon.", "The Peregrine Falcon can reach speeds over 240 mph in a dive."],
+  "what is the fastest land animal": ["The cheetah is the fastest land animal, capable of reaching speeds up to 75 mph.", "Cheetahs are the fastest land animals, sprinting at unmatched speeds."],
+  "what is the fastest bird in the world": ["The peregrine falcon is the fastest bird, capable of reaching speeds over 240 mph during a dive.", "Peregrine falcons are the fastest birds in the world."],
+
+  "what is the largest animal on Earth": ["The blue whale is the largest animal on Earth.", "Blue whales can reach lengths of up to 100 feet and weigh as much as 200 tons."],
+  "what is the smallest mammal in the world": ["The bumblebee bat is the smallest mammal, weighing about 2 grams.", "Bumblebee bats measure just over 1 inch in length."],
+  "what is the longest living animal": ["The bowhead whale is the longest-living mammal, with some living over 200 years.", "Some bowhead whales have been known to live for over two centuries."],
+
+  "what is the most poisonous animal in the world": ["The box jellyfish is considered the most poisonous animal in the world.", "The box jellyfish is widely regarded as the most poisonous due to its potent venom."],
+  "what is the largest island in the world": ["Greenland is the largest island in the world by area.", "Greenland covers over 2.1 million square kilometers."],
+  "what is the largest volcano in the world": ["Mauna Loa in Hawaii is the largest volcano in the world by volume and area.", "Mauna Loa covers over 2,000 square miles on the Big Island of Hawaii."],
+
+  "what is the most visited country in the world": ["France is the most visited country in the world.", "France attracts millions of tourists annually."],
+  "what is the tallest building in the world": ["The Burj Khalifa in Dubai, UAE, is the tallest building in the world.", "The Burj Khalifa stands at 828 meters."],
+  "what is the longest man-made structure in the world": ["The Great Wall of China is the longest man-made structure in the world.", "The Great Wall stretches over 13,000 miles."],
+
+  "what is the boiling point of water": ["The boiling point of water is 100 degrees Celsius at sea level.", "Water boils at 100 degrees Celsius or 212 degrees Fahrenheit."],
+  "how many bones are in the human body": ["An adult human body has 206 bones.", "The human skeleton is made up of 206 bones in adulthood."],
+
+  "what is Islam": ["Islam is a monotheistic religion that believes in one God, Allah.", "The followers of Islam are known as Muslims."],
+  "who is Prophet Muhammad (PBUH)": ["Prophet Muhammad (PBUH) is the final messenger of Allah, born in Mecca in 570 CE.", "He is considered the Seal of the Prophets in Islam."],
+  "what is the Quran": ["The Quran is the holy book of Islam, believed to be the direct word of Allah.", "The Quran contains 114 chapters, known as Surahs."],
+  "what is the meaning of Islam": ["Islam comes from the Arabic word 'Salaam', which means peace.", "In Islam, peace is achieved by submitting to the will of Allah."],
+  "what are the five pillars of Islam": ["The Five Pillars are: Shahada, Salat, Zakat, Sawm, and Hajj.", "1. Shahada (Faith) 2. Salat (Prayer) 3. Zakat (Almsgiving) 4. Sawm (Fasting) 5. Hajj (Pilgrimage)."],
+  "what is the importance of the Kaaba": ["The Kaaba is a cube-shaped building in Mecca, the holiest site in Islam.", "Muslims around the world face the Kaaba during their prayers."],
+  "what is Ramadan": ["Ramadan is the ninth month of the Islamic calendar, the holiest month for Muslims.", "During Ramadan, Muslims fast from dawn until sunset."],
+  "what is Eid al-Fitr": ["Eid al-Fitr marks the end of Ramadan.", "It is a celebratory occasion with prayers, feasts, and charity."],
+  "what is the significance of Hajj": ["Hajj is the annual pilgrimage to Mecca, required of every Muslim.", "It is one of the Five Pillars of Islam."],
+  "what is the importance of Hajj": ["Hajj is a pilgrimage to Mecca, which every Muslim is required to undertake once in their lifetime.", "It offers spiritual cleansing and the opportunity for forgiveness."],
+  "what is Zakat": ["Zakat is an obligatory form of almsgiving or charity.", "Muslims are required to give a percentage (usually 2.5%) of their savings to those in need."],
+  "who are the companions of Prophet Muhammad (PBUH)": ["The companions are known as the Sahabah.", "Some prominent companions include Abu Bakr, Umar, Uthman, and Ali."],
+  "what is Sharia law": ["Sharia is the Islamic legal system, derived from the Quran and Hadith.", "It guides the personal, moral, and social conduct of Muslims."],
+  "what is Jihad": ["Jihad means 'struggle' or 'striving' in the way of Allah.", "It can refer to both personal struggles and defensive warfare."],
+  "what is the Hadith": ["Hadith refers to the sayings, actions, and approvals of Prophet Muhammad (PBUH).", "The Hadith provides further clarification on the Quran."],
+  "what is the difference between Sunni and Shia Islam": ["The primary difference lies in the succession of leadership after Prophet Muhammad (PBUH).", "Sunnis believe in community selection, while Shias believe in leadership within the Prophet's family."],
+  "what is the significance of Mecca": ["Mecca is the birthplace of Prophet Muhammad (PBUH) and the site of the Kaaba.", "Every year, millions of Muslims travel to Mecca to perform Hajj."],
+  "what is the concept of angels in Islam": ["Angels are created by Allah from light and do not have free will.", "Angels perform various tasks including delivering Allah's messages."],
+  "what is the Day of Judgment": ["The Day of Judgment is when all humans will be resurrected for accountability.", "People will be judged based on their deeds."],
+  "what is the concept of Tawhid": ["Tawhid is the concept of the oneness of Allah in Islam.", "It asserts that Allah is the only God, without any partners."],
+  "what is the importance of Salah (prayer)": ["Salah is one of the most important pillars of Islam.", "It is a direct connection between Muslims and Allah."],
+  "what is the role of the Mosque in Islam": ["The mosque is a place of worship and community gathering.", "It serves as a center for prayers, religious education, and community events."],
 		],
 		"what is the national bird of Pakistan": [
 			"The national bird of Pakistan is the Chukar Partridge.",
