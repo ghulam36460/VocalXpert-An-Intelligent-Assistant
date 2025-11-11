@@ -59,39 +59,6 @@ MAIL_PASSWORD="mypassword"
 python main.py
 ```
 
-## Curated Knowledge Datasets (Phase 1 Update)
-
-Phase 1 replaced an oversized and malformed `assets/normal_chat.json` with a concise, policy‑aligned dataset focusing on:
-- Military College of Signals (MCS)
-- Signal Corps (Pakistan Army)
-- Pakistan Army overview
-- NUST, PMA
-- Pakistan history, national days, heroes, awards
-- Instructor info (DSA: Lt Col Imran Javed, EDC: Zeeshan Zahid, CP: Lt Col Raza, MVC: Ma'am Farhanda)
-
-New files introduced:
-- `assets/normal_chat_v2.json`: Active chat intent → list of response strings (55 clean intents). The old `normal_chat.json` was malformed (extra trailing JSON) and is deprecated.
-- `assets/websites_v2.json`: Focused keyword → list of URLs emphasizing MCS, NUST, PMA, Pakistan Army, Signal Corps plus core study/platform sites.
-
-Code changes:
-- `modules/normal_chat.py` now loads `normal_chat_v2.json`.
-- `modules/app_control.py` now loads `websites_v2.json` and its website opener handles both list and single string URL values safely.
-
-If you need to restore legacy breadth temporarily, keep a backup copy of the old files outside the repo; they are intentionally removed to reduce redundancy and improve relevance.
-
-### Extending Datasets
-Add intents or URLs by editing the v2 JSON files. Maintain the structure:
-```json
-// normal_chat_v2.json
-"intent phrase": ["Response A", "Response B"]
-```
-```json
-// websites_v2.json
-"keyword": ["https://example.com/", "https://alternate.example.com/"]
-```
-Keep keys unique and responses factual, concise, and aligned with the focus areas above.
-
-
 ## Math Calculations 
 - What is the binary of 142?  
 - 2 + 4 - 3 x 9  
