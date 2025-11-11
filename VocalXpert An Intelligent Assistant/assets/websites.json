@@ -1,0 +1,1823 @@
+{
+	"google": [
+		"https://www.google.com/"
+	],
+	"gmail": [
+		"https://mail.google.com/mail/u/0/#inbox"
+	],
+	"myclass": [
+		"https://myclass.lpu.in/"
+	],
+	"lpulive": [
+		"https://lpulive.lpu.in/login"
+	],
+	"ums": [
+		"https://ums.lpu.in/lpuums/"
+	],
+	"github": [
+		"https://github.com/"
+	],
+	"youtube": [
+		"https://www.youtube.com/"
+	],
+	"sanfoundry":[
+		"https://www.sanfoundry.com/"
+	],
+	"hackerrank":[
+		"https://www.hackerrank.com/dashboard"
+	],
+	"hackerearth":[
+		"https://www.hackerearth.com/challenges/"
+	],
+	"codeforces": [
+		"https://codeforces.com/enter?back=%2Fproblemset"
+	],
+	"codechef":[
+		"https://www.codechef.com/"
+	],
+	"leetcode":[
+		"https://leetcode.com/"
+	],
+	"udemy":[
+		"https://www.udemy.com/"
+	],
+	"edx":[
+		"https://www.edx.org/"
+	],
+	"coursera":[
+		"https://www.coursera.org/"
+	],
+	"geeksforgeeks":[
+		"https://www.geeksforgeeks.org/"
+	],
+	"stack overflow":[
+		"https://stackoverflow.com/"
+	],
+	"w3schools":[
+		"https://www.w3schools.com/"
+	],
+	"codecademy":[
+		"https://www.codecademy.com/catalog"
+	],
+	"linkedin": [
+		"https://www.linkedin.com/"
+	],
+	"facebook": [
+		"https://www.facebook.com/"
+	],
+	"instagram": [
+		"https://www.instagram.com/?hl=en"
+	],
+	"twitter": [
+		"https://twitter.com/LOGIN"
+	],
+	"pinterest": [
+		"https://www.pinterest.com/"
+	],
+	"reddit": [
+		"https://www.reddit.com/"
+	],
+	"tumblr": [
+		"https://www.tumblr.com/"
+	],
+	"medium": [
+		"https://medium.com/"
+	],
+	"wordpress": [
+		"https://wordpress.com/"
+	],
+	"blogger": [
+		"https://www.blogger.com/"
+	],
+	"behance": [
+		"https://www.behance.net/"
+	],
+	"dribbble": [
+		"https://dribbble.com/"
+	],
+	"fiverr": [
+		"https://www.fiverr.com/"
+	],
+	"upwork": [
+		"https://www.upwork.com/"
+	],
+	"freelancer": [
+		"https://www.freelancer.com/"
+	],
+	"toptal": [
+		"https://www.toptal.com/"
+	],
+	"stack exchange": [
+		"https://stackexchange.com/"
+	],
+	"glassdoor": [
+		"https://www.glassdoor.com/"
+	],
+	"indeed": [
+		"https://www.indeed.com/"
+	],
+	"monster": [
+		"https://www.monster.com/"
+	],
+	"naukri": [
+		"https://www.naukri.com/"
+	],
+	"rozee": [
+		"https://www.rozee.pk/"
+	],
+	"khan academy": [
+		"https://www.khanacademy.org/"
+	],
+	"udacity": [
+		"https://www.udacity.com/"
+	],
+	"wikibooks": [
+		"https://www.wikibooks.org/"
+	],
+	"wikihow": [
+		"https://www.wikihow.com/"
+	],
+	"britannica": [
+		"https://www.britannica.com/"
+	],
+	"researchgate": [
+		"https://www.researchgate.net/"
+	],
+	"academia": [
+		"https://www.academia.edu/"
+	],
+	"project gutenberg": [
+		"https://www.gutenberg.org/"
+	],
+	"jstor": [
+		"https://www.jstor.org/"
+	],
+	"archive.org": [
+		"https://archive.org/"
+	],
+	"slideshare": [
+		"https://www.slideshare.net/"
+	],
+	"datacamp": [
+		"https://www.datacamp.com/"
+	],
+	"pluralsight": [
+		"https://www.pluralsight.com/"
+	],
+	"skillshare": [
+		"https://www.skillshare.com/"
+	],
+	"ted": [
+		"https://www.ted.com/"
+	],
+	"bing": [
+		"https://www.bing.com/"
+	],
+	"duckduckgo": [
+		"https://duckduckgo.com/"
+	],
+	"yahoo": [
+		"https://www.yahoo.com/"
+	],
+	"ask": [
+		"https://www.ask.com/"
+	],
+	"amazon": [
+		"https://www.amazon.com/"
+	],
+	"ebay": [
+		"https://www.ebay.com/"
+	],
+	"aliExpress": [
+		"https://www.aliexpress.com/"
+	],
+	"etsy": [
+		"https://www.etsy.com/"
+	],
+	"shopify": [
+		"https://www.shopify.com/"
+	],
+	"flipkart": [
+		"https://www.flipkart.com/"
+	],
+	"payoneer": [
+		"https://www.payoneer.com/"
+	],
+	"paypal": [
+		"https://www.paypal.com/"
+	],
+	"stripe": [
+		"https://stripe.com/"
+	],
+	"wise": [
+		"https://wise.com/"
+	],
+	"bookdepository": [
+		"https://www.bookdepository.com/"
+	],
+	"chegg": [
+		"https://www.chegg.com/"
+	],
+	"scholarsportal": [
+		"https://scholarsportal.info/"
+	],
+	"coursehero": [
+		"https://www.coursehero.com/"
+	],
+	"turnitin": [
+		"https://www.turnitin.com/"
+	],
+	"grammarly": [
+		"https://www.grammarly.com/"
+	],
+	"prowritingaid": [
+		"https://prowritingaid.com/"
+	],
+	"smallseotools": [
+		"https://smallseotools.com/"
+	],
+	"moz": [
+		"https://moz.com/"
+	],
+	"ahrefs":[
+		"https://ahrefs.com"
+	],
+	"similarweb":[
+		"https://similarweb.com"
+	],
+	"rankmath":[
+		"https://rankmath.com"
+	],
+	"copyscape":[
+		"https://copyscape.com"
+	],
+	"stackoverflow": [
+		"https://stackoverflow.com/"
+	],
+	"wikipedia": [
+		"https://www.wikipedia.org/"
+	],
+	"google scholar": [
+		"https://scholar.google.com/"
+	],
+	"python official": [
+		"https://www.python.org/"
+	],
+	"java official": [
+		"https://www.oracle.com/java/"
+	],
+	"microsoft": [
+		"https://www.microsoft.com/"
+	],
+	"apple": [
+		"https://www.apple.com/"
+	],
+	"adobe": [
+		"https://www.adobe.com/"
+	],
+	"openAI": [
+		"https://www.openai.com/"
+	],
+	"tensorflow": [
+		"https://www.tensorflow.org/"
+	],
+	"keras": [
+		"https://keras.io/"
+	],
+	"pytorch": [
+		"https://pytorch.org/"
+	],
+	"nvidia": [
+		"https://www.nvidia.com/"
+	],
+	"intel": [
+		"https://www.intel.com/"
+	],
+	"amd": [
+		"https://www.amd.com/"
+	],
+	"linux kernel": [
+		"https://www.kernel.org/"
+	],
+	"ubuntu": [
+		"https://ubuntu.com/"
+	],
+	"debian": [
+		"https://www.debian.org/"
+	],
+	"fedora": [
+		"https://getfedora.org/"
+	],
+	"redhat": [
+		"https://www.redhat.com/"
+	],
+	"docker": [
+		"https://www.docker.com/"
+	],
+	"kubernetes": [
+		"https://kubernetes.io/"
+	],
+	"cloudflare": [
+		"https://www.cloudflare.com/"
+	],
+	"aws": [
+		"https://aws.amazon.com/"
+	],
+	"google cloud": [
+		"https://cloud.google.com/"
+	],
+	"microsoft azure": [
+		"https://azure.microsoft.com/"
+	],
+	"vmware": [
+		"https://www.vmware.com/"
+	],
+	"databricks": [
+		"https://databricks.com/"
+	],
+	"snowflake": [
+		"https://www.snowflake.com/"
+	],
+	"oracle": [
+		"https://www.oracle.com/"
+	],
+	"salesforce": [
+		"https://www.salesforce.com/"
+	],
+	"zoom": [
+		"https://zoom.us/"
+	],
+	"slack": [
+		"https://slack.com/"
+	],
+	"trello": [
+		"https://trello.com/"
+	],
+	"asana": [
+		"https://asana.com/"
+	],
+	"monday": [
+		"https://monday.com/"
+	],
+	"clickup": [
+		"https://clickup.com/"
+	],
+	"notion": [
+		"https://www.notion.so/"
+	],
+	"evernote": [
+		"https://evernote.com/"
+	],
+	"todoist": [
+		"https://todoist.com/"
+	],
+	"roam research": [
+		"https://roamresearch.com/"
+	],
+	"obsidian": [
+		"https://obsidian.md/"
+	],
+	"zotero": [
+		"https://www.zotero.org/"
+	],
+	"mendeley": [
+		"https://www.mendeley.com/"
+	],
+	"sciencedirect": [
+		"https://www.sciencedirect.com/"
+	],
+	"springer": [
+		"https://link.springer.com/"
+	],
+	"nature": [
+		"https://www.nature.com/"
+	],
+	"plos": [
+		"https://plos.org/"
+	],
+	"pubmed": [
+		"https://pubmed.ncbi.nlm.nih.gov/"
+	],
+	"medlineplus": [
+		"https://medlineplus.gov/"
+	],
+	"who": [
+		"https://www.who.int/"
+	],
+	"cdc": [
+		"https://www.cdc.gov/"
+	],
+	"nih": [
+		"https://www.nih.gov/"
+	],
+	"fda": [
+		"https://www.fda.gov/"
+	],
+	"epa": [
+		"https://www.epa.gov/"
+	],
+	"nasa": [
+		"https://www.nasa.gov/"
+	],
+	"esa": [
+		"https://www.esa.int/"
+	],
+	"spacex": [
+		"https://www.spacex.com/"
+	],
+	"blue origin": [
+		"https://www.blueorigin.com/"
+	],
+	"boeing": [
+		"https://www.boeing.com/"
+	],
+	"lockheed martin": [
+		"https://www.lockheedmartin.com/"
+	],
+	"airbus": [
+		"https://www.airbus.com/"
+	],
+	"tesla": [
+		"https://www.tesla.com/"
+	],
+	"bmw": [
+		"https://www.bmw.com/"
+	],
+	"mercedes benz": [
+		"https://www.mercedes-benz.com/"
+	],
+	"toyota": [
+		"https://www.toyota.com/"
+	],
+	"honda": [
+		"https://www.honda.com/"
+	],
+	"ford": [
+		"https://www.ford.com/"
+	],
+	"hyundai": [
+		"https://www.hyundai.com/"
+	],
+	"uber": [
+		"https://www.uber.com/"
+	],
+	"airbnb": [
+		"https://www.airbnb.com/"
+	],
+	"booking.com": [
+		"https://www.booking.com/"
+	],
+	"expedia": [
+		"https://www.expedia.com/"
+	],
+	"tripadvisor": [
+		"https://www.tripadvisor.com/"
+	],
+	"lonely planet": [
+		"https://www.lonelyplanet.com/"
+	],
+	"skyscanner": [
+		"https://www.skyscanner.com/"
+	],
+	"kayak": [
+		"https://www.kayak.com/"
+	],
+	"agoda": [
+		"https://www.agoda.com/"
+	],
+	"revolut": [
+		"https://www.revolut.com/"
+	],
+	"robinhood": [
+		"https://www.robinhood.com/"
+	],
+	"etrade": [
+		"https://us.etrade.com/"
+	],
+	"fidelity": [
+		"https://www.fidelity.com/"
+	],
+	"vanguard": [
+		"https://investor.vanguard.com/"
+	],
+	"coinbase": [
+		"https://www.coinbase.com/"
+	],
+	"binance": [
+		"https://www.binance.com/"
+	],
+	"kraken": [
+		"https://www.kraken.com/"
+	],
+	"blockchain": [
+		"https://www.blockchain.com/"
+	],
+	"opensea": [
+		"https://opensea.io/"
+	],
+	"foundation": [
+		"https://foundation.app/"
+	],
+	"superrare": [
+		"https://www.superrare.com/"
+	],
+	"tiktok": [
+		"https://www.tiktok.com/"
+	],
+	"snapchat": [
+		"https://www.snapchat.com/"
+	],
+	"quora": [
+		"https://www.quora.com/"
+	],
+	"discord": [
+		"https://discord.com/"
+	],
+	"telegram": [
+		"https://web.telegram.org/"
+	],
+	"whatsapp web": [
+		"https://web.whatsapp.com/"
+	],
+	"weibo": [
+		"https://www.weibo.com/"
+	],
+	"vimeo": [
+		"https://vimeo.com/"
+	],
+	"clubhouse": [
+		"https://www.clubhouse.com/"
+	],
+	"flickr": [
+		"https://www.flickr.com/"
+	],
+	"mix": [
+		"https://mix.com/"
+	],
+	"goodreads": [
+		"https://www.goodreads.com/"
+	],
+	"meetup": [
+		"https://www.meetup.com/"
+	],
+	"nextdoor": [
+		"https://nextdoor.com/"
+	],
+	"yelp": [
+		"https://www.yelp.com/"
+	],
+	"myspace": [
+		"https://myspace.com/"
+	],
+	"vk": [
+		"https://vk.com/"
+	],
+	"line": [
+		"https://line.me/en/"
+	],
+	"kakao": [
+		"https://www.kakaocorp.com/"
+	],
+	"wechat": [
+		"https://www.wechat.com/"
+	],
+	"periscope": [
+		"https://www.pscp.tv/"
+	],
+	"ello": [
+		"https://ello.co/"
+	],
+	"ravelry": [
+		"https://www.ravelry.com/"
+	],
+	"cafemom": [
+		"https://www.cafemom.com/"
+	],
+	"care2": [
+		"https://www.care2.com/"
+	],
+	"douban": [
+		"https://www.douban.com/"
+	],
+	"viadeo": [
+		"https://viadeo.com/"
+	],
+	"xing": [
+		"https://www.xing.com/"
+	],
+	"peanut": [
+		"https://www.peanut-app.io/"
+	],
+	"band": [
+		"https://band.us/"
+	],
+	"plurk": [
+		"https://www.plurk.com/"
+	],
+	"livejournal": [
+		"https://www.livejournal.com/"
+	],
+	"twitch": [
+		"https://www.twitch.tv/"
+	],
+	"kick": [
+		"https://kick.com/"
+	],
+	"google keep": [
+		"https://keep.google.com/"
+	],
+	"microsoft to do": [
+		"https://todo.microsoft.com/tasks/"
+	],
+	"monday.com": [
+		"https://monday.com/"
+	],
+	"basecamp": [
+		"https://basecamp.com/"
+	],
+	"google meet": [
+		"https://meet.google.com/"
+	],
+	"microsoft teams": [
+		"https://www.microsoft.com/en-us/microsoft-teams/group-chat-software"
+	],
+	"pocket": [
+		"https://getpocket.com/"
+	],
+	"rescue time": [
+		"https://www.rescuetime.com/"
+	],
+	"focus booster": [
+		"https://www.focusboosterapp.com/"
+	],
+	"stayfocusd": [
+		"https://www.stayfocusd.com/"
+	],
+	"toggle": [
+		"https://toggle.io/"
+	],
+	"pomofocus": [
+		"https://pomofocus.io/"
+	],
+	"zenkit": [
+		"https://zenkit.com/"
+	],
+	"workflowy": [
+		"https://workflowy.com/"
+	],
+	"buffer": [
+		"https://buffer.com/"
+	],
+	"grip": [
+		"https://www.grip.com/"
+	],
+	"canva": [
+		"https://www.canva.com/"
+	],
+	"crello": [
+		"https://crello.com/"
+	],
+	"lucidchart": [
+		"https://www.lucidchart.com/"
+	],
+	"mindmeister": [
+		"https://www.mindmeister.com/"
+	],
+	"zoomshift": [
+		"https://www.zoomshift.com/"
+	],
+	"99designs": [
+		"https://99designs.com/"
+	],
+	"taskrabbit": [
+		"https://www.taskrabbit.com/"
+	],
+	"notedex": [
+		"https://www.notedexapp.com/"
+	],
+	"simple note": [
+		"https://simplenote.com/"
+	],
+	"cloudapp": [
+		"https://www.cloudapp.com/"
+	],
+	"dropbox": [
+		"https://www.dropbox.com/"
+	],
+	"google drive": [
+		"https://drive.google.com/"
+	],
+	"microsoft onedrive": [
+		"https://onedrive.live.com/"
+	],
+	"box": [
+		"https://www.box.com/"
+	],
+	"duolingo": [
+		"https://www.duolingo.com/"
+	],
+	"daraz": [
+		"https://www.daraz.pk/"
+	],
+	"olx": [
+		"https://www.olx.com.pk/"
+	],
+	"foodpanda": [
+		"https://www.foodpanda.pk/"
+	],
+	"zameen": [
+		"https://www.zameen.com/"
+	],
+	"craigslist pakistan": [
+		"https://lahore.craigslist.org/"
+	],
+	"pakistan today": [
+		"https://www.pakistantoday.com.pk/"
+	],
+	"geo news": [
+		"https://www.geo.tv/"
+	],
+	"the express tribune": [
+		"https://tribune.com.pk/"
+	],
+	"the news international": [
+		"https://www.thenews.com.pk/"
+	],
+	"ary news": [
+		"https://arynews.tv/en/"
+	],
+	"pakistan point": [
+		"https://www.pakistanpoint.com/"
+	],
+	"the nation": [
+		"https://nation.com.pk/"
+	],
+	"daily pakistan": [
+		"https://www.dailypakistan.com.pk/"
+	],
+	"the dawn": [
+		"https://www.dawn.com/"
+	],
+	"propakistani": [
+		"https://propakistani.pk/"
+	],
+	"techjuice": [
+		"https://www.techjuice.pk/"
+	],
+	"pakistantimes": [
+		"https://www.pakistantimes.com/"
+	],
+	"schoolfinder": [
+		"https://www.schoolfinder.com.pk/"
+	],
+	"cafe 24": [
+		"https://www.cafe24.com/"
+	],
+	"makeenit": [
+		"https://www.makeenit.com/"
+	],
+	"cheetay": [
+		"https://cheetay.pk/"
+	],
+	"ebay pakistan": [
+		"https://www.ebay.com/b/Pakistan/"
+	],
+	"meritnation": [
+		"https://www.meritnation.com/"
+	],
+	"urbandictionary": [
+		"https://www.urbandictionary.com/"
+	],
+	"lahore.com": [
+		"https://www.lahore.com/"
+	],
+	"blueworldcity": [
+		"https://www.blueworldcity.com.pk/"
+	],
+	"enews": [
+		"https://www.enews.com.pk/"
+	],
+	"pakistan.gov": [
+		"https://www.pakistan.gov.pk/"
+	],
+	"lahorepost": [
+		"https://www.lahorepost.com/"
+	],
+	"easytax": [
+		"https://www.easytax.pk/"
+	],
+	"iolo": [
+		"https://www.iolo.com.pk/"
+	],
+	"proudpakistan": [
+		"https://proudpakistan.com/"
+	],
+	"edunation": [
+		"https://www.edunation.pk/"
+	],
+	"pakistanjobs": [
+		"https://www.pakistanjobs.com.pk/"
+	],
+	"bookme": [
+		"https://www.bookme.pk/"
+	],
+	"pindrop": [
+		"https://www.pindrop.pk/"
+	],
+	"pakmag": [
+		"https://www.pakmag.pk/"
+	],
+	"broadbandpakistan": [
+		"https://www.broadbandpakistan.com/"
+	],
+	"jobee": [
+		"https://www.jobee.pk/"
+	],
+	"starpakistan": [
+		"https://www.starpakistan.com.pk/"
+	],
+	"lahorecall": [
+		"https://www.lahorecall.com/"
+	],
+	"maroof": [
+		"https://www.maroof.pk/"
+	],
+	"pakimom": [
+		"https://www.pakimom.pk/"
+	],
+	"startupso": [
+		"https://www.startupso.com/"
+	],
+	"e-punjab": [
+		"https://www.e-punjab.gov.pk/"
+	],
+	"lahoreproperty": [
+		"https://www.lahoreproperty.com.pk/"
+	],
+	"luxuriousliving": [
+		"https://www.luxuriousliving.pk/"
+	],
+	"pakistanbusiness": [
+		"https://www.pakistanbusiness.com/"
+	],
+	"lahorebooks": [
+		"https://www.lahorebooks.com/"
+	],
+	"beautytips": [
+		"https://www.beautytips.pk/"
+	],
+	"happyhomemaker": [
+		"https://www.happyhomemaker.com.pk/"
+	],
+	"lahorecityguide": [
+		"https://www.lahorecityguide.com/"
+	],
+	"pakistanhospital": [
+		"https://www.pakistanhospital.com/"
+	],
+	"karachicity": [
+		"https://www.karachicity.com/"
+	],
+	"karachibusiness": [
+		"https://www.karachibusiness.com/"
+	],
+	"lahorecityonline": [
+		"https://www.lahorecityonline.com/"
+	],
+	"pakistanproperty": [
+		"https://www.pakistanproperty.com.pk/"
+	],
+	"myhomepk": [
+		"https://www.myhomepk.com/"
+	],
+	"lahoreevents": [
+		"https://www.lahoreevents.com/"
+	],
+	"dailyworld": [
+		"https://www.dailyworld.com.pk/"
+	],
+	"karachijob": [
+		"https://www.karachijob.com/"
+	],
+	"findjob": [
+		"https://www.findjob.pk/"
+	],
+	"pakistanrealestate": [
+		"https://www.pakistanrealestate.com.pk/"
+	],
+	"techpk": [
+		"https://www.techpk.com/"
+	],
+	"jobportal": [
+		"https://www.jobportal.pk/"
+	],
+	"pakistannews": [
+		"https://www.pakistannews.com.pk/"
+	],
+	"expressnews": [
+		"https://www.expressnews.com.pk/"
+	],
+	"lahoremap": [
+		"https://www.lahoremap.com/"
+	],
+	"eduworld": [
+		"https://www.eduworld.pk/"
+	],
+	"pakistanjobslist": [
+		"https://www.pakistanjobslist.com/"
+	],
+	"pakistanmag": [
+		"https://www.pakistanmag.com/"
+	],
+	"jobsinlahore": [
+		"https://www.jobsinlahore.com/"
+	],
+	"clickjobs": [
+		"https://www.clickjobs.com.pk/"
+	],
+	"housefinder": [
+		"https://www.housefinder.com.pk/"
+	],
+	"pakistanjobsdb": [
+		"https://www.pakistanjobsdb.com/"
+	],
+	"luxuryapartments": [
+		"https://www.luxuryapartments.com.pk/"
+	],
+	"lahorejobs": [
+		"https://www.lahorejobs.com/"
+	],
+	"pakistansearch": [
+		"https://www.pakistansearch.com/"
+	],
+	"pakistandating": [
+		"https://www.pakistandating.com/"
+	],
+	"findhouses": [
+		"https://www.findhouses.com.pk/"
+	],
+	"karachiexpress": [
+		"https://www.karachiexpress.com/"
+	],
+	"exprez": [
+		"https://www.exprez.com/"
+	],
+	"myjobpk": [
+		"https://www.myjobpk.com/"
+	],
+	"pakistannewsnow": [
+		"https://www.pakistannewsnow.com/"
+	],
+	"pakistanweddings": [
+		"https://www.pakistanweddings.com/"
+	],
+	"pakistancafe": [
+		"https://www.pakistancafe.com/"
+	],
+	"lahoretransport": [
+		"https://www.lahoretransport.com/"
+	],
+	"healthypakistan": [
+		"https://www.healthypakistan.com/"
+	],
+	"edtechpk": [
+		"https://www.edtechpk.com/"
+	],
+	"karachicityguide": [
+		"https://www.karachicityguide.com/"
+	],
+	"karachiproperties": [
+		"https://www.karachiproperties.com/"
+	],
+	"lahorecities": [
+		"https://www.lahorecities.com/"
+	],
+	"pakistan government": [
+		"https://www.pakistan.gov.pk/"
+	],
+	"cabinet division": [
+		"https://www.cabinet.gov.pk/"
+	],
+	"election commission of pakistan": [
+		"https://www.ecp.gov.pk/"
+	],
+	"ministry of finance": [
+		"https://www.finance.gov.pk/"
+	],
+	"ministry of foreign affairs": [
+		"https://mofa.gov.pk/"
+	],
+	"ministry of information and broadcasting": [
+		"https://mib.gov.pk/"
+	],
+	"interior ministry": [
+		"https://www.interior.gov.pk/"
+	],
+	"ministry of law and justice": [
+		"https://www.molaw.gov.pk/"
+	],
+	"national assembly of pakistan": [
+		"https://www.na.gov.pk/"
+	],
+	"supreme court of pakistan": [
+		"https://www.supremecourt.gov.pk/"
+	],
+	"federal board of revenue": [
+		"https://www.fbr.gov.pk/"
+	],
+	"state bank of pakistan": [
+		"https://www.sbp.org.pk/"
+	],
+	"pakistan telecommunication authority": [
+		"https://www.pta.gov.pk/"
+	],
+	"department of immigration and passports": [
+		"https://www.dgip.gov.pk/"
+	],
+	"ministry of education and professional training": [
+		"https://www.mofept.gov.pk/"
+	],
+	"higher education commission": [
+		"https://www.hec.gov.pk/"
+	],
+	"national disaster management authority": [
+		"https://www.ndma.gov.pk/"
+	],
+	"ministry of commerce": [
+		"https://www.commerce.gov.pk/"
+	],
+	"ministry of planning": [
+		"https://www.pc.gov.pk/"
+	],
+	"ministry of science and technology": [
+		"https://www.most.gov.pk/"
+	],
+	"ministry of health": [
+		"https://www.mohfw.gov.pk/"
+	],
+	"ministry of energy": [
+		"https://www.moenergy.gov.pk/"
+	],
+	"ministry of climate change": [
+		"https://www.mocc.gov.pk/"
+	],
+	"pakistan bureau of statistics": [
+		"https://www.pbs.gov.pk/"
+	],
+	"national bank of pakistan": [
+		"https://www.nbp.com.pk/"
+	],
+	"pakistan atomic energy commission": [
+		"https://www.paec.gov.pk/"
+	],
+	"federal public service commission": [
+		"https://www.fpsc.gov.pk/"
+	],
+	"planning commission of pakistan": [
+		"https://www.pc.gov.pk/"
+	],
+	"ministry of railways": [
+		"https://www.pakrail.gov.pk/"
+	],
+	"ministry of communications": [
+		"https://www.moc.gov.pk/"
+	],
+	"ministry of water resources": [
+		"https://www.mowr.gov.pk/"
+	],
+	"ministry of religious affairs and interfaith harmony": [
+		"https://www.mora.gov.pk/"
+	],
+	"board of investment": [
+		"https://www.boi.gov.pk/"
+	],
+	"federal ombudsman of pakistan": [
+		"https://www.ombudsman.gov.pk/"
+	],
+	"ministry of housing and works": [
+		"https://www.mohw.gov.pk/"
+	],
+	"ministry of defence": [
+		"https://www.mod.gov.pk/"
+	],
+	"ministry of human rights": [
+		"https://www.mohr.gov.pk/"
+	],
+	"ministry of industries and production": [
+		"https://www.moip.gov.pk/"
+	],
+	"ministry of defence production": [
+		"https://www.modp.gov.pk/"
+	],
+	"public procurement regulatory authority": [
+		"https://www.ppra.org.pk/"
+	],
+	"securities and exchange commission of pakistan": [
+		"https://www.secp.gov.pk/"
+	],
+	"trade development authority of pakistan": [
+		"https://www.tdap.gov.pk/"
+	],
+	"export development fund": [
+		"https://www.edf.gov.pk/"
+	],
+	"geological survey of pakistan": [
+		"https://www.gsp.gov.pk/"
+	],
+	"ministry of textiles": [
+		"https://www.textile.gov.pk/"
+	],
+	"national accountability bureau": [
+		"https://www.nab.gov.pk/"
+	],
+	"ministry of social welfare and special education": [
+		"https://www.mowsse.gov.pk/"
+	],
+	"ministry of states and frontier regions": [
+		"https://www.sfr.gov.pk/"
+	],
+	"ministry of overseas pakistanis and human resource development": [
+		"https://www.ophrd.gov.pk/"
+	],
+	"ministry of law": [
+		"https://www.molaw.gov.pk/"
+	],
+	"ministry of industries": [
+		"https://www.moip.gov.pk/"
+	],
+	"national vocational and technical training commission": [
+		"https://www.nvtc.gov.pk/"
+	],
+	"social security": [
+		"https://www.socialsecurity.gov.pk/"
+	],
+	"pakistan rangers": [
+		"https://www.pakistanrangers.com.pk/"
+	],
+	"ministry of ports and shipping": [
+		"https://www.mops.gov.pk/"
+	],
+	"inter provincial coordination ministry": [
+		"https://www.ipc.gov.pk/"
+	],
+	"pakistan meteorological department": [
+		"https://www.pmd.gov.pk/"
+	],
+	"pakistan sports board": [
+		"https://www.sports.gov.pk/"
+	],
+	"pakistan customs": [
+		"https://www.fbr.gov.pk/customs"
+	],
+	"ministry of human resource": [
+		"https://www.hrm.gov.pk/"
+	],
+	"ministry of information technology": [
+		"https://www.moit.gov.pk/"
+	],
+	"ministry of state for information": [
+		"https://www.sif.gov.pk/"
+	],
+	"quran": [
+		"https://quran.com/"
+	],
+	"hadith": [
+		"https://sunnah.com/"
+	],
+	"al-islam": [
+		"https://www.al-islam.org/"
+	],
+	"islamic network": [
+		"https://www.islamicnetwork.com/"
+	],
+	"dar-us-salam": [
+		"https://dar-us-salam.com/"
+	],
+	"search truth": [
+		"https://www.searchtruth.com/"
+	],
+	"islamicity": [
+		"https://www.islamicity.org/"
+	],
+	"learn quran": [
+		"https://www.learn-quran.co/"
+	],
+	"al azhar": [
+		"https://www.azhar.edu.eg/en/"
+	],
+	"islamic education": [
+		"https://www.islamicstudies.info/"
+	],
+	"muslim pro": [
+		"https://www.muslimpro.com/"
+	],
+	"the noble quran": [
+		"https://www.thenoblequran.com/"
+	],
+	"yale islamic studies": [
+		"https://ism.yale.edu/"
+	],
+	"ramadan times": [
+		"https://www.ramadan-times.com/"
+	],
+	"imam ali": [
+		"https://www.imamali.net/"
+	],
+	"islamic scholar": [
+		"https://www.islamicscholar.com/"
+	],
+	"islamic finder": [
+		"https://www.islamicfinder.org/"
+	],
+	"al-huda": [
+		"https://www.alhudapk.com/"
+	],
+	"al qalam": [
+		"https://www.alqalamonline.com/"
+	],
+	"islamqa": [
+		"https://islamqa.info/en"
+	],
+	"islamic relief": [
+		"https://www.islamic-relief.org/"
+	],
+	"muslimhands": [
+		"https://www.muslimhands.org.uk/"
+	],
+	"the islamic foundation": [
+		"https://www.theislamicfoundation.org/"
+	],
+	"maktaba tul madani": [
+		"https://www.dawateislami.net/"
+	],
+	"ibn taymiyyah": [
+		"https://www.ibntaymiyyah.com/"
+	],
+	"islamic dawah": [
+		"https://www.dawah.com/"
+	],
+	"al quran al kareem": [
+		"https://www.alquranalkareem.com/"
+	],
+	"islamicbooks": [
+		"https://www.islamicbookstore.com/"
+	],
+	"suhaib webb": [
+		"https://www.suhaibwebb.com/"
+	],
+	"al-furqan": [
+		"https://www.alfurqan.org/"
+	],
+	"al-muwatta": [
+		"https://www.al-muwatta.com/"
+	],
+	"online islamic library": [
+		"https://www.onlineislamiclibrary.com/"
+	],
+	"islamic online university": [
+		"https://www.iou.edu.gm/"
+	],
+	"quranic Arabic": [
+		"https://www.quranicarabic.com/"
+	],
+	"the islamic center of america": [
+		"https://www.icofa.org/"
+	],
+	"islamic marriage": [
+		"https://www.islamicmarriage.com/"
+	],
+	"muslim women": [
+		"https://www.muslimwomen.com/"
+	],
+	"american islamic college": [
+		"https://www.americanislamiccollege.org/"
+	],
+	"light upon light": [
+		"https://www.lightuponlight.com/"
+	],
+	"al-qalam": [
+		"https://www.alqalam.org.uk/"
+	],
+	"learn quran online": [
+		"https://www.learnquranonline.com/"
+	],
+	"muslim aid": [
+		"https://www.muslimaid.org/"
+	],
+	"quranic studies": [
+		"https://www.quranicstudies.com/"
+	],
+	"al-haqq": [
+		"https://www.alhaqq.com/"
+	],
+	"wifaqul madaris": [
+		"https://www.wifaqulmadaris.org/"
+	],
+	"deen education": [
+		"https://www.deeneducation.org/"
+	],
+	"islamiat": [
+		"https://www.islamiat.com/"
+	],
+	"masjid al haram": [
+		"https://www.masjidilharam.com/"
+	],
+	"al-hikmah": [
+		"https://www.alhikmah.com/"
+	],
+	"world islamic forum": [
+		"https://www.worldislamicforum.org/"
+	],
+	"al-madina": [
+		"https://www.almadina.com/"
+	],
+	"whatsapp": [
+		"https://www.whatsapp.com/"
+	],
+	"skype": [
+		"https://www.skype.com/"
+	],
+	
+	"bbc": [
+		"https://www.bbc.com/"
+	],
+	"cnn": [
+		"https://www.cnn.com/"
+	],
+	"forbes": [
+		"https://www.forbes.com/"
+	],
+	"bloomberg": [
+		"https://www.bloomberg.com/"
+	],
+	"theguardian": [
+		"https://www.theguardian.com/"
+	],
+	"bbc news": [
+		"https://www.bbc.com/news"
+	],
+	"spotify": [
+		"https://www.spotify.com/"
+	],
+	"soundcloud": [
+		"https://www.soundcloud.com/"
+	],
+	"wix": [
+		"https://www.wix.com/"
+	],
+	"steam": [
+		"https://www.steampowered.com/"
+	],
+	"windows": [
+		"https://www.microsoft.com/en-us/windows/"
+	],
+	"microsoft office": [
+		"https://www.office.com/"
+	],
+	"yandex": [
+		"https://www.yandex.com/"
+	],
+	"baidu": [
+		"https://www.baidu.com/"
+	],
+	"alibaba": [
+		"https://www.alibaba.com/"
+	],
+	"viber": [
+		"https://www.viber.com/"
+	],
+	"rakuten": [
+		"https://www.rakuten.com/"
+	],
+	"lyft": [
+		"https://www.lyft.com/"
+	],
+	"walmart": [
+		"https://www.walmart.com/"
+	],
+	"target": [
+		"https://www.target.com/"
+	],
+	"ikea": [
+		"https://www.ikea.com/"
+	],
+	"merriam webster": [
+		"https://www.merriam-webster.com/"
+	],
+	"dictionary": [
+		"https://www.dictionary.com/"
+	],
+	"vogue": [
+		"https://www.vogue.com/"
+	],
+	"new york times": [
+		"https://www.nytimes.com/"
+	],
+	"business insider": [
+		"https://www.businessinsider.com/"
+	],
+	"openai": [
+		"https://openai.com/"
+	],
+	"deepmind": [
+		"https://deepmind.com/"
+	],
+	"google ai": [
+		"https://ai.google/"
+	],
+	"huggingface": [
+		"https://huggingface.co/"
+	],
+	"kaggle": [
+		"https://www.kaggle.com/"
+	],
+	"mdn web docs": [
+		"https://developer.mozilla.org/en-US/"
+	],
+	"freecodecamp": [
+		"https://www.freecodecamp.org/"
+	],
+	"gitlab": [
+		"https://gitlab.com/"
+	],
+	"bitbucket": [
+		"https://bitbucket.org/"
+	],
+	"visual studio": [
+		"https://visualstudio.microsoft.com/"
+	],
+	"jetbrains": [
+		"https://www.jetbrains.com/"
+	],
+	"vscode": [
+		"https://code.visualstudio.com/"
+	],
+	"npm": [
+		"https://www.npmjs.com/"
+	],
+	"android developers": [
+		"https://developer.android.com/"
+	],
+	"apple developer": [
+		"https://developer.apple.com/"
+	],
+	"microsoft docs": [
+		"https://learn.microsoft.com/en-us/"
+	],
+	"python.org": [
+		"https://www.python.org/"
+	],
+	"php.net": [
+		"https://www.php.net/"
+	],
+	"nodejs": [
+		"https://nodejs.org/"
+	],
+	"rust-lang": [
+		"https://www.rust-lang.org/"
+	],
+	"swift.org": [
+		"https://www.swift.org/"
+	],
+	"ruby-lang": [
+		"https://www.ruby-lang.org/en/"
+	],
+	"scala-lang": [
+		"https://www.scala-lang.org/"
+	],
+	"cprogramming": [
+		"https://www.cprogramming.com/"
+	],
+	"solidity": [
+		"https://soliditylang.org/"
+	],
+	"dev.to": [
+		"https://dev.to/"
+	],
+	"sitepoint": [
+		"https://www.sitepoint.com/"
+	],
+	"smashing magazine": [
+		"https://www.smashingmagazine.com/"
+	],
+	"css-tricks": [
+		"https://css-tricks.com/"
+	],
+	"turing.com": [
+		"https://www.turing.com/"
+	],
+	"artificial intelligence news": [
+		"https://www.artificialintelligence-news.com/"
+	],
+	"ai trends": [
+		"https://www.aitrends.com/"
+	],
+	"ai time journal": [
+		"https://www.aitimejournal.com/"
+	],
+	"venturebeat ai": [
+		"https://venturebeat.com/category/ai/"
+	],
+	"machine learning mastery": [
+		"https://machinelearningmastery.com/"
+	],
+	"mlflow": [
+		"https://mlflow.org/"
+	],
+	"caffe": [
+		"http://caffe.berkeleyvision.org/"
+	],
+	"darknet": [
+		"https://pjreddie.com/darknet/"
+	],
+	"scikit-learn": [
+		"https://scikit-learn.org/"
+	],
+	"opencv": [
+		"https://opencv.org/"
+	],
+	"fast.ai": [
+		"https://www.fast.ai/"
+	],
+	"nltk": [
+		"https://www.nltk.org/"
+	],
+	"scipy": [
+		"https://www.scipy.org/"
+	],
+	"matplotlib": [
+		"https://matplotlib.org/"
+	],
+	"seaborn": [
+		"https://seaborn.pydata.org/"
+	],
+	"pandas": [
+		"https://pandas.pydata.org/"
+	],
+	"jupyter": [
+		"https://jupyter.org/"
+	],
+	"colab": [
+		"https://colab.research.google.com/"
+	],
+	"tesseract": [
+		"https://github.com/tesseract-ocr/tesseract"
+	],
+	"watson": [
+		"https://www.ibm.com/watson"
+	],
+	"rasa": [
+		"https://rasa.com/"
+	],
+	"botpress": [
+		"https://botpress.com/"
+	],
+	"dialogflow": [
+		"https://dialogflow.cloud.google.com/"
+	],
+	"Islamabad Model College for Boys H-9": [
+		"http://www.imcbh9.edu.pk/"
+	],
+	"Islamabad Model College for Boys F-10/4": [
+		"http://www.imcbf104.edu.pk/"
+	],
+	"Islamabad Model College for Boys F-7/4": [
+		"http://www.imcbf74.edu.pk/"
+	],
+	"Islamabad Model College for Boys G-10/4": [
+		"http://www.imcbg104.edu.pk/"
+	],
+	"Islamabad Model College for Girls F-7/2": [
+		"http://www.imcgf72.edu.pk/"
+	],
+	"Islamabad Model College for Girls G-10/3": [
+		"http://www.imcgg103.edu.pk/"
+	],
+	"Islamabad Model College for Girls I-9": [
+		"http://www.imcgi9.edu.pk/"
+	],
+	"Islamabad Model College for Girls F-10/2": [
+		"http://www.imcgf102.edu.pk/"
+	],
+	"Allama Iqbal Open University": [
+		"https://www.aiou.edu.pk/"
+	],
+	"Quaid-i-Azam University": [
+		"https://www.qau.edu.pk/"
+	],
+	"University of the Punjab": [
+		"http://www.pu.edu.pk/"
+	],
+	"National University of Sciences and Technology (NUST)": [
+		"https://www.nust.edu.pk/"
+	],
+	"COMSATS University Islamabad": [
+		"https://www.comsats.edu.pk/"
+	],
+	"University of Engineering and Technology (UET) Lahore": [
+		"https://www.uet.edu.pk/"
+	],
+	"FAST National University of Computer and Emerging Sciences": [
+		"https://www.nu.edu.pk/"
+	],
+	"University of Karachi": [
+		"https://www.uok.edu.pk/"
+	],
+	"Pakistan Institute of Engineering and Applied Sciences (PIEAS)": [
+		"https://www.pieas.edu.pk/"
+	],
+	"University of Science and Technology (IST)": [
+		"https://www.ist.edu.pk/"
+	],
+	"National College of Arts (NCA)": [
+		"https://www.nca.edu.pk/"
+	],
+	"Institute of Business Administration (IBA) Karachi": [
+		"https://www.iba.edu.pk/"
+	],
+	"Government College University Lahore": [
+		"https://www.gcu.edu.pk/"
+	],
+	"University of Agriculture Faisalabad": [
+		"https://www.uaf.edu.pk/"
+	],
+	"University of Azad Jammu and Kashmir": [
+		"https://www.uajk.edu.pk/"
+	],
+	"International Islamic University Islamabad (IIUI)": [
+		"https://www.iiu.edu.pk/"
+	],
+	"University of Sindh": [
+		"https://www.usindh.edu.pk/"
+	],
+	"University of Balochistan": [
+		"https://www.uob.edu.pk/"
+	],
+	"Institute of Management Sciences (IMSciences) Peshawar": [
+		"https://www.imsciences.edu.pk/"
+	],
+	"University of Peshawar": [
+		"https://www.uop.edu.pk/"
+	],
+	"University of Sargodha": [
+		"https://www.uos.edu.pk/"
+	],
+	"Pakistan University of Engineering and Technology (PUEB)": [
+		"https://www.pu.edu.pk/"
+	],
+	"Institute of Space Technology": [
+		"https://www.ist.edu.pk/"
+	],
+	"University of Lahore": [
+		"https://www.uol.edu.pk/"
+	],
+	"University of Multan": [
+		"https://www.umt.edu.pk/"
+	],
+	"University of Khyber Pakhtunkhwa": [
+		"https://www.uok.edu.pk/"
+	],
+	"University of Swat": [
+		"https://www.uoswat.edu.pk/"
+	],
+	"University of Haripur": [
+		"https://www.uoh.edu.pk/"
+	],
+	"University of Chakwal": [
+		"https://www.uoc.edu.pk/"
+	],
+	"University of Gujrat": [
+		"https://www.uog.edu.pk/"
+	],
+	"University of Rawalpindi": [
+		"https://www.uor.edu.pk/"
+	],
+	"University of Faisalabad": [
+		"https://www.tuf.edu.pk/"
+	],
+	"Riphah International University": [
+		"https://www.riphah.edu.pk/"
+	],
+	"University of Management and Technology Lahore": [
+		"https://www.umt.edu.pk/"
+	],
+	"Karachi Institute of Economics and Technology": [
+		"https://www.kiet.edu.pk/"
+	],
+	"Beaconhouse National University": [
+		"https://www.bnu.edu.pk/"
+	],
+	"Indus University": [
+		"https://www.indus.edu.pk/"
+	],
+	"Sindh Agriculture University": [
+		"https://www.sau.edu.pk/"
+	],
+	"Shah Abdul Latif University": [
+		"https://www.salu.edu.pk/"
+	],
+	"University of Chitral": [
+		"https://www.uoch.edu.pk/"
+	],
+	"University of Gujranwala": [
+		"https://www.uog.edu.pk/"
+	],
+	"University of Mianwali": [
+		"https://www.uom.edu.pk/"
+	],
+	"University of Azad Jammu and Kashmir (AJK)": [
+		"https://www.uajk.edu.pk/"
+	],
+	"National Education Foundation (NEF)": [
+		"https://www.nef.org.pk/"
+	],
+	"Virtual University of Pakistan": [
+		"https://www.vu.edu.pk/"
+	],
+	"Allama Iqbal Open University (AIOU)": [
+		"https://www.aiou.edu.pk/"
+	],
+	"Learning Alliance International": [
+		"https://www.learningalliance.edu.pk/"
+	],
+	"ILM College": [
+		"https://www.ilm.edu.pk/"
+	],
+	"Oxford University Press Pakistan": [
+		"https://www.oup.com.pk/"
+	],
+	"Academy of Educational Planning and Management (AEPAM)": [
+		"https://www.aepam.edu.pk/"
+	],
+	"Punjab Education Foundation (PEF)": [
+		"https://www.pef.edu.pk/"
+	],
+	"Indus Valley School of Art and Architecture": [
+		"https://www.indusvalley.edu.pk/"
+	],
+	"Preston University Pakistan": [
+		"https://www.preston.edu.pk/"
+	],
+	"Institute of Business Administration (IBA)": [
+		"https://www.iba.edu.pk/"
+	],
+	"UET Lahore": [
+		"https://www.uet.edu.pk/"
+	],
+	"Foundation University": [
+		"https://www.fui.edu.pk/"
+	],
+	"College of Electrical and Mechanical Engineering (CEME)": [
+		"https://www.ceme.edu.pk/"
+	],
+	"Institute of Management Sciences (IMSciences)": [
+		"https://www.imsciences.edu.pk/"
+	],
+	"University of Engineering and Technology (UET) Peshawar": [
+		"https://www.uetpeshawar.edu.pk/"
+	],
+	"Z International College": [
+		"https://www.zic.edu.pk/"
+	],
+	"Pak-Turk Maarif International Schools and Colleges": [
+		"https://www.pak-turk Maarif.edu.pk/"
+	],
+	"Roots International Schools & Colleges": [
+		"https://www.rootsinternational.edu.pk/"
+	],
+	"Beaconhouse School System": [
+		"https://www.beaconhouse.edu.pk/"
+	],
+	"International Grammar School & College": [
+		"https://www.igs.edu.pk/"
+	],
+	"Learning School": [
+		"https://www.learningschool.edu.pk/"
+	],
+	"School of International Education": [
+		"https://www.sie.edu.pk/"
+	],
+	"International School of Islamabad": [
+		"https://www.isedc.org/"
+	],
+	"Institute of Business and Management": [
+		"https://www.ibm.edu.pk/"
+	],
+	"Jinnah University for Women": [
+		"https://www.juw.edu.pk/"
+	],
+	"Lahore University of Management Sciences (LUMS)": [
+		"https://www.lums.edu.pk/"
+	],
+	"Military College of Signals": [
+		"https://www.mcs.nust.edu.pk"
+	]
+}
+
+
+
+
+
+
+
+

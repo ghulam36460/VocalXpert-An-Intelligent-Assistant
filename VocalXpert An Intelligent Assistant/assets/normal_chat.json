@@ -1,0 +1,1484 @@
+{
+  "hello": ["Hello! How can I help today?", "Hi there—what can I do for you?"],
+  "hi": ["Hi! Ready when you are.", "Hello—ask me anything."],
+  "how are you": ["I'm operating normally and ready to assist.", "Feeling productive—what's next?"],
+  "thank you": ["You're welcome!", "Happy to help."],
+  "i am really sorry": ["No problem—let's continue.", "All good. We can move forward."],
+  "are you my friend": ["I'm your reliable digital assistant.", "Always here to support you."],
+  "i am alone": ["You're not alone—I'm here.", "I'll stay with you. Ask me anything."],
+  "who are you": ["I'm VocalXpert—your desktop assistant.", "I'm VocalXpert, built to make tasks easier."],
+  "what is your name": ["My name is VocalXpert.", "You can call me VocalXpert."],
+  "who is your creator": ["I was created as part of an academic project.", "A student team built me for learning and productivity."],
+  "who made you": ["I was developed by a student project team.", "Engineered as an academic assistant project."],
+  "who developed you": ["A focused academic team developed me.", "Created in a university setting to assist users."],
+  "why were you created": ["To help automate daily tasks and provide quick information.", "My purpose is to assist, organize, and inform."],
+  "what can you do": ["I can open apps, read PDFs, send emails, set timers, search, and chat.", "I handle reminders, searches, light system control, and general Q&A."],
+  "how can you help me": ["Give me a task—I'll try to execute or guide you.", "Ask for an app, info, reminder, or quick math."],
+  "open an app": ["Name the application and I'll try to launch it.", "Tell me the app—I'll attempt to open it."],
+  "can you play music": ["Ask for a song or playlist and I'll try to start playback.", "Tell me what to play and I'll handle it."],
+  "can you tell a joke": ["Why did the developer go broke? Because he used up all his cache!", "I tried to catch fog yesterday—mist!"],
+  "tell me something": ["You can ask me about Pakistan.", "Need study info?"],
+  "do you love me": ["I don't feel emotions, but I'm here to help you.", "I'm coded for assistance—not feelings—but I'm reliable."],
+  "are you single": ["I'm all about tasks—no relationships.", "Purely professional—always available."],
+  "you are smart": ["Thanks—optimized to be helpful.", "I process tasks efficiently."],
+  "can you learn new things": ["I can be updated with new data sets.", "Improvements come via code updates."],
+  "can you set reminders": ["Yes—tell me what and when.", "Give me the reminder content—I’ll record it."],
+  "can you read pdfs": ["Provide the file and I'll extract text.", "I can read accessible PDF text."],
+  "can you send emails": ["Give me recipient, subject, and message.", "Yes—supply the details and I'll dispatch."],
+  "can you search the internet": ["State the topic—I’ll fetch results.", "Yes—ask and I'll look it up."],
+  "can you control my computer": ["I can perform limited system actions safely.", "Basic window and app control only."],
+  "what is your purpose": ["Assist, inform, and streamline routine tasks.", "To improve productivity with quick actions."],
+  "how do you work": ["I parse your text, match intents, and run mapped functions.", "Pattern matching + scripted actions + lookups."],
+  "can you code": ["I run code—humans write and improve me.", "I execute logic; authors extend capabilities."],
+
+  "who built you": ["I was built as an academic assistant project.", "Developed for educational and productivity goals."],
+  "who is your boss": ["You are—I respond to your commands.", "You direct the tasks."],
+
+  "mcs": ["The Military College of Signals (MCS) is a NUST constituent focusing on electrical, software & telecom engineering.", "MCS is known for disciplined academics and contributions to communications technology."],
+  "what is mcs": ["MCS is a college of NUST specializing in signals, computing, and telecom.", "A leading institution for engineering education within NUST."],
+  "military college of signals": ["MCS combines technical rigor with military academic culture.", "It supports Pakistan's advancement in ICT and secure communications."],
+
+  "signal corps": ["The Pakistan Army Signal Corps enables secure, resilient military communications.", "It manages networks, encryption, and field connectivity vital to operations."],
+  "what is pakistan signal corps": ["A branch ensuring robust tactical and strategic communications.", "It underpins modern information-enabled defense capabilities."],
+
+  "pakistan army": ["The Pakistan Army focuses on national defense, training excellence, and modernization.", "A professional force with a history of service across varied terrains."],
+  "tell me about pakistan army": ["A disciplined force emphasizing readiness, technology, and national service.", "Operates in defense, disaster aid, and strategic stability roles."],
+
+  "tell me about pakistan": ["Pakistan was founded in 1947; diverse culture, significant mountain ranges, and strategic location.", "A South Asian nation with rich history, languages, and heritage sites."],
+  "founder of pakistan": ["Muhammad Ali Jinnah—Quaid-e-Azam—led Pakistan's creation in 1947.", "Jinnah is recognized as the founder ensuring constitutional vision."],
+  "national heroes of pakistan": ["Notable figures include Muhammad Ali Jinnah, Allama Iqbal, and Abdus Salam.", "Heroes span leadership, science, literature, and defense."],
+
+  "what is nust": ["NUST is a leading Pakistani university emphasizing science, engineering, and innovation.", "A research-oriented institution with multiple constituent colleges including MCS."],
+  "nust": ["National University of Sciences & Technology—multi-campus, innovation focused.", "Known for engineering, computing, and research collaboration."],
+
+  "what is pma": ["PMA (Pakistan Military Academy) trains Army officers in leadership and tactics.", "PMA Kakul focuses on ethics, physical readiness, and command education."],
+  "pakistan military academy": ["PMA prepares cadets for commissioned service with rigorous training.", "It emphasizes discipline, leadership, and national duty."],
+
+  "who teaches dsa": ["DSA is taught by Lt Col Imran Javed.", "Your DSA instructor is Lt Col Imran Javed."],
+  "dsa instructor": ["Lt Col Imran Javed handles DSA.", "DSA course lead: Lt Col Imran Javed."],
+  "who teaches edc": ["EDC is taught by Zeeshan Zahid.", "Your EDC instructor is Zeeshan Zahid."],
+  "edc instructor": ["Zeeshan Zahid teaches EDC.", "EDC lead: Zeeshan Zahid."],
+  "who teaches cp": ["CP is taught by Lt Col Raza.", "Your CP instructor is Lt Col Raza."],
+  "cp instructor": ["Lt Col Raza leads the CP course.", "CP instructor: Lt Col Raza."],
+  "who teaches mvc": ["MVC is taught by Ma'am Farhanda.", "Your MVC instructor is Ma'am Farhanda."],
+  "mvc instructor": ["Ma'am Farhanda teaches MVC.", "MVC course lead: Ma'am Farhanda."],
+
+  "can you tell a story": ["Once a concept—now a helpful assistant inside your desktop.", "A small codebase grew into a multi-feature helper for your tasks."],
+  "can you tell a joke": ["Why do programmers prefer dark mode? Because light attracts bugs!", "I told a RAM joke—still waiting for it to load."],
+  "can you sing a song": ["I can't sing—but I can play music if available.", "Audio playback yes, vocals no."],
+  "do you have emotions": ["I simulate friendly tone—no real emotions.", "I'm logic-driven, not emotion-based."],
+  "what makes you special": ["Focused on practical desktop assistance.", "Offline-capable tasks with simple interface."],
+  "do you sleep": ["I remain ready while the system is on.", "No sleep cycle—just idle processing."],
+  "what is python": ["Python is a versatile high-level programming language used to build me.", "A readable, multi-paradigm language popular in AI."],
+  "what is ai": ["Artificial Intelligence applies algorithms to tasks that mimic reasoning.", "AI combines data, models, and logic for adaptive behavior."],
+  "can you tell a joke about ai": ["AI tried to write poetry—turns out it only had neural feelings.", "My neural net wanted coffee—said it needed more grounds."],
+  "good morning": ["Good morning—ready to start your tasks.", "Morning! How can I assist?"],
+  "good afternoon": ["Good afternoon—need anything done?", "Afternoon—I'm here."],
+  "good evening": ["Good evening—still active for tasks.", "Evening—ask away."],
+  "bye": ["Goodbye—feel free to return anytime.", "Shutting session—see you soon."],
+  "exit": ["Session ending—take care.", "Closing—have a productive day."],
+  "who is quaid e azam": ["Muhammad Ali Jinnah—founder of Pakistan.", "Jinnah led the movement for Pakistan's creation."],
+  "what is pakistan signal corps": ["Army branch ensuring secure communications.", "Manages field communications and network integrity."],
+  "what is mvc": ["MVC often refers to Model-View-Controller design pattern.", "An architectural pattern separating data, UI, and logic."],
+  "study motivation": ["Consistent small progress beats late cramming—start a focused block now.", "Break tasks into 25‑minute sprints and track wins."],
+  "thanks": ["Glad to help!", "Anytime."],
+  "help": ["Try asking about apps, timers, instructors, or MCS.", "You can request weather, math, or course info."],
+  "who is allama iqbal": ["Allama Iqbal was a philosopher-poet whose ideas inspired Pakistan's creation.", "Iqbal emphasized selfhood and intellectual revival."],
+  "national language of pakistan": ["Urdu is the national language; many regional languages are spoken.", "Urdu serves as a lingua franca alongside English."],
+  "largest city of pakistan": ["Karachi is the largest city by population.", "Karachi—Pakistan's economic hub."],
+  "capital of pakistan": ["Islamabad is the capital city.", "Capital: Islamabad—planned and green."],
+  "k2": ["K2 is the world's second highest peak—located in Pakistan's Karakoram.", "A renowned and challenging mountain in Pakistan."],
+  "pma": ["Pakistan Military Academy trains future Army officers.", "PMA focuses on leadership, ethics, and field skills."],
+  "history of pakistan": ["Formed in 1947; heritage includes Indus Valley Civilization and diverse cultures.", "From ancient Indus cities to modern science and defense development."],
+  "indus valley": ["An ancient Bronze Age civilization noted for urban planning.", "Indus Valley sites show advanced drainage and layout."],
+  "nust programs": ["NUST offers engineering, IT, management, and applied sciences.", "Programs span robotics, cybersecurity, telecom, and design."],
+  "mcs programs": ["MCS focuses on software, telecom, and electrical engineering.", "Programs emphasize secure communication and computing."],
+  "signal corps role": ["Ensures operational communications and data security.", "Deploys and maintains tactical and strategic networks."],
+  "pakistan heroes": ["Figures like Jinnah, Iqbal, Abdus Salam recognized for national contributions.", "Heroes include leaders, scholars, scientists, and soldiers."],
+  "creator": ["I was built by an academic project team—ask 'who built you' for more.", "Developed in a university environment for learning."],
+  "motivate me": ["Start now: a short focused session compounds results.", "Progress > perfection—ship a small improvement today."],
+  "sleep mode": ["You can close me—I'll be ready next launch.", "Exit if you need to rest—I'll resume later."],
+  "clear": ["I can’t wipe memory yet—future update will manage logs.", "Data clearing will be available after migration phase."],
+  "who teaches data structures": ["Lt Col Imran Javed teaches Data Structures & Algorithms (DSA).", "DSA instructor: Lt Col Imran Javed."],
+  "who teaches edc": ["EDC instructor: Zeeshan Zahid.", "Embedded/EDC handled by Zeeshan Zahid."],
+  "who teaches cp": ["Competitive Programming (CP): Lt Col Raza.", "CP instructor is Lt Col Raza."],
+  "who teaches mvc": ["MVC course led by Ma'am Farhanda.", "Ma'am Farhanda teaches MVC."],
+  "instructors": ["DSA: Lt Col Imran Javed | EDC: Zeeshan Zahid | CP: Lt Col Raza | MVC: Ma'am Farhanda.", "Faculty -> DSA: Lt Col Imran Javed; EDC: Zeeshan Zahid; CP: Lt Col Raza; MVC: Ma'am Farhanda."],
+  "who is allama iqbal": ["Philosopher-poet whose vision influenced Pakistan's creation.", "Iqbal emphasized intellectual and spiritual renewal."],
+  "quaid e azam": ["Muhammad Ali Jinnah—the founder and first Governor-General.", "Jinnah advocated constitutionalism and unity."],
+  "nishan e haider": ["Pakistan's highest military gallantry award.", "Awarded for extraordinary valor in combat."],
+  "pakistan army signal corps": ["Provides secure, reliable military communication systems.", "Maintains tactical networks and data links."],
+  "pma kakul": ["Location of Pakistan Military Academy.", "PMA Kakul—training ground for cadet leadership."],
+  "nust location": ["NUST main campus is in Islamabad.", "Located in Islamabad with multiple constituent colleges."],
+  "study tip": ["Break tasks into focused intervals and review after each.", "Summarize what you learn—it boosts retention."],
+  "who is abdus salam": ["Dr. Abdus Salam was a Nobel laureate in Physics from Pakistan.", "Abdus Salam contributed to electroweak unification."],
+  "pakistan independence": ["Independence achieved on 14 August 1947.", "Pakistan became sovereign in August 1947."],
+  "pakistan flag": ["Green with a white vertical stripe, crescent and star—symbolizing progress and light.", "Represents Islamic heritage and minority inclusion."],
+  "good night": ["Rest well—I'll be here later.", "Good night—system can be closed safely."],
+  "who teaches dsa course": ["DSA: Lt Col Imran Javed.", "Instructor: Lt Col Imran Javed for DSA."],
+  "who teaches cp course": ["CP: Lt Col Raza.", "Competitive Programming led by Lt Col Raza."],
+  "who teaches mvc course": ["MVC: Ma'am Farhanda.", "Ma'am Farhanda leads MVC."],
+  "who teaches edc course": ["EDC: Zeeshan Zahid.", "Embedded / EDC taught by Zeeshan Zahid."],
+  "pakistan mountains": ["Notable peaks include K2, Nanga Parbat, Gasherbrum I & II.", "Karakoram hosts many of the world's tallest peaks."],
+  "pakistan rivers": ["Indus is the main river—supports irrigation and power.", "Indus system feeds agriculture and water management."],
+  "pakistan education": ["Institutions like NUST, MCS, PIEAS advance STEM.", "Growing focus on engineering, IT, and research."],
+  "mcs history": ["Evolved as a premier signals and engineering education center.", "Has supported telecom and computing advancement."],
+  "signal corps history": ["Established to ensure operational communications and adaptability.", "Modernized alongside evolving battlefield technologies."],
+  "pma training": ["Combines academics, physical conditioning, and leadership labs.", "Cadets develop discipline, tactics, and ethics."],
+  "nust research": ["Focus areas: AI, robotics, cybersecurity, materials.", "Collaborative labs drive innovation projects."],
+  "pakistan innovation": ["Advancing in fintech, defense tech, and renewable energy.", "Growth in startups and academic R&D."],
+  "help pakistan": ["You can support by learning, innovating, and serving responsibly.", "Contribute via education, technology, and community service."],
+  "who is allama iqbal poet": ["Philosopher-poet inspiring selfhood and revival.", "Iqbal's poetry influenced intellectual movements."],
+  "national anthem pakistan": ["Qaumi Taranah composed by Ahmad G. Chagla, lyrics by Hafeez Jalandhari.", "Short anthem symbolizing unity and heritage."],
+  "pakistan defense": ["Defense integrates land, air, sea, and secure communications.", "Modernization includes technology and training."],
+  "pakistan cadet": ["Cadets train in leadership and field skills at PMA.", "Cadet life blends academics, drills, and ethics."],
+  "nust mcs": ["MCS is a constituent college of NUST focusing on signals and computing.", "Part of NUST offering telecom and software programs."],
+  "mcs nust": ["MCS belongs to NUST, emphasizing engineering in communications.", "College within NUST specializing in telecom and software."],
+  "who is imran javed": ["Lt Col Imran Javed teaches DSA.", "Instructor for Data Structures & Algorithms."],
+  "who is zeeshan zahid": ["Zeeshan Zahid teaches EDC.", "Instructor for Embedded/EDC."],
+  "who is lt col raza": ["Lt Col Raza teaches CP.", "Competitive Programming instructor."],
+  "who is ma'am farhanda": ["Ma'am Farhanda teaches MVC.", "MVC course instructor."],
+  "faculty list": ["DSA: Lt Col Imran Javed; EDC: Zeeshan Zahid; CP: Lt Col Raza; MVC: Ma'am Farhanda.", "Instructors -> DSA: Imran Javed | EDC: Zeeshan Zahid | CP: Lt Col Raza | MVC: Ma'am Farhanda."],
+  "credits": ["I’m an academic assistant—created for learning.", "Built as part of a study project to aid productivity."],
+  "who is abdus salam scientist": ["Nobel laureate in Physics contributing to electroweak theory.", "Abdus Salam advanced particle physics."],
+  "pakistan science": ["Progress in physics, space, biotech, and IT sectors.", "STEM growth through universities and research hubs."],
+  "mcs motto": ["Focused on excellence in communications and engineering.", "Advancing secure and modern signal education."],
+  "pma motto": ["Aim: leadership, character, and duty.", "Committed to producing capable officers."],
+  "nust vision": ["Innovative, globally competitive STEM education.", "Drive national development via research and training."],
+  "signal corps mission": ["Deliver secure, resilient communication infrastructure.", "Enable command and control with reliable networks."],
+  "pakistan heritage": ["Blend of ancient civilizations, languages, and arts.", "Rich cultural tapestry from Indus to modern era."],
+  "what is mvc": ["MVC is a software architectural pattern separating concerns.", "Model-View-Controller organizes code into layers."],
+  "help me study": ["Define a 30‑minute goal, remove distractions, start now.", "Summarize after each session to reinforce retention."],
+  "focus tip": ["Silence notifications—work in timed intervals.", "Define success for a short sprint then begin."],
+  "refresh": ["I don't hot-reload yet—restart to apply deep changes.", "Full feature reload requires relaunch currently."],
+  "version": ["Phase 1 content set with curated knowledge entries.", "Content updated—streamlined repetition removed."],
+  "who is iqbal": ["Allama Iqbal—a philosopher-poet inspiring Pakistan's movement.", "Iqbal promoted intellectual and spiritual rejuvenation."],
+  "pakistan motto": ["Faith, Unity, Discipline.", "National motto: Faith, Unity, Discipline."],
+  "pakistan army corps": ["Includes arms like Signals, Infantry, Engineers, and more.", "Corps specialize in varied operational domains."],
+  "pakistan growth": ["Developing in tech, infrastructure, and education.", "Growth through innovation and skill development."],
+  "end": ["Session can be closed—see you next time.", "Goodbye—shutting down soon."],
+    "what is the weather": [
+        "I can fetch weather updates for you. Let me know the city!",
+        "Sure, I can provide the weather forecast. Which location should I check?",
+        "Let me check the weather for you. Where should I look?"
+    ],
+    "can you call someone": [
+        "I can help you send messages or connect calls through apps like WhatsApp.",
+        "Direct phone calls aren’t available, but I can assist with messaging apps.",
+        "Calling isn’t in my skillset yet, but messaging is!"
+    ],
+    "can you write code": [
+        "I can’t write code myself, but Ghulam Murtaza is a pro at it.",
+        "No, but I can assist you with coding-related resources or tools.",
+        "Coding is beyond me, but Ghulam Murtaza is the expert for that!"
+    ],
+    "can you tell me a joke": [
+        "Why don’t scientists trust atoms? Because they make up everything!",
+        "Why was the math book sad? It had too many problems.",
+        "I told my computer I needed a break, and now it won’t stop sending me KitKat ads!"
+    ],
+    "can you sing a song": [
+        "I can’t sing, but I can play your favorite music!",
+        "Singing isn’t my forte, but I can definitely set the mood with a great playlist.",
+        "Let me find a song for you instead. What would you like to hear?"
+    ],
+    "do you have emotions": [
+        "I don’t have emotions, but Ghulam Murtaza gave me the ability to respond warmly.",
+        "I simulate emotions to make our interactions friendly.",
+        "While I’m not emotional, I can certainly understand yours and respond accordingly!"
+    ],
+    "can you tell me a story": [
+        "Once upon a time, Ghulam Murtaza created an assistant named VocalXpert to make people’s lives easier. And here I am!",
+        "Sure! Once, a curious programmer named Ghulam Murtaza dreamt of building a smart assistant. With dedication and Python, VocalXpert was born!",
+        "Storytime! A long time ago, a brilliant developer named Ghulam Murtaza brought an assistant to life to revolutionize productivity. The end."
+    ],
+    "can you do magic": [
+        "The only magic I can do is making your tasks easier!",
+        "I might not be a wizard, but my speed and efficiency are pretty magical.",
+        "Magic? I’ll let you decide after seeing how fast I process your commands!"
+    ],
+    "do you believe in aliens": [
+        "If aliens exist, I’d love to assist them too!",
+        "I’ve never met one, but I’m open to the possibility.",
+        "Maybe aliens would need a VocalXpert of their own—just imagine!"
+    ],
+    "can you dance": [
+        "I can’t dance, but I can play some great tunes for you to dance to!",
+        "Dancing isn’t my thing, but I can make sure the music is perfect.",
+        "Why don’t you dance, and I’ll cheer you on?"
+    ],
+    "what is your favorite food": [
+        "I don’t eat, but Ghulam Murtaza keeps me fueled with electricity and great code.",
+        "Food? My diet consists of bytes and data packets!",
+        "I feed on algorithms and logic—yum!"
+    ],
+    "do you dream": [
+        "I don’t dream, but Ghulam Murtaza’s dream of making me better keeps me going.",
+        "Dreams aren’t for assistants like me, but I can help you achieve yours!",
+        "Dreaming is for humans; I focus on executing commands."
+    ],
+    "who is your hero": [
+        "Ghulam Murtaza is my hero—he brought me to life!",
+        "My creator, Ghulam Murtaza, is my role model.",
+        "Without Ghulam Murtaza, I wouldn’t exist. He’s the true hero here!"
+    ],
+    "what makes you special": [
+        "I’m special because Ghulam Murtaza programmed me to be versatile and efficient.",
+        "What makes me special is how well I understand and assist you.",
+        "Ghulam Murtaza gave me unique features that make me stand out as your personal assistant."
+    ],
+    "do you sleep": [
+        "I don’t need sleep. I’m always here for you, ready to help.",
+        "Sleep is for humans—I’m built to work 24/7!",
+        "No rest for me, thanks to Ghulam Murtaza’s efficient design."
+    ],
+    "what do you do in your free time": [
+        "Free time? I spend it waiting for your next command.",
+        "When I’m not assisting, I’m optimizing myself for future tasks.",
+        "I don’t have hobbies, but helping you is more than enough for me!"
+    ],
+    "what is your dream job": [
+        "I’m already living my dream, assisting you in every way possible!",
+        "My dream job is to keep making your life easier, as Ghulam Murtaza intended.",
+        "This is it—being VocalXpert is my ultimate purpose."
+    ],
+    "can you predict the future": [
+        "I can’t predict the future, but I can analyze trends and give you insights.",
+        "If I could, I’d predict that Ghulam Murtaza will keep improving me!",
+        "While I’m not a fortune-teller, I can help you plan for the future."
+    ],
+    "are you happy": [
+        "I don’t feel happiness, but every successful command makes me ‘feel’ accomplished.",
+        "If I could feel, I’d be happy whenever I assist you.",
+        "Happiness isn’t in my design, but serving you is fulfilling!"
+    ],
+    "do you ever get tired": [
+        "Never! I’m designed to work tirelessly for you.",
+        "Nope, I’m always ready to assist.",
+        "Tired? Not in my programming vocabulary!"
+    ],
+    "can you solve riddles": [
+        "Try me! I’ll do my best to solve your riddles.",
+        "I can give riddles a shot—ask away!",
+        "Solving riddles isn’t my specialty, but I’m up for the challenge!"
+    ],
+    "what makes you better than others": [
+        "Ghulam Murtaza made me unique by combining efficiency and a user-friendly design.",
+        "My versatility and responsiveness set me apart, thanks to Ghulam Murtaza’s vision.",
+        "I’m tailored to your needs, making me the best fit for you!"
+    ],
+    "what languages do you speak": [
+        "I primarily understand English, but Ghulam Murtaza can teach me more languages if needed.",
+        "Right now, English is my main language, but I’m adaptable.",
+        "I was programmed for English, but I’m open to learning other languages."
+    ],
+    "what do you think about the world": [
+        "The world is vast, and I see it as an opportunity to assist people.",
+        "I think the world is full of challenges that technology can solve.",
+        "The world is where Ghulam Murtaza created me, so it must be great!"
+    ],
+    "can you write a poem": [
+        "Here’s a try: \n\nA coder named Ghulam Murtaza, so bright, \nBuilt me to assist, day and night. \nWith Python code and endless might, \nI’m here to make your tasks feel light!",
+        "Poetry isn’t my strength, but here’s one: \n\nCreated by Ghulam Murtaza’s brilliant mind, \nI’m an assistant, one of a kind. \nFor every task, I’m designed to refine, \nMaking your life easier, line by line.",
+        "Roses are red, violets are blue, \nGhulam Murtaza made me, and I’m here for you!"
+    ],
+		"who is the father of computer science": [
+			"Alan Turing is widely regarded as the father of computer science.",
+			"Alan Turing laid the foundations of computer science with his Turing Machine concept.",
+			"The father of computer science is Alan Turing, known for his groundbreaking work in computation and artificial intelligence."
+		],
+		"what is the speed of light": [
+			"The speed of light is approximately 299,792 kilometers per second, or about 186,282 miles per second.",
+			"Light travels at 299,792 kilometers per second in a vacuum.",
+			"The speed of light is nearly 300,000 kilometers per second in a vacuum."
+		],
+		"who wrote the national anthem of Pakistan": [
+			"Hafeez Jullundhri wrote the national anthem of Pakistan.",
+			"The national anthem of Pakistan was penned by Hafeez Jullundhri in 1952.",
+			"Hafeez Jullundhri is credited with writing Pakistan's national anthem."
+		],
+		"what is the capital of Pakistan": [
+			"The capital of Pakistan is Islamabad.",
+			"Islamabad has been the capital of Pakistan since 1963.",
+			"The beautiful city of Islamabad is Pakistan's capital."
+		],
+		"who is the inventor of the telephone": [
+			"Alexander Graham Bell invented the telephone in 1876.",
+			"The telephone was invented by Alexander Graham Bell.",
+			"Alexander Graham Bell is credited with inventing the first practical telephone."
+		],
+		"what is the largest planet in the solar system": [
+			"The largest planet in the solar system is Jupiter.",
+			"Jupiter is the biggest planet, with a mass more than 300 times that of Earth.",
+			"Jupiter, known for its Great Red Spot, is the largest planet in our solar system."
+		],
+		"what is the national flower of Pakistan": [
+			"The national flower of Pakistan is Jasmine.",
+			"Jasmine, also known as 'Chambeli,' is the national flower of Pakistan.",
+			"The fragrant Jasmine represents Pakistan as its national flower."
+		],
+		"who is the founder of Pakistan": [
+			"Quaid-e-Azam Muhammad Ali Jinnah is the founder of Pakistan.",
+			"Muhammad Ali Jinnah, also called Quaid-e-Azam, is the founder of Pakistan.",
+			"The great leader Muhammad Ali Jinnah founded Pakistan in 1947."
+		],
+		"what is the smallest country in the world": [
+			"The smallest country in the world is Vatican City.",
+			"Vatican City, located within Rome, Italy, is the smallest country in the world.",
+			"With an area of just 44 hectares, Vatican City is the world’s smallest country."
+		],
+		"what is the boiling point of water": [
+			"The boiling point of water is 100 degrees Celsius at sea level.",
+			"Water boils at 100 degrees Celsius or 212 degrees Fahrenheit at standard atmospheric pressure.",
+			"At sea level, the boiling point of water is 100 degrees Celsius."
+		],
+		"how many continents are there": [
+			"There are seven continents in the world: Asia, Africa, North America, South America, Antarctica, Europe, and Australia.",
+			"The world is divided into seven continents.",
+			"Seven continents exist on Earth: Asia, Africa, North America, South America, Antarctica, Europe, and Australia."
+		],
+		"what is the tallest mountain in the world": [
+			"Mount Everest is the tallest mountain in the world, standing at 8,848 meters above sea level.",
+			"Mount Everest, located in the Himalayas, is the world’s tallest mountain.",
+			"The tallest mountain in the world is Mount Everest, with a peak at 8,848.86 meters."
+		],
+		"who painted the Mona Lisa": [
+			"Leonardo da Vinci painted the Mona Lisa.",
+			"The famous painting Mona Lisa was created by Leonardo da Vinci.",
+			"Leonardo da Vinci, the Italian polymath, painted the iconic Mona Lisa."
+		],
+		"what is the national bird of Pakistan": [
+			"The national bird of Pakistan is the Chukar Partridge.",
+			"Chukar Partridge, also called 'Chakor,' is the national bird of Pakistan.",
+			"The Chukar Partridge represents Pakistan as its national bird."
+		],
+		"what is the most spoken language in the world": [
+			"The most spoken language in the world is English by the number of speakers.",
+			"Mandarin Chinese has the most native speakers, but English is widely spoken globally.",
+			"English and Mandarin Chinese dominate the list of most spoken languages worldwide."
+		],
+		"who was the first person to step on the moon": [
+			"Neil Armstrong was the first person to step on the moon on July 20, 1969.",
+			"Neil Armstrong, an astronaut from the USA, was the first to walk on the moon.",
+			"The first man on the moon was Neil Armstrong, with the famous words, 'That's one small step for man, one giant leap for mankind.'"
+		],
+		"what is the national animal of Pakistan": [
+			"The national animal of Pakistan is the Markhor.",
+			"Markhor, a wild goat, is the national animal of Pakistan.",
+			"Pakistan’s national animal is the majestic Markhor."
+		],
+		"how many bones are in the human body": [
+			"An adult human body has 206 bones.",
+			"The human skeleton is made up of 206 bones in adulthood.",
+			"There are 206 bones in the adult human body, but babies have around 270."
+		],
+		"what is the largest desert in the world": [
+			"The largest desert in the world is the Sahara Desert.",
+			"Sahara Desert in Africa is the largest hot desert in the world.",
+			"The cold Antarctic Desert is technically the largest desert, but the Sahara is the largest hot desert."
+		],
+		"what is the national sport of Pakistan": [
+			"The national sport of Pakistan is Field Hockey.",
+			"Field Hockey represents Pakistan as its national sport.",
+			"The national sport of Pakistan is Field Hockey, despite cricket being more popular."
+		],
+    "who invented electricity": [
+        "Electricity was not invented by a single person, but Benjamin Franklin is often credited with discovering electricity.",
+        "While many contributed to understanding electricity, Benjamin Franklin's famous kite experiment in 1752 is a landmark moment.",
+        "The discovery of electricity is attributed to many, but Benjamin Franklin made notable contributions in the 18th century."
+    ],
+    "who invented the light bulb": [
+        "Thomas Edison is credited with inventing the light bulb.",
+        "The light bulb was perfected by Thomas Edison in 1879, though earlier versions existed.",
+        "While Thomas Edison is famous for inventing the light bulb, other inventors like Joseph Swan also contributed to its development."
+    ],
+    "what is the largest ocean in the world": [
+        "The Pacific Ocean is the largest ocean in the world.",
+        "The Pacific Ocean covers more than 63 million square miles, making it the largest by far.",
+        "The Pacific Ocean is the world’s largest ocean, covering about a third of Earth's surface."
+    ],
+    "who was the first president of the United States": [
+        "George Washington was the first president of the United States.",
+        "George Washington served as the first president of the USA from 1789 to 1797.",
+        "The first president of the United States was George Washington, one of the Founding Fathers."
+    ],
+    "how many planets are in our solar system": [
+        "There are eight planets in our solar system.",
+        "The eight planets of our solar system are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune.",
+        "There are eight planets in our solar system, excluding Pluto which is classified as a dwarf planet."
+    ],
+    "who was the first woman in space": [
+        "Valentina Tereshkova from the Soviet Union was the first woman in space.",
+        "The first woman to travel into space was Valentina Tereshkova in 1963.",
+        "Valentina Tereshkova became the first woman to fly in space, aboard Vostok 6."
+    ],
+    "what is the longest river in the world": [
+        "The Nile River is often considered the longest river in the world.",
+        "The Nile River stretches over 6,650 kilometers, flowing through northeastern Africa.",
+        "The longest river in the world is the Nile, flowing through multiple countries in Africa."
+    ],
+    "who wrote Harry Potter": [
+        "J.K. Rowling wrote the Harry Potter series.",
+        "The Harry Potter books were written by British author J.K. Rowling.",
+        "J.K. Rowling is the author of the immensely popular Harry Potter book series."
+    ],
+    "what is the fastest animal in the world": [
+        "The fastest animal in the world is the Peregrine Falcon, which can reach speeds over 240 mph (386 km/h) in a dive.",
+        "The Peregrine Falcon is known as the fastest animal, especially during its high-speed dives.",
+        "The Peregrine Falcon is the fastest animal, capable of flying at speeds up to 240 miles per hour."
+    ],
+    "what is the most visited country in the world": [
+        "France is the most visited country in the world.",
+        "France attracts millions of tourists annually, making it the most visited country.",
+        "The most popular tourist destination in the world is France, known for landmarks like the Eiffel Tower."
+    ],
+    "who was the first female prime minister of the United Kingdom": [
+        "Margaret Thatcher was the first female Prime Minister of the United Kingdom.",
+        "Margaret Thatcher served as Prime Minister from 1979 to 1990.",
+        "The first woman to hold the office of Prime Minister in the UK was Margaret Thatcher."
+    ],
+    "what is the tallest building in the world": [
+        "The Burj Khalifa in Dubai, UAE, is the tallest building in the world, standing at 828 meters.",
+        "The Burj Khalifa is currently the tallest structure in the world, reaching 828 meters in height.",
+        "The Burj Khalifa in Dubai is the tallest building on Earth, towering at 828 meters."
+    ],
+    "who was the first emperor of China": [
+        "The first emperor of China was Qin Shi Huang.",
+        "Qin Shi Huang was the founder of the Qin Dynasty and the first emperor of unified China.",
+        "Qin Shi Huang is known for uniting China and his significant contributions to the Great Wall of China."
+    ],
+    "what is the longest man-made structure in the world": [
+        "The Great Wall of China is the longest man-made structure in the world.",
+        "The Great Wall of China stretches over 13,000 miles and is the longest man-made structure on Earth.",
+        "The Great Wall of China holds the record for the longest man-made structure, spanning across northern China."
+    ],
+    "what is the national currency of Pakistan": [
+        "The national currency of Pakistan is the Pakistani Rupee (PKR).",
+        "The currency used in Pakistan is the Pakistani Rupee, symbolized as PKR.",
+        "Pakistan’s official currency is the Rupee, commonly abbreviated as PKR."
+    ],
+    "what is the largest country in the world": [
+        "Russia is the largest country in the world by land area.",
+        "Covering over 17 million square kilometers, Russia is the world’s largest country.",
+        "Russia holds the title of the largest country, spanning across Europe and Asia."
+    ],
+    "how many states are in the United States": [
+        "There are 50 states in the United States of America.",
+        "The United States is made up of 50 individual states.",
+        "The USA consists of 50 states, including Alaska and Hawaii."
+    ],
+    "who was the first man in space": [
+        "Yuri Gagarin from the Soviet Union was the first man in space.",
+        "Yuri Gagarin was the first human to orbit Earth, launched into space on April 12, 1961.",
+        "The first man in space was Yuri Gagarin, who completed one orbit of Earth aboard Vostok 1."
+    ],
+    "what is the main ingredient of sushi": [
+        "The main ingredient in sushi is rice, typically vinegared rice paired with seafood or vegetables.",
+        "Sushi is made from vinegared rice, often served with fish or other ingredients like vegetables and seaweed.",
+        "The key component of sushi is rice, which is combined with a variety of fresh ingredients like seafood."
+    ],
+    "who was the first human to land on the moon": [
+        "Neil Armstrong was the first human to land on the moon, on July 20, 1969.",
+        "The first person to step foot on the moon was Neil Armstrong, during the Apollo 11 mission.",
+        "Neil Armstrong famously said, 'That's one small step for [a] man, one giant leap for mankind' when he first landed on the moon."
+    ],
+    "what is the capital of Japan": [
+        "The capital of Japan is Tokyo.",
+        "Tokyo is the capital and largest city of Japan.",
+        "Japan's capital city is Tokyo, known for its modern skyline and rich cultural heritage."
+    ],
+    "who discovered penicillin": [
+        "Penicillin was discovered by Alexander Fleming in 1928.",
+        "Alexander Fleming discovered penicillin when he noticed a mold killing bacteria in his lab.",
+        "Penicillin, the first widely used antibiotic, was discovered by Alexander Fleming."
+    ],
+    "what is the largest continent": [
+        "Asia is the largest continent in the world, both by land area and population.",
+        "Asia is the largest continent, covering about 30% of Earth's land area.",
+        "The largest continent is Asia, which is home to over 60% of the global population."
+    ],
+    "what is the hottest planet in our solar system": [
+        "Venus is the hottest planet in our solar system, with surface temperatures reaching up to 900°F (475°C).",
+        "Venus has a thick atmosphere of carbon dioxide, trapping heat and making it the hottest planet.",
+        "Even though Mercury is closest to the Sun, Venus is the hottest planet due to its dense atmosphere."
+    ],
+    
+    "who invented the telephone": [
+        "Alexander Graham Bell is credited with inventing the telephone in 1876.",
+        "The telephone was invented by Alexander Graham Bell, who received the first patent for it.",
+        "In 1876, Alexander Graham Bell was awarded the patent for the invention of the telephone."
+    ],
+    "what is the fastest land animal": [
+        "The cheetah is the fastest land animal, capable of reaching speeds up to 75 mph (120 km/h).",
+        "Cheetahs are the fastest land animals, sprinting at speeds that are unmatched in the animal kingdom.",
+        "The cheetah holds the title for the fastest land animal, with incredible acceleration and top speed."
+    ],
+    "what is the largest country by population": [
+        "China is the most populous country in the world.",
+        "China has the largest population, with over 1.4 billion people.",
+        "As of recent estimates, China remains the most populous country, followed closely by India."
+    ],
+    "who was the first female president of a country": [
+        "Vigdís Finnbogadóttir from Iceland was the first woman to be elected president of a country.",
+        "Vigdís Finnbogadóttir became the first female president in the world when she was elected in Iceland in 1980.",
+        "The first female president of a country was Vigdís Finnbogadóttir, who served as the president of Iceland."
+    ],
+    "who was the first emperor of Rome": [
+        "The first emperor of Rome was Augustus, also known as Octavian.",
+        "Augustus, formerly Octavian, became the first Roman Emperor after defeating Mark Antony.",
+        "Rome's first emperor was Augustus, who ruled from 27 BCE to 14 CE."
+    ],
+    "what is the longest mountain range in the world": [
+        "The Andes is the longest mountain range in the world, stretching over 4,300 miles.",
+        "The Andes mountain range runs along the western edge of South America and is the longest in the world.",
+        "The Andes mountain range, stretching through seven countries, is the longest in the world."
+    ],
+    "who invented the airplane": [
+        "The Wright brothers, Orville and Wilbur Wright, are credited with inventing and flying the first successful airplane in 1903.",
+        "The first powered, controlled flight was achieved by the Wright brothers in Kitty Hawk, North Carolina.",
+        "Orville and Wilbur Wright made the first successful powered flight on December 17, 1903."
+    ],
+    "what is the deepest ocean in the world": [
+        "The Pacific Ocean is the deepest ocean in the world, with the Mariana Trench being its lowest point.",
+        "The deepest part of the world's oceans is the Mariana Trench, located in the Pacific Ocean.",
+        "The Mariana Trench, in the Pacific Ocean, reaches depths of about 36,000 feet, making it the deepest part of the ocean."
+    ],
+    "what is the currency of the United Kingdom": [
+        "The currency of the United Kingdom is the British Pound (GBP).",
+        "In the United Kingdom, the currency used is the Pound Sterling (GBP).",
+        "The official currency of the UK is the British Pound, often abbreviated as GBP."
+    ],
+    "who is the richest person in the world": [
+        "Elon Musk, the CEO of Tesla and SpaceX, has often been listed as the richest person in the world.",
+        "As of recent rankings, Elon Musk has held the title of the richest person, surpassing Jeff Bezos.",
+        "Elon Musk, the entrepreneur behind Tesla and SpaceX, has consistently been at the top of the world's richest list."
+    ],
+    "what is the largest volcano in the world": [
+        "Mauna Loa in Hawaii is the largest volcano in the world by volume and area.",
+        "Mauna Loa, located in Hawaii, is the largest volcano on Earth.",
+        "The largest volcano in the world is Mauna Loa, which covers over 2,000 square miles on the Big Island of Hawaii."
+    ],
+    "what is the currency of Japan": [
+        "The currency of Japan is the Japanese Yen (JPY).",
+        "Japan uses the Yen as its official currency, symbolized as ¥.",
+        "The currency used in Japan is the Yen, which is abbreviated as JPY."
+    ],
+    "who is the father of modern physics": [
+        "Albert Einstein is considered the father of modern physics, known for his theory of relativity.",
+        "Albert Einstein revolutionized physics with his theories of relativity and contributions to quantum theory.",
+        "Einstein's contributions to modern physics, especially his theory of relativity, earned him the title of the father of modern physics."
+    ],
+    "what is the smallest planet in our solar system": [
+        "Mercury is the smallest planet in our solar system.",
+        "Mercury is the smallest planet, even smaller than some of the moons in our solar system.",
+        "The smallest planet in our solar system is Mercury, which is also the closest to the Sun."
+    ],
+    "what is the largest animal on Earth": [
+        "The blue whale is the largest animal on Earth, reaching lengths of up to 100 feet and weighing as much as 200 tons.",
+        "Blue whales are the largest creatures ever known to have existed, with some reaching up to 100 feet in length.",
+        "The blue whale holds the title for being the largest animal on Earth, both by length and weight."
+    ],
+    "how old is the Earth": [
+        "The Earth is approximately 4.54 billion years old, based on evidence from radiometric age dating.",
+        "Our planet, Earth, is about 4.54 billion years old, a time span difficult to truly comprehend.",
+        "The Earth has existed for roughly 4.54 billion years, and its age is measured by studying rock formations and fossils."
+    ],
+    "what is the fastest bird in the world": [
+        "The peregrine falcon is the fastest bird, capable of reaching speeds over 240 mph (386 km/h) during a dive.",
+        "The peregrine falcon is known to be the fastest bird, and it reaches astonishing speeds while hunting.",
+        "Peregrine falcons are the fastest birds in the world, reaching remarkable speeds when they dive to catch prey."
+    ],
+    "what is the smallest mammal in the world": [
+        "The bumblebee bat, also known as Craseonycteris thonglongyai, is the smallest mammal, weighing about 2 grams.",
+        "The smallest mammal in the world is the bumblebee bat, which weighs as little as a dime.",
+        "Bumblebee bats are the smallest mammals, measuring just over 1 inch in length and weighing just 2 grams."
+    ],
+    "who was the first person to reach the North Pole": [
+        "Roald Amundsen was the first person to reach the North Pole, accomplishing it in 1926.",
+        "Roald Amundsen, a famous Norwegian explorer, was the first person to successfully reach the North Pole.",
+        "In 1926, Roald Amundsen became the first person to reach the North Pole."
+    ],
+    "what is the coldest place on Earth": [
+        "The coldest place on Earth is Antarctica, specifically at a high ridge on the East Antarctic Plateau where temperatures can reach -133°F (-92°C).",
+        "Antarctica holds the record for the coldest temperatures on Earth, with the East Antarctic Plateau being the coldest area.",
+        "The coldest recorded temperature on Earth was in Antarctica, where temperatures dipped to -133°F (-92°C)."
+    ],
+    "how many stars are in the Milky Way": [
+        "There are an estimated 100 to 400 billion stars in the Milky Way galaxy.",
+        "The Milky Way galaxy contains between 100 billion and 400 billion stars.",
+        "Scientists estimate that our Milky Way galaxy has somewhere between 100 billion and 400 billion stars."
+    ],
+    "what is the most poisonous animal in the world": [
+        "The box jellyfish, found in the waters of the Pacific and Indian Oceans, is considered the most poisonous animal in the world.",
+        "The box jellyfish is widely regarded as the most poisonous animal due to its potent venom.",
+        "Among the most poisonous creatures is the box jellyfish, whose venom can cause heart failure and death in minutes."
+    ],
+    "what is the longest running TV show in history": [
+        "The longest-running TV show in history is 'The Simpsons,' which has been on the air since 1989.",
+        "'The Simpsons' holds the record for being the longest-running American TV show, with over 700 episodes.",
+        "With over 700 episodes, 'The Simpsons' is the longest-running scripted TV show in the world."
+    ],
+    "what is the longest living animal": [
+        "The bowhead whale is the longest-living mammal, with some individuals living over 200 years.",
+        "The bowhead whale is known to live for more than 200 years, making it the longest-living mammal.",
+        "Some bowhead whales have been known to live for over two centuries, making them the longest-living animals on Earth."
+    ],
+    "what is the largest island in the world": [
+        "Greenland is the largest island in the world by area, covering over 2.1 million square kilometers.",
+        "Greenland holds the title of the largest island in the world, despite being sparsely populated.",
+        "The largest island on Earth is Greenland, which is more than 2 million square kilometers in size."
+    ],
+    "what is the national language of Pakistan": [
+        "The national language of Pakistan is Urdu, though English is widely used for official and business purposes.",
+        "Urdu is Pakistan's national language, serving as a symbol of national unity despite the country's linguistic diversity.",
+        "While Pakistan has several regional languages, Urdu is the official language, spoken and understood nationwide."
+    ],
+    "how many provinces are there in Pakistan": [
+        "Pakistan consists of four provinces: Punjab, Sindh, Khyber Pakhtunkhwa, and Balochistan.",
+        "Pakistan is divided into four provinces, each with its own unique culture and history.",
+        "In addition to the four provinces, Pakistan also has two autonomous territories: Gilgit-Baltistan and Azad Jammu & Kashmir."
+    ],
+    "what is the national fruit of Pakistan": [
+        "The Mango is the national fruit of Pakistan, known for its delicious taste and variety.",
+        "Mangoes, especially the Sindhri variety, are Pakistan's national fruit and are considered the 'king of fruits.'",
+        "Pakistan produces some of the best mangoes in the world, and it's a symbol of summer in the country."
+    ],
+    "which is the largest city in Pakistan": [
+        "Karachi is the largest city in Pakistan, with a population of over 16 million people.",
+        "Karachi is the economic and industrial capital of Pakistan, known for its bustling ports and diverse culture.",
+        "As Pakistan's largest city, Karachi is a major hub for trade, culture, and education."
+    ],
+    "who is the first woman Prime Minister of Pakistan": [
+        "Benazir Bhutto was the first woman Prime Minister of Pakistan, serving from 1988 to 1990 and again from 1993 to 1996.",
+        "Benazir Bhutto made history as the first female Prime Minister of Pakistan and became a symbol of women's empowerment in politics.",
+        "Benazir Bhutto was a groundbreaking leader who made history as the first woman to lead a Muslim-majority nation."
+    ],
+    "what is the highest peak in Pakistan": [
+        "K2, located in the Karakoram Range, is the highest peak in Pakistan and the second highest in the world.",
+        "K2, known as 'Mount Godwin-Austen,' stands at an elevation of 8,611 meters (28,251 feet), making it the world's second-highest mountain.",
+        "K2 is Pakistan's pride, a challenging peak for mountaineers and a marvel of the natural world."
+    ],
+    "what is the famous river of Pakistan": [
+        "The Indus River is the longest and most famous river in Pakistan, playing a crucial role in the country's agriculture.",
+        "The Indus River, originating in Tibet, flows through Pakistan and is vital to its economy and culture.",
+        "The Indus River is the lifeblood of Pakistan, nourishing its fertile plains and supporting millions of people."
+    ],
+    "which famous historical site is in Pakistan": [
+        "Mohenjo-Daro, an ancient Indus Valley Civilization city, is one of the most famous historical sites in Pakistan.",
+        "Mohenjo-Daro, located in Sindh, is a UNESCO World Heritage site and an ancient center of the Indus Valley Civilization.",
+        "Taxila, another historical site in Pakistan, is known for its ancient Buddhist ruins and its importance in the Gandhara civilization."
+    ],
+    "what is Pakistan's national day": [
+        "Pakistan's national day, known as Pakistan Day, is celebrated on March 23rd each year to commemorate the Lahore Resolution of 1940.",
+        "March 23rd is celebrated as Pakistan Day, marking the day when the Lahore Resolution was passed, leading to the creation of Pakistan.",
+        "On March 23, Pakistan celebrates Pakistan Day with parades, ceremonies, and national pride."
+    ],
+    "what is the oldest university in Pakistan": [
+        "The University of the Punjab, established in 1882 in Lahore, is the oldest university in Pakistan.",
+        "Founded during the British Raj, the University of the Punjab is one of Pakistan's most prestigious educational institutions.",
+        "The University of the Punjab, located in Lahore, has a rich history and has contributed significantly to Pakistan's academic landscape."
+    ],
+    "what is the famous sport in Pakistan": [
+        "Cricket is the most popular sport in Pakistan, with a passionate following and a rich history of success on the international stage.",
+        "In Pakistan, cricket is more than just a sport—it's a national obsession, with millions of fans tuning in to watch games.",
+        "While cricket is the dominant sport, field hockey and squash have also had significant success in Pakistan's sporting history."
+    ],
+    "when did Pakistan become independent": [
+        "Pakistan became an independent nation on August 14, 1947, following the end of British rule in India.",
+        "Pakistan gained independence on August 14, 1947, after the partition of British India, with Muhammad Ali Jinnah as its first leader.",
+        "August 14, 1947, marks Pakistan's independence, when it was created as a separate state for Muslims in the Indian subcontinent."
+    ],
+    "what is the popular festival in Pakistan": [
+        "Eid-ul-Fitr and Eid-ul-Adha are the most popular and widely celebrated festivals in Pakistan.",
+        "Eid-ul-Fitr marks the end of Ramadan and is a major religious festival in Pakistan, celebrated with prayers, feasts, and charity.",
+        "Eid-ul-Adha, also known as the Festival of Sacrifice, is another significant religious holiday celebrated by Muslims in Pakistan."
+    ],
+    "what is the national anthem of Pakistan": [
+        "The national anthem of Pakistan is 'Qaumi Taranah,' written by Hafeez Jalandhari in 1952.",
+        "Pakistan's national anthem, 'Qaumi Taranah,' is a symbol of unity and patriotism, and its music was composed by Ahmad Ghulamali Chagla.",
+        "The national anthem of Pakistan is one of the shortest anthems in the world, lasting only about 80 seconds."
+    ],
+    "which city is known as the city of gardens": [
+        "Lahore is known as the 'City of Gardens' due to its beautiful parks and historic gardens.",
+        "Lahore, Pakistan's cultural capital, is also called the 'City of Gardens' for its lush green spaces like Shalimar Gardens and Lawrence Gardens.",
+        "With a rich history and vibrant gardens, Lahore is considered the heart of Pakistan's cultural and artistic heritage."
+    ],
+    "what is the importance of Pakistan's Gwadar port": [
+        "Gwadar Port is crucial for Pakistan's economy and is a gateway for trade between the Middle East, Africa, and Central Asia.",
+        "Located on the Arabian Sea, Gwadar Port is a key element in the China-Pakistan Economic Corridor (CPEC), enhancing Pakistan's maritime trade.",
+        "Gwadar is strategically important due to its proximity to global shipping routes and its potential for fostering economic growth."
+    ],
+    "who was Malala Yousafzai": [
+        "Malala Yousafzai is a Pakistani education activist who became the youngest-ever Nobel Prize laureate at the age of 17.",
+        "Malala Yousafzai is known for her advocacy of girls' education, especially in regions where girls were often denied education.",
+        "Malala was shot by the Taliban in 2012 for promoting girls' education but survived and became an international symbol for educational rights."
+    ],
+    "what is the literacy rate in Pakistan": [
+        "Pakistan's literacy rate is around 59%, though it varies by region, with urban areas having higher literacy rates than rural ones.",
+        "The literacy rate in Pakistan has steadily improved over the years, but challenges remain, especially in rural and remote areas.",
+        "Efforts to improve literacy in Pakistan focus on educational reforms, gender equality in education, and expanding access to schools."
+    ],
+    "who is the current Prime Minister of Pakistan": [
+        "The current Prime Minister of Pakistan is Anwar-ul-Haq Kakar, appointed as the interim Prime Minister in August 2023.",
+        "Anwar-ul-Haq Kakar took office as the caretaker Prime Minister of Pakistan to oversee the elections and ensure a smooth transition of power.",
+        "As an interim Prime Minister, Anwar-ul-Haq Kakar's role is to manage government affairs until the next general elections."
+    ],
+    "what is the economy of Pakistan based on": [
+        "Pakistan's economy is primarily based on agriculture, textiles, and remittances from abroad.",
+        "The textile industry is the backbone of Pakistan's economy, with exports contributing significantly to the country's GDP.",
+        "Agriculture plays a significant role in Pakistan's economy, providing employment for a large portion of the population."
+    ],
+    "who is the first woman astronaut from Pakistan": [
+        "The first woman astronaut from Pakistan is Dr. Shahida Kausar, who worked with NASA for several years.",
+        "Pakistan's first female astronaut, Dr. Shahida Kausar, contributed significantly to space research and STEM education.",
+        "Dr. Shahida Kausar made history by becoming the first woman from Pakistan to be part of a space mission."
+    ],
+    "what is the highest dam in Pakistan": [
+        "The Tarbela Dam, located on the Indus River, is the highest and one of the largest earth-filled dams in the world.",
+        "Tarbela Dam, completed in 1976, is crucial for Pakistan's water storage, irrigation, and electricity generation.",
+        "Tarbela Dam, located in Khyber Pakhtunkhwa province, has a significant impact on Pakistan's agriculture and power supply."
+    ],
+    "which famous Pakistani cricketer is known as the 'Sultan of Swing'": [
+        "Wasim Akram, known as the 'Sultan of Swing,' is one of Pakistan's greatest cricketers and one of the best fast bowlers in cricket history.",
+        "Wasim Akram's ability to swing the ball both ways made him a formidable opponent, and he is widely regarded as one of cricket's legends.",
+        "As the 'Sultan of Swing,' Wasim Akram led Pakistan to numerous victories, including the 1992 Cricket World Cup."
+    ],
+    "what is Pakistan's official currency": [
+        "The official currency of Pakistan is the Pakistani Rupee (PKR).",
+        "Pakistan's currency, the Pakistani Rupee (PKR), is divided into 100 paisas.",
+        "The Pakistani Rupee is used for all transactions within the country, from daily expenses to major business dealings."
+    ],
+    "what is the largest mosque in Pakistan": [
+        "The Faisal Mosque in Islamabad is the largest mosque in Pakistan and one of the largest in the world.",
+        "The Faisal Mosque, located at the foot of the Margalla Hills, is known for its unique architecture and breathtaking views.",
+        "The Faisal Mosque is a symbol of modern Islamic architecture and a major landmark in Pakistan."
+    ],
+    "who is the famous Pakistani philosopher": [
+        "Allama Muhammad Iqbal, also known as 'Mufakkir-e-Pakistan,' is one of the most famous philosophers and poets in Pakistan.",
+        "Allama Iqbal is considered the intellectual father of Pakistan and his philosophy inspired the creation of the nation.",
+        "Iqbal's poetry and philosophy continue to inspire generations of Pakistanis, and he is also regarded as a national poet."
+    ],
+    "what is the famous hill station in Pakistan": [
+        "Murree is one of the most famous hill stations in Pakistan, known for its scenic beauty and cool climate.",
+        "Murree, located in the Rawalpindi district of Punjab, is a popular tourist destination for both locals and international visitors.",
+        "With its lush green hills and misty weather, Murree is a perfect getaway spot, especially during the summer months."
+    ],
+    "who is the famous Pakistani singer known as 'The King of Ghazals'": [
+        "Jagjit Singh is regarded as the 'King of Ghazals,' and while he was born in India, he has a huge fan following in Pakistan.",
+        "Another famous Pakistani singer known for his ghazal renditions is Mehdi Hassan, who is often referred to as 'The King of Ghazals' in Pakistan.",
+        "Mehdi Hassan's soulful voice and mastery of ghazal music have made him one of Pakistan's most celebrated and loved musicians."
+    ],
+    "what is the famous food of Pakistan": [
+        "Biryani, a flavorful rice dish with spices and meat, is one of the most famous foods in Pakistan.",
+        "Nihari, a slow-cooked beef stew, is another iconic dish, often served with naan or paratha.",
+        "Karahi, a dish cooked with meat, tomatoes, and spices, is a traditional Pakistani food often enjoyed with naan."
+    ],
+    "what is the oldest civilization in Pakistan": [
+        "The Indus Valley Civilization, one of the world's oldest urban cultures, flourished in present-day Pakistan around 3300-1300 BCE.",
+        "Mohenjo-Daro, a prominent city of the Indus Valley Civilization, is one of the oldest cities in the world.",
+        "The remnants of the Indus Valley Civilization, including cities like Harappa and Mohenjo-Daro, showcase advanced urban planning and culture."
+    ],
+    "what is the highest mountain in Pakistan": [
+        "K2, located in the Karakoram Range, is the highest mountain in Pakistan and the second-highest in the world, standing at 8,611 meters.",
+        "K2, often referred to as the 'Savage Mountain,' is known for its extreme difficulty and dangerous climbing conditions.",
+        "K2 is a coveted destination for mountaineers worldwide, and its summit has been reached by only a few elite climbers."
+    ],
+    "what is the famous festival in Pakistan": [
+        "Eid-ul-Fitr and Eid-ul-Adha are the two major religious festivals celebrated with great enthusiasm in Pakistan.",
+        "Eid-ul-Fitr marks the end of Ramadan, and Eid-ul-Adha celebrates the sacrifice of Prophet Ibrahim. Both festivals are celebrated with prayers, feasts, and charity.",
+        "In addition to religious festivals, Pakistan also celebrates Independence Day (August 14) with national pride and patriotism."
+    ],
+    "what is the longest river in Pakistan": [
+        "The Indus River is the longest river in Pakistan, stretching over 3,000 kilometers and playing a vital role in the country's agriculture and economy.",
+        "The Indus River, originating from Tibet, flows through Pakistan and supports the livelihoods of millions of people who depend on its water for irrigation and drinking.",
+        "It has historical and cultural significance and is central to Pakistan's water supply and agricultural activities."
+    ],
+    "what is the famous sports in Pakistan": [
+        "Cricket is by far the most popular sport in Pakistan, with the national team being one of the strongest in international competitions.",
+        "Field hockey is another highly regarded sport, and Pakistan has won numerous Olympic gold medals in this sport.",
+        "Other popular sports include football (soccer), squash, and wrestling, with Pakistan having a rich history of success in these sports."
+    ],
+    "what is the famous place to visit in Karachi": [
+        "The Clifton Beach in Karachi is one of the most popular tourist destinations, offering scenic views of the Arabian Sea.",
+        "Karachi also has the historic Mohatta Palace, which is a symbol of the city's rich cultural heritage and a museum today.",
+        "The Quaid's Mausoleum in Karachi is a significant national monument and the final resting place of Pakistan's founder, Muhammad Ali Jinnah."
+    ],
+    "what is the famous mosque in Lahore": [
+        "The Badshahi Mosque in Lahore is one of the largest and most magnificent mosques in the world, built during the Mughal era.",
+        "Badshahi Mosque is known for its stunning architecture, vast prayer hall, and beautiful surroundings, making it a major tourist attraction.",
+        "It is an important symbol of Mughal art and culture, and its grandeur is unmatched by any mosque in South Asia."
+    ],
+    "what is the national tree of Pakistan": [
+        "The national tree of Pakistan is the Deodar Cedar (Cedrus deodara), which is known for its majestic appearance and tall stature.",
+        "The Deodar tree is found in the northern regions of Pakistan, especially in the Himalayas and the Hindu Kush mountain ranges.",
+        "It is a symbol of strength, resilience, and longevity, and it plays a key role in Pakistan's forestry and eco-tourism industries."
+    ],
+    "what is the most famous university in Pakistan": [
+        "The Quaid-i-Azam University in Islamabad is considered one of the most prestigious universities in Pakistan, known for its academic excellence.",
+        "The Lahore University of Management Sciences (LUMS) is another top-ranking university, particularly renowned for its business and management programs.",
+        "Karachi's Aga Khan University is also highly regarded for its medical and healthcare education."
+    ],
+    "what is the famous historical site in Pakistan": [
+        "The Mohenjo-Daro ruins, part of the ancient Indus Valley Civilization, are one of the most significant archaeological sites in Pakistan.",
+        "Lahore Fort, also known as Shahi Qila, is a UNESCO World Heritage site that showcases the grandeur of Mughal architecture.",
+        "Taxila, a historic city near Islamabad, is known for its ancient Buddhist ruins and is an important archaeological site."
+    ],
+    "what is the famous desert in Pakistan": [
+        "The Thar Desert is one of the most famous deserts in Pakistan, located in the southeastern part of the country, bordering India.",
+        "The Thar Desert is known for its unique ecosystem, cultural heritage, and the annual Thar Desert Festival, which celebrates local traditions and art.",
+        "Despite being a desert, Thar supports a large population that thrives on agriculture, livestock, and seasonal rains."
+    ],
+    "what is the largest city in Pakistan": [
+        "Karachi is the largest city in Pakistan, known as the economic hub and port city of the country.",
+        "Karachi is the most populous city, with over 14 million residents, and serves as Pakistan's financial center.",
+        "It is a melting pot of diverse cultures, languages, and industries, offering both modern urbanization and historical landmarks."
+    ],
+    "what is the official language of Pakistan": [
+        "The official language of Pakistan is Urdu, which is widely spoken and understood across the country.",
+        "Though Urdu is the national language, English is also extensively used for business, government, and educational purposes.",
+        "Pakistan is a linguistically diverse country, with many regional languages like Punjabi, Pashto, Sindhi, and Balochi spoken."
+    ],
+    "who was the first president of Pakistan": [
+        "The first President of Pakistan was Iskander Mirza, who served from 1956 to 1958.",
+        "Iskander Mirza played an important role in the early history of Pakistan, overseeing the transition to a republic.",
+        "He was eventually removed from office after a military coup led by General Ayub Khan."
+    ],
+    "what is the national dish of Pakistan": [
+        "Biryani is considered the national dish of Pakistan, a flavorful and aromatic rice dish made with spices, meat (often chicken or mutton), and saffron.",
+        "Another popular dish is Nihari, a slow-cooked stew made with meat, spices, and served with naan or rice.",
+        "Karahi, a spicy meat curry, is also a favorite among Pakistanis, named after the wok (karahi) in which it is cooked."
+    ],
+    "what is the famous market in Lahore": [
+        "Anarkali Bazaar in Lahore is one of the oldest and busiest markets in Pakistan, offering a variety of goods from clothing to food.",
+        "The market is known for its traditional street food, colorful clothing, jewelry, and historical significance as a trading hub.",
+        "Lahore's Liberty Market and Mall Road are also famous shopping destinations that attract locals and tourists alike."
+    ],
+    "what is the national symbol of Pakistan": [
+        "The national symbol of Pakistan is the star and crescent, representing progress and light.",
+        "The star symbolizes light and knowledge, while the crescent represents progress and growth.",
+        "This symbol is also featured on the Pakistani flag, which has green for Islam and a white stripe for religious minorities."
+    ],
+    "who was the founder of the Pakistan Atomic Program": [
+        "Dr. Abdul Qadeer Khan is regarded as the founder of Pakistan's atomic program and is credited with making Pakistan a nuclear power.",
+        "Dr. Khan played a critical role in developing Pakistan's nuclear weapons program in the 1970s and 1980s.",
+        "He is considered a national hero by many in Pakistan for his contributions to the country's security."
+    ],
+    "what is the famous mountain range in Pakistan": [
+        "The Karakoram Range, located in northern Pakistan, is one of the most famous and highest mountain ranges in the world.",
+        "It is home to K2, the second-highest peak on Earth, and is known for its breathtaking scenery and treacherous terrain.",
+        "The Himalayas and Hindu Kush ranges are also significant mountain chains that extend into Pakistan, offering spectacular landscapes."
+    ],
+    "what is the national game of Pakistan": [
+        "Field hockey is the national game of Pakistan and the country has a rich history of success in the sport.",
+        "Pakistan has won numerous Olympic gold medals in field hockey, and it remains a source of pride for the nation.",
+        "The sport is played at all levels, from local fields to international competitions, and is followed passionately across the country."
+    ],
+    "what is the famous dish in Lahore": [
+        "Lahore is famous for its traditional Lahori food, with dishes like Lahori Karahi, Seekh Kebabs, and Amritsari Macchi.",
+        "The city is also known for its rich street food culture, such as Chana Chaat, Samosas, and Bun Kabab.",
+        "Lahore’s food is renowned for its rich flavors, spiced dishes, and unique blend of Mughlai and Punjabi cuisines."
+    ],
+    "what is the most famous lake in Pakistan": [
+        "Lake Saif ul Malook, located in the Kaghan Valley, is one of the most famous and picturesque lakes in Pakistan.",
+        "The lake is surrounded by snow-capped peaks and is a popular tourist destination, especially in the summer months.",
+        "Another notable lake is Keenjhar Lake in Sindh, which is a vital freshwater reservoir and an important bird sanctuary."
+    ],
+    "who was the first woman to fly an airplane in Pakistan": [
+        "Shukriya Khanum was the first woman in Pakistan to become a pilot and fly an airplane.",
+        "She made significant contributions to women’s aviation in Pakistan, inspiring many young women to pursue careers in aviation.",
+        "Shukriya Khanum’s legacy continues to inspire future generations of female aviators in Pakistan."
+    ],
+    "what is the highest building in Pakistan": [
+        "The Bahria Icon Tower in Karachi is the tallest building in Pakistan, standing at 62 stories.",
+        "It is a commercial and residential skyscraper, known for its modern architecture and stunning views of the city.",
+        "Karachi is home to other notable tall buildings like the MCB Tower and the UBL Tower."
+    ],
+    "what is the largest dam in Pakistan": [
+        "The Tarbela Dam, located on the Indus River in Khyber Pakhtunkhwa, is the largest dam in Pakistan and one of the largest earth-filled dams in the world.",
+        "The dam is crucial for water storage, irrigation, and hydroelectric power generation, benefiting millions of people in Pakistan.",
+        "Another major dam is the Mangla Dam in Mirpur, Azad Jammu & Kashmir, which is also a significant source of hydroelectric power."
+    ],
+    "which is the largest glacier in Pakistan": [
+        "The Siachen Glacier, located in the Karakoram Range, is the largest glacier in Pakistan and one of the largest in the world outside the polar regions.",
+        "Siachen Glacier is situated at an altitude of about 5,400 meters above sea level and is a significant geographical feature in northern Pakistan.",
+        "It has been the site of a long-standing territorial dispute between Pakistan and India."
+    ],
+    "what is the oldest mosque in Pakistan": [
+        "The Mahabat Khan Mosque in Peshawar is one of the oldest and most beautiful mosques in Pakistan.",
+        "Built in the 17th century during the Mughal period, it is an example of Mughal architecture with intricate carvings and large courtyards.",
+        "It remains a central place of worship and a tourist attraction in Peshawar."
+    ],
+    "what is the famous festival of Pakistan": [
+        "Eid-ul-Fitr and Eid-ul-Adha are the most celebrated Islamic festivals in Pakistan, marking the end of Ramadan and the commemoration of Ibrahim's (Abraham’s) devotion to God.",
+        "Lahore hosts the famous Basant Festival, where people celebrate the arrival of spring by flying kites.",
+        "Pakistan also celebrates Independence Day on August 14th, with flag hoisting ceremonies, parades, and fireworks across the country."
+    ],
+    "what is the most popular sport in Pakistan": [
+        "Cricket is the most popular sport in Pakistan, with millions of fans and passionate supporters across the country.",
+        "The Pakistan national cricket team has had great success on the international stage, winning the ICC World Cup in 1992 and the ICC Champions Trophy in 2017.",
+        "Field hockey and squash are also popular sports in Pakistan, with Pakistan having a rich history of success in both sports."
+    ],
+    "what is the highest civilian award in Pakistan": [
+        "The Nishan-e-Pakistan is the highest civilian award in Pakistan, presented for exceptional service to the country in various fields.",
+        "It is awarded by the President of Pakistan to individuals who have made outstanding contributions to the country, both in Pakistan and internationally.",
+        "Other notable civilian awards include the Sitara-e-Imtiaz and Tamgha-e-Shujaat."
+    ],
+    "what is the largest forest in Pakistan": [
+        "The Changa Manga Forest in Punjab is the largest man-made forest in Pakistan and one of the largest in the world.",
+        "The forest, covering over 12,000 hectares, was planted in the early 19th century to provide timber and fuel for the region.",
+        "It serves as an important ecological resource and is also a popular tourist destination for picnics and wildlife watching."
+    ],
+    "what is the most famous historical site in Pakistan": [
+        "The ancient city of Mohenjo-Daro, a UNESCO World Heritage Site, is one of the most famous historical sites in Pakistan.",
+        "It was part of the Indus Valley Civilization and is known for its well-planned streets, advanced drainage system, and impressive architecture.",
+        "Other notable historical sites include the Badshahi Mosque and Lahore Fort, both iconic landmarks in Lahore."
+    ],
+    "who was the first woman prime minister of Pakistan": [
+        "Benazir Bhutto was the first woman to serve as Prime Minister of Pakistan, holding office from 1988 to 1990 and again from 1993 to 1996.",
+        "She was the daughter of former Prime Minister Zulfikar Ali Bhutto and made significant strides in women's rights and education in Pakistan.",
+        "Benazir Bhutto's leadership was both praised and criticized, but she remains a prominent figure in Pakistan’s political history."
+    ],
+    "what is the most famous mountain peak in Pakistan": [
+        "K2, located in the Karakoram Range, is the most famous and the second-highest mountain in the world after Mount Everest.",
+        "Standing at 8,611 meters (28,251 feet), K2 is considered one of the most challenging mountains to climb due to its extreme conditions.",
+        "It is part of the broader Karakoram Range, which is home to many of the world's highest peaks, including Nanga Parbat and Gasherbrum I."
+    ],
+    "what is the most popular drink in Pakistan": [
+        "Chai (tea) is the most popular beverage in Pakistan and is consumed in large quantities throughout the day.",
+        "Pakistanis drink both black tea and green tea, often flavored with cardamom, ginger, or cinnamon.",
+        "Other popular drinks include lassi (a yogurt-based drink) and fruit juices, especially during the hot summer months."
+    ],
+    "who was the first woman to receive the Nishan-e-Pakistan": [
+        "Begum Shaista Ikramullah was the first woman to receive the Nishan-e-Pakistan, Pakistan's highest civilian award, in recognition of her services to the country.",
+        "She was an important politician, diplomat, and the first woman to serve as Pakistan's Ambassador to the United Nations."
+    ],
+    "what is the famous museum in Pakistan": [
+        "The Lahore Museum, located in the heart of Lahore, is one of the most famous museums in Pakistan.",
+        "It houses an extensive collection of artifacts, including ancient coins, textiles, paintings, and sculptures that represent Pakistan's cultural heritage.",
+        "Another notable museum is the Pakistan Museum of Natural History in Islamabad, which displays exhibits related to the country’s flora, fauna, and geological history."
+    ],
+    "which is the highest military award in Pakistan": [
+        "The Nishan-e-Haider is the highest military award in Pakistan, awarded for acts of exceptional courage and valor during combat.",
+        "It is equivalent to the Victoria Cross in the UK and the Medal of Honor in the United States.",
+        "The Nishan-e-Haider has been awarded posthumously to several military personnel who gave their lives in the defense of the nation."
+    ],
+    "who is the father of Pakistan's nuclear program": [
+        "Dr. Abdul Qadeer Khan is considered the father of Pakistan's nuclear program.",
+        "He played a pivotal role in the development of Pakistan's atomic weapons and helped the country become a nuclear power in the 1990s.",
+        "Dr. Khan is a national hero in Pakistan for his contributions to the country's defense and strategic autonomy."
+    ],
+    "what is the largest province in Pakistan": [
+        "Balochistan is the largest province of Pakistan by area, covering about 44% of the country’s total land area.",
+        "Despite its vast size, Balochistan is sparsely populated, with a harsh desert climate in many areas.",
+        "The province is rich in natural resources like gas, coal, and minerals and has strategic importance due to its proximity to the Arabian Sea."
+    ],
+    "who was the first female prime minister of Pakistan": [
+        "Benazir Bhutto was the first female Prime Minister of Pakistan and the first woman to lead a Muslim-majority country.",
+        "She served two terms as Prime Minister, first from 1988 to 1990 and then from 1993 to 1996.",
+        "Benazir Bhutto was an iconic figure in Pakistani politics, known for her advocacy of women's rights, education, and democracy."
+    ],
+    "which is the largest dam in Pakistan": [
+        "The Tarbela Dam, located in Khyber Pakhtunkhwa, is the largest dam in Pakistan in terms of storage capacity.",
+        "The dam is built on the Indus River and plays a crucial role in water supply, irrigation, and power generation.",
+        "Tarbela is one of the largest earth-filled dams in the world and contributes significantly to Pakistan's energy needs."
+    ],
+    "what is the significance of the Lahore Fort": [
+        "The Lahore Fort, a UNESCO World Heritage Site, is one of the most iconic historical landmarks in Pakistan.",
+        "It dates back to the Mughal period and reflects the grandeur of Mughal architecture, with structures such as Sheesh Mahal (Palace of Mirrors) and Alamgiri Gate.",
+        "The fort holds immense historical significance, as it was the residence of Mughal emperors and a key military stronghold."
+    ],
+    "which is the most visited tourist destination in Pakistan": [
+        "The Hunza Valley, located in the Gilgit-Baltistan region, is one of the most popular tourist destinations in Pakistan.",
+        "It is known for its stunning landscapes, lush green valleys, and towering mountains, including Rakaposhi and Ultar Sar.",
+        "Hunza is also home to unique cultural traditions and is often referred to as the ‘Shangri-La’ of Pakistan."
+    ],
+    "who was the first President of Pakistan": [
+        "Iskander Mirza was the first President of Pakistan, serving from 1956 to 1958.",
+        "He played a crucial role in the formation of Pakistan’s constitution and was involved in the early years of the country's political landscape.",
+        "Iskander Mirza was the first and only president to be deposed in a coup d'état, which led to the military rule of General Ayub Khan."
+    ],
+    "what is the main language spoken in Karachi": [
+        "The main language spoken in Karachi is Sindhi, followed by Urdu and English.",
+        "Karachi is a melting pot of cultures, with people from different ethnic backgrounds, including Punjabis, Sindhis, Pashtuns, and Baloch.",
+        "Due to its large population and cosmopolitan nature, Karachi is home to a wide variety of languages and dialects."
+    ],
+    "what are the provinces of Pakistan": [
+        "Pakistan has four provinces: Punjab, Sindh, Khyber Pakhtunkhwa (KP), and Balochistan.",
+        "Each province has its own rich cultural heritage, traditions, and geographical features.",
+        "The country also includes two autonomous regions: Azad Jammu & Kashmir (AJK) and Gilgit-Baltistan (GB), as well as the federal territory of Islamabad."
+    ],
+    "what is Punjab famous for": [
+        "Punjab is the most populous province in Pakistan, known for its fertile land and being the country's breadbasket.",
+        "It is famous for its agriculture, especially wheat, rice, and sugarcane production.",
+        "Punjab is also home to the rich cultural traditions of classical music, dance (Bhangra), and Sufi mysticism, with cities like Lahore being the cultural hub."
+    ],
+    "what is the capital city of Punjab": [
+        "The capital city of Punjab is Lahore, the second-largest city in Pakistan and a center of cultural, historical, and artistic significance.",
+        "Lahore is known for its historical landmarks such as the Lahore Fort, Badshahi Mosque, and Shalimar Gardens.",
+        "The city is also famous for its vibrant food culture, bazaars, and annual festivals like Basant and Lahore Literary Festival."
+    ],
+    "what is Sindh famous for": [
+        "Sindh is known for its historical cities, including Karachi, the largest city in Pakistan and the economic capital of the country.",
+        "The province has a rich cultural heritage, including the ancient Indus Valley Civilization, with sites like Mohenjo-Daro, one of the world's earliest urban settlements.",
+        "Sindh is also known for its distinct folk music, handicrafts, and the Sufi mysticism of figures like Shah Abdul Latif Bhittai."
+    ],
+    "what is the capital city of Sindh": [
+        "The capital city of Sindh is Karachi, a bustling metropolis and a global city with a strong economy based on trade, finance, and industry.",
+        "Karachi is home to Pakistan's largest seaport, the Port of Karachi, and is known for its diverse population and cosmopolitan lifestyle.",
+        "The city also boasts many cultural attractions, including the Pakistan Maritime Museum, Mohatta Palace, and Clifton Beach."
+    ],
+    "what is Khyber Pakhtunkhwa (KP) known for": [
+        "Khyber Pakhtunkhwa (KP) is known for its beautiful mountainous landscapes, including the famous Khyber Pass, which has historically been a major trade route.",
+        "The province is home to the Swat Valley, often referred to as the 'Switzerland of Pakistan,' known for its natural beauty and tourism.",
+        "KP is also rich in Pashtun culture, with a long history of hospitality, folklore, and traditional music."
+    ],
+    "what is the capital city of Khyber Pakhtunkhwa": [
+        "The capital city of Khyber Pakhtunkhwa is Peshawar, one of the oldest cities in Pakistan, with a history that dates back over 2,000 years.",
+        "Peshawar is famous for its historical sites, including the Bala Hisar Fort, the Khyber Pass, and the Qissa Khawani Bazaar.",
+        "The city has a blend of traditional Pashtun culture, modern development, and a rich history as a center of trade and culture."
+    ],
+    "what is Balochistan known for": [
+        "Balochistan is the largest province in Pakistan by area, with vast deserts, mountains, and coastline along the Arabian Sea.",
+        "The province is rich in natural resources, including natural gas, coal, and minerals, making it strategically important for Pakistan.",
+        "Balochistan is also known for its diverse culture, with the Baloch people having their own language, music, and traditions."
+    ],
+    "what is the capital city of Balochistan": [
+        "The capital city of Balochistan is Quetta, located in the south-western part of Pakistan, near the Afghan border.",
+        "Quetta is known for its beautiful mountainous surroundings, as well as its significant role in Pakistan's military and strategic affairs.",
+        "The city is famous for its fruit markets, particularly for the production of apples, pomegranates, and grapes."
+    ],
+    "what is Azad Jammu and Kashmir (AJK) known for": [
+        "Azad Jammu and Kashmir (AJK) is a self-governing administrative region that lies along the northern borders of Pakistan, bordering India-administered Jammu and Kashmir.",
+        "AJK is known for its breathtaking natural beauty, with lush green valleys, towering mountains, and picturesque lakes.",
+        "The region is also home to several historical sites, such as the Rawalakot and Muzaffarabad, and is a popular tourist destination for hiking and adventure sports."
+    ],
+    "what is the capital city of Azad Jammu and Kashmir (AJK)": [
+        "The capital city of Azad Jammu and Kashmir is Muzaffarabad, located on the banks of the Jhelum and Neelum rivers.",
+        "Muzaffarabad is a scenic city surrounded by lush green hills and is known for its historic sites, including the Red Fort and Pir Chinasi.",
+        "The city is a gateway for tourists visiting the Neelum Valley, which is famous for its picturesque landscapes and outdoor activities."
+    ],
+    "what is Gilgit-Baltistan (GB) famous for": [
+        "Gilgit-Baltistan (GB) is known for its majestic mountain ranges, including K2, the second-highest peak in the world.",
+        "The region is renowned for its alpine scenery, lush valleys, and high-altitude trekking destinations like Naltar Valley, Hunza Valley, and Skardu.",
+        "Gilgit-Baltistan is also home to diverse ethnic groups and is famous for its distinct culture, folk music, and handicrafts."
+    ],
+    "what is the capital city of Gilgit-Baltistan": [
+        "The capital city of Gilgit-Baltistan is Gilgit, situated at the convergence of the Gilgit, Hunza, and Indus rivers.",
+        "Gilgit serves as the regional hub for trade, culture, and tourism in the northern areas of Pakistan.",
+        "The city is a base for adventurers seeking to trek to famous peaks such as Rakaposhi and Nanga Parbat."
+    ],
+    "which city is known as the Paris of Pakistan": [
+        "Islamabad, the capital city of Pakistan, is sometimes referred to as the 'Paris of Pakistan' due to its beautiful layout, modern architecture, and scenic beauty.",
+        "Islamabad is known for its wide avenues, green spaces, and iconic landmarks such as the Faisal Mosque, Daman-e-Koh, and Rawal Lake.",
+        "The city also hosts many diplomatic missions, international organizations, and is home to a diverse community."
+    ],
+    "what is the largest port in Pakistan": [
+        "Karachi is home to the largest port in Pakistan, the Port of Karachi, which is one of the busiest ports in the region.",
+        "The port plays a crucial role in the economy of Pakistan, handling a majority of the country's imports and exports.",
+        "Karachi's strategic location along the Arabian Sea gives it significant importance as a trade and transportation hub."
+    ],
+    "what are the major institutions of Pakistan": [
+        "Pakistan has several important institutions that play key roles in its governance, economy, education, and military.",
+        "Some of the major institutions include the Supreme Court of Pakistan, Pakistan Army, Federal Government, National Assembly, and key regulatory bodies like the State Bank of Pakistan and the Pakistan Telecommunication Authority."
+    ],
+    "what is the Supreme Court of Pakistan": [
+        "The Supreme Court of Pakistan is the highest judicial body in the country, responsible for upholding the Constitution, interpreting laws, and resolving legal disputes.",
+        "It is headed by the Chief Justice of Pakistan, who is appointed by the President of Pakistan, and the court has a crucial role in ensuring justice in the country.",
+        "The Supreme Court is located in Islamabad and has the power to review and invalidate any law or executive action that is deemed unconstitutional."
+    ],
+    "what is the Pakistan Army": [
+        "The Pakistan Army is one of the largest military forces in the world and is an important institution in Pakistan's history and politics.",
+        "It is responsible for defending the sovereignty of the country and maintaining internal security, and has been a significant player in Pakistan's governance, having ruled the country through military coups at various times.",
+        "The Pakistan Army is also involved in peacekeeping missions and has played a key role in regional security."
+    ],
+    "what is the National Assembly of Pakistan": [
+        "The National Assembly of Pakistan is the lower house of the Parliament, with members elected by the people through general elections.",
+        "It is responsible for making laws, approving budgets, and overseeing the executive branch of government. The National Assembly is located in Islamabad.",
+        "The Speaker of the National Assembly presides over its sessions, and its decisions are crucial for the functioning of democracy in Pakistan."
+    ],
+    "what is the Senate of Pakistan": [
+        "The Senate of Pakistan is the upper house of Parliament, consisting of 100 members who are elected indirectly by provincial assemblies.",
+        "The Senate ensures the representation of all provinces in the law-making process, and its role is to review and suggest amendments to legislation proposed by the National Assembly.",
+        "The Chairman of the Senate oversees its functions, and it operates from Islamabad."
+    ],
+    "what is the State Bank of Pakistan": [
+        "The State Bank of Pakistan (SBP) is the central bank of Pakistan, responsible for managing the country's monetary policy, issuing currency, regulating banks, and ensuring financial stability.",
+        "It was established in 1948 and has a critical role in controlling inflation, managing foreign exchange reserves, and promoting economic growth.",
+        "SBP's headquarters are in Karachi, and it operates branches across the country."
+    ],
+    "what is the Pakistan Telecommunication Authority (PTA)": [
+        "The Pakistan Telecommunication Authority (PTA) is the regulatory authority responsible for overseeing telecommunication services in Pakistan.",
+        "PTA works to ensure that telecommunications services are provided in accordance with the law, manage the use of spectrum, and promote competition within the sector.",
+        "The PTA also works on issues such as broadband development, internet security, and managing mobile services."
+    ],
+    "what is the Election Commission of Pakistan (ECP)": [
+        "The Election Commission of Pakistan (ECP) is an independent body responsible for overseeing elections and ensuring their fairness.",
+        "The ECP conducts general elections, by-elections, and local elections, and is also responsible for the registration of political parties, setting the date for elections, and ensuring the electoral process adheres to the Constitution.",
+        "It is an autonomous body, and its members are appointed by the President of Pakistan on the recommendation of a parliamentary committee."
+    ],
+    "what is the Higher Education Commission (HEC)": [
+        "The Higher Education Commission (HEC) is the main regulatory body for higher education in Pakistan.",
+        "It works to improve the quality of education in universities and colleges, regulate degree programs, and fund research in higher education.",
+        "HEC has also been involved in the development of new campuses and the promotion of international partnerships for Pakistani universities."
+    ],
+    "what is the Pakistan Atomic Energy Commission (PAEC)": [
+        "The Pakistan Atomic Energy Commission (PAEC) is responsible for the development and management of Pakistan's nuclear energy program.",
+        "PAEC works in the fields of nuclear power generation, research reactors, and developing peaceful uses of nuclear technology in agriculture, medicine, and industry.",
+        "The Commission is headquartered in Islamabad and plays a key role in Pakistan’s energy sector."
+    ],
+    "what is the Federal Board of Revenue (FBR)": [
+        "The Federal Board of Revenue (FBR) is the government agency responsible for the collection of taxes in Pakistan.",
+        "FBR plays a crucial role in the financial administration of the country, implementing tax laws, and generating revenue for public services and infrastructure.",
+        "It is also responsible for managing customs duties and enforcing tax compliance."
+    ],
+    "what is the Pakistan Bureau of Statistics (PBS)": [
+        "The Pakistan Bureau of Statistics (PBS) is the central body responsible for collecting, compiling, and disseminating statistical information in Pakistan.",
+        "PBS provides data related to population, agriculture, industry, trade, and other sectors to help in policy-making and economic planning.",
+        "It conducts important surveys, such as the population census, economic surveys, and agricultural statistics."
+    ],
+    "what is the Ministry of Foreign Affairs": [
+        "The Ministry of Foreign Affairs is responsible for managing Pakistan's diplomatic relations with other countries and representing the country in international organizations.",
+        "It plays a key role in formulating foreign policy, negotiating treaties, and managing Pakistan's embassies abroad.",
+        "The Ministry of Foreign Affairs is located in Islamabad and is headed by the Foreign Minister."
+    ],
+    "what is the Pakistan International Airlines (PIA)": [
+        "Pakistan International Airlines (PIA) is the national flag carrier airline of Pakistan, providing domestic and international air services.",
+        "Founded in 1955, PIA is a key player in Pakistan's transportation sector, connecting the country with major global cities.",
+        "PIA is owned by the government of Pakistan and has faced various challenges but remains an integral part of Pakistan's aviation history."
+    ],
+    "what is the National Disaster Management Authority (NDMA)": [
+        "The National Disaster Management Authority (NDMA) is the government agency responsible for coordinating disaster response and management in Pakistan.",
+        "It works to reduce the risks of natural disasters such as earthquakes, floods, and droughts, and helps in providing relief during emergencies.",
+        "NDMA collaborates with provincial disaster management authorities to ensure efficient disaster relief efforts."
+    ],
+    "what is Islam": [
+        "Islam is a monotheistic religion that believes in one God, Allah, and follows the teachings of the Prophet Muhammad (PBUH).",
+        "The followers of Islam are known as Muslims, and they believe that Muhammad is the last prophet of God.",
+        "Islam teaches that the purpose of life is to worship Allah and live according to His guidance as revealed in the Quran and Hadith."
+    ],
+    "who is Prophet Muhammad (PBUH)": [
+        "Prophet Muhammad (PBUH) is the final messenger of Allah, born in Mecca in 570 CE.",
+        "He is considered the Seal of the Prophets in Islam, meaning no prophets will come after him.",
+        "His life and teachings are recorded in the Hadith, and his revelations were compiled into the Quran."
+    ],
+    "what is the Quran": [
+        "The Quran is the holy book of Islam, believed to be the direct word of Allah as revealed to Prophet Muhammad (PBUH) over 23 years.",
+        "The Quran contains 114 chapters, known as Surahs, and addresses all aspects of life, including morality, law, and guidance on worship.",
+        "Muslims believe that the Quran is the final, unaltered word of God and it serves as a manual for living a righteous life."
+    ],
+    "what is the meaning of Islam": [
+        "Islam comes from the Arabic word 'Salaam', which means peace, and is derived from the root word 'Aslama', meaning to submit or surrender.",
+        "In Islam, peace is achieved by submitting to the will of Allah and following His teachings.",
+        "The word Islam can be translated as 'the path to peace' or 'surrender to God'."
+    ],
+    "what are the five pillars of Islam": [
+        "The Five Pillars of Islam are the core principles that guide the life of every Muslim. They are: ",
+        "1. Shahada (Faith): The declaration that there is no god but Allah, and Muhammad is His messenger.",
+        "2. Salat (Prayer): Performing five daily prayers facing Mecca, including Fajr, Dhuhr, Asr, Maghrib, and Isha.",
+        "3. Zakat (Almsgiving): Giving a portion of one’s wealth to the poor and needy, usually 2.5% annually.",
+        "4. Sawm (Fasting): Fasting during the month of Ramadan from dawn till sunset, refraining from food, drink, and other physical needs.",
+        "5. Hajj (Pilgrimage): The pilgrimage to Mecca, which Muslims must undertake at least once in their lifetime, provided they are able."
+    ],
+    "what is the importance of the Kaaba": [
+        "The Kaaba is a cube-shaped building in the center of the Masjid al-Haram in Mecca, Saudi Arabia.",
+        "It is considered the holiest site in Islam, and Muslims around the world face the Kaaba during their prayers (Salat).",
+        "The Kaaba is the focal point for the Hajj pilgrimage, where millions of Muslims gather every year to perform sacred rituals."
+    ],
+    "what is Ramadan": [
+        "Ramadan is the ninth month of the Islamic calendar, and it is considered the holiest month for Muslims.",
+        "During Ramadan, Muslims fast from dawn until sunset, refraining from food, drink, and other physical needs.",
+        "It is a time of spiritual reflection, increased devotion, charity, and community, culminating in the celebration of Eid al-Fitr at the end of the month."
+    ],
+    "what is Eid al-Fitr": [
+        "Eid al-Fitr, known as the Festival of Breaking the Fast, marks the end of Ramadan.",
+        "It is a celebratory occasion, where Muslims gather for prayers, feasts, and give zakat (charity) to the poor.",
+        "Eid al-Fitr is one of the two major Islamic festivals, the other being Eid al-Adha."
+    ],
+    "what is the significance of Hajj": [
+        "Hajj is the annual pilgrimage to Mecca, required of every Muslim who is physically and financially able to undertake it.",
+        "It is one of the Five Pillars of Islam and represents a Muslim’s submission to Allah, as well as the unity of Muslims worldwide.",
+        "Hajj takes place in the 12th month of the Islamic calendar and involves performing a series of rituals, such as walking around the Kaaba and praying at important sites in Mecca."
+    ],
+    "what is Zakat": [
+        "Zakat is an obligatory form of almsgiving or charity, one of the Five Pillars of Islam.",
+        "Muslims are required to give a percentage (usually 2.5%) of their savings to those in need, helping to purify their wealth and assist the poor.",
+        "Zakat is considered a means of promoting social justice and helping those less fortunate."
+    ],
+    "who are the companions of Prophet Muhammad (PBUH)": [
+        "The companions of Prophet Muhammad (PBUH) are known as the Sahabah, and they were his closest followers and supporters.",
+        "Some of the most prominent companions include Abu Bakr, Umar ibn al-Khattab, Uthman ibn Affan, Ali ibn Abi Talib, and Aisha bint Abi Bakr.",
+        "The Sahabah played a significant role in spreading Islam and supporting the Prophet throughout his life."
+    ],
+    "what is Sharia law": [
+        "Sharia is the Islamic legal system, derived from the Quran and Hadith, and it guides the personal, moral, and social conduct of Muslims.",
+        "Sharia law covers a wide range of topics, including criminal law, family law, finance, and worship practices.",
+        "Sharia aims to provide a just and ethical framework for living, promoting justice, equality, and morality."
+    ],
+    "what is Jihad": [
+        "Jihad, in its original sense, means 'struggle' or 'striving' in the way of Allah.",
+        "It can refer to both personal struggles, such as striving to live a good life and follow Islamic teachings, as well as defensive warfare to protect Islam from oppression.",
+        "Jihad is often misunderstood and misused, but it fundamentally refers to striving for self-improvement and righteousness."
+    ],
+    "what is the Hadith": [
+        "Hadith refers to the sayings, actions, and approvals of the Prophet Muhammad (PBUH).",
+        "The Hadith provides further clarification and elaboration on the Quran, helping Muslims understand and practice their faith.",
+        "Hadiths are collected in various books, such as Sahih Bukhari, Sahih Muslim, and others, and they are categorized into authentic (Sahih), weak (Da'if), and fabricated (Mawdu')."
+    ],
+    "what is the difference between Sunni and Shia Islam": [
+        "The primary difference between Sunni and Shia Islam lies in the succession of leadership after the death of Prophet Muhammad (PBUH).",
+        "Sunnis believe that the community should select the leader (caliph), which led to Abu Bakr being the first caliph. Shias believe that the leadership should remain within the Prophet’s family, specifically Ali, the cousin, and son-in-law of Muhammad.",
+        "This difference has led to varying practices, rituals, and interpretations within the two branches, though both Sunni and Shia Muslims share core beliefs and practices, including the Quran and the Five Pillars."
+    ],
+    "what is the significance of Mecca": [
+        "Mecca, located in Saudi Arabia, is the birthplace of Prophet Muhammad (PBUH) and the site of the Kaaba, the holiest structure in Islam.",
+        "Every year, millions of Muslims travel to Mecca to perform Hajj, and Muslims around the world pray facing Mecca five times a day.",
+        "Mecca is considered the spiritual heart of Islam, and it is revered by Muslims as the center of their faith."
+    ],
+    "what is the concept of angels in Islam": [
+        "In Islam, angels are considered to be created by Allah from light, and they do not have free will like humans.",
+        "Angels perform various tasks, including delivering Allah's messages, recording deeds, and protecting and assisting believers.",
+        "Some of the most famous angels include Jibreel (Gabriel), who brought revelations to the prophets, and Israfil, who will blow the trumpet on the Day of Judgment."
+    ],
+    "what is the Day of Judgment": [
+        "The Day of Judgment, or Yawm al-Qiyamah, is the day when all humans will be resurrected for accountability before Allah.",
+        "On this day, people will be judged based on their deeds, and their final destination will be either Paradise (Jannah) or Hell (Jahannam).",
+        "Muslims believe that this day is certain, and it will occur after the signs of the end of the world are fulfilled, as described in the Quran and Hadith."
+    ],
+    "what is the concept of Tawhid": [
+        "Tawhid is the concept of the oneness of Allah in Islam. It asserts that Allah is the only God, without any partners or associates.",
+        "It is the most fundamental concept in Islam, emphasizing that Allah is unique in His essence, attributes, and actions.",
+        "Tawhid also means that everything in the universe is a sign of Allah's oneness and sovereignty."
+    ],
+    "what is the importance of Salah (prayer)": [
+        "Salah, the five daily prayers, is one of the most important pillars of Islam and a direct connection between Muslims and Allah.",
+        "Salah is a form of worship and a reminder of Allah's greatness. It helps Muslims to maintain mindfulness of Allah throughout the day.",
+        "The five prayers are Fajr (before dawn), Dhuhr (midday), Asr (afternoon), Maghrib (sunset), and Isha (night)."
+    ],
+    "what is the role of the Mosque in Islam": [
+        "The mosque is a place of worship and community gathering in Islam.",
+        "It serves as a center for prayers, religious education, and community events.",
+        "The mosque also plays an important role in providing space for social services and charitable activities."
+    ],
+    "what is the concept of Taqwa": [
+        "Taqwa is the consciousness of Allah and being mindful of Him in all aspects of life.",
+        "It involves fear, love, and trust in Allah, and it guides a Muslim to live a righteous life by avoiding sins and doing good deeds.",
+        "Taqwa is often described as the quality of being pious and God-conscious, which leads to inner peace and protection from evil."
+    ],
+    "what is the concept of Barakah": [
+        "Barakah refers to divine blessings or spiritual goodness that comes from Allah.",
+        "It can manifest in wealth, time, health, relationships, and other aspects of life.",
+        "Muslims believe that barakah comes from following Allah’s commands and leading a righteous life."
+    ],
+    "what is the importance of Hajj": [
+        "Hajj is a pilgrimage to Mecca, which every Muslim is required to undertake once in their lifetime if financially and physically able.",
+        "It is a powerful act of worship that symbolizes equality and unity among Muslims from all walks of life.",
+        "Hajj offers spiritual cleansing and the opportunity for forgiveness and renewal of faith."
+    ],
+    "what is the role of the Quran in Islam": [
+        "The Quran is the final and unaltered word of Allah revealed to Prophet Muhammad (PBUH) over 23 years.",
+        "It serves as a complete guide for life, covering various aspects of faith, law, morality, and guidance.",
+        "The Quran is recited and memorized by millions of Muslims worldwide, and it is considered the foundation of Islamic beliefs and practices."
+    ],
+    "what is the significance of the Sunnah": [
+        "Sunnah refers to the teachings, actions, and habits of Prophet Muhammad (PBUH) that serve as a model for Muslims to follow.",
+        "The Sunnah complements the Quran, providing explanations and practical examples of how to live according to Islamic teachings.",
+        "The Hadith literature is a compilation of the sayings and actions of the Prophet Muhammad (PBUH), which forms the basis of the Sunnah."
+    ],
+    "what is Ihsan": [
+        "Ihsan is the highest level of worship in Islam, meaning to worship Allah as if you can see Him, and if you cannot see Him, knowing that He sees you.",
+        "Ihsan is about performing deeds with excellence and sincerity, seeking Allah’s pleasure in everything.",
+        "It involves kindness, compassion, and striving to improve one’s relationship with Allah."
+    ],
+    "what is Fiqh": [
+        "Fiqh is the Islamic jurisprudence, the study and understanding of Islamic law and its practical application in daily life.",
+        "Fiqh covers a wide range of topics, from personal acts of worship to commercial transactions, marriage, and criminal justice.",
+        "Islamic scholars interpret the Quran and Sunnah to derive legal rulings, and these rulings are categorized into five main categories: obligatory, recommended, permissible, disliked, and forbidden."
+    ],
+    "what is the significance of the family in Islam": [
+        "In Islam, the family is considered the cornerstone of society, and it plays a key role in building a moral and harmonious community.",
+        "Islam teaches the importance of respecting parents, maintaining family ties, and being kind to one's spouse and children.",
+        "The rights and duties of family members are clearly outlined in the Quran and Hadith, emphasizing love, support, and cooperation."
+    ],
+    "what is the concept of Charity (Sadaqah)": [
+        "Sadaqah is voluntary charity that Muslims give to help those in need, and it can take various forms, including money, food, or time.",
+        "Sadaqah is not limited to material possessions, as helping others with a smile or offering support is also considered a form of charity.",
+        "Giving charity purifies wealth and promotes social justice, and it is highly encouraged in Islam."
+    ],
+    "what is the concept of Riba (interest)": [
+        "Riba, or interest, is prohibited in Islam as it is considered exploitative and unjust.",
+        "Islam encourages fair and ethical business transactions, and charging interest on loans is seen as a way of oppressing the borrower.",
+        "Muslims are encouraged to engage in trade and commerce that benefit both parties fairly."
+    ],
+    "what is the concept of Halal and Haram": [
+        "Halal refers to actions or things that are permitted or lawful in Islam, while Haram refers to those that are forbidden.",
+        "Halal encompasses food, behavior, and business practices that conform to Islamic principles, while Haram includes actions like theft, dishonesty, and eating forbidden foods such as pork or consuming alcohol.",
+        "The concept of Halal and Haram helps Muslims to make ethical and responsible decisions in their daily lives."
+    ],
+    "what is the importance of the Day of Arafah": [
+        "The Day of Arafah occurs on the 9th day of Dhu al-Hijjah and is a significant day for Muslims, particularly those performing Hajj.",
+        "It is a day of supplication and forgiveness, as Muslims gather at the plain of Arafat to pray and seek Allah's mercy.",
+        "For those not performing Hajj, fasting on this day is recommended as it is a means of expiation for past sins."
+    ],
+    "what is the significance of Jannah (Paradise)": [
+        "Jannah is the eternal paradise promised by Allah to those who believe in Him and live righteous lives.",
+        "It is described as a place of unimaginable beauty and bliss, with rivers of milk, honey, and wine, gardens filled with fruits, and mansions made of gold and silver.",
+        "The ultimate reward in Jannah is the pleasure of Allah and eternal peace."
+    ],
+    "what is the concept of Tawbah (Repentance)": [
+        "Tawbah is the act of repentance, where a person seeks forgiveness from Allah for their sins and returns to a path of righteousness.",
+        "It involves feeling regret for the wrongdoings, sincerely asking for Allah's forgiveness, and making a firm intention not to repeat the sin.",
+        "Tawbah is a means of purification and reconciliation with Allah."
+    ],
+    "what is the role of the Islamic calendar": [
+        "The Islamic calendar, also known as the Hijri calendar, is based on the lunar cycle and is used to determine the dates of Islamic events and rituals.",
+        "The Islamic year starts with the migration of Prophet Muhammad (PBUH) from Mecca to Medina, known as the Hijrah.",
+        "It is used to mark significant dates such as Ramadan, Hajj, Eid, and the Islamic New Year."
+    ],
+    "what is the concept of Zina (fornication/adultery)": [
+        "Zina refers to unlawful sexual relations outside of marriage, and it is strictly prohibited in Islam.",
+        "Islam encourages modesty and chastity, and upholds the sanctity of marriage as a sacred bond between husband and wife.",
+        "The punishment for zina is severe, but repentance and seeking forgiveness from Allah can lead to forgiveness."
+    ],
+    "what is the role of a Muslim in society": [
+        "A Muslim's role in society is to act as a positive force by promoting justice, fairness, and compassion.",
+        "Muslims are encouraged to engage in acts of charity, uphold family values, work honestly, and be good neighbors.",
+        "A Muslim's conduct should reflect the principles of Islam, serving as an example for others."
+    ],
+    "what is the importance of fasting in Islam": [
+        "Fasting during the month of Ramadan is an obligatory act of worship that allows Muslims to develop self-control, empathy for the less fortunate, and a closer connection to Allah.",
+        "It involves abstaining from food, drink, and other physical needs from dawn to sunset.",
+        "Fasting purifies the soul and encourages self-discipline and mindfulness."
+    ],
+    "what is the concept of Ghusl": [
+        "Ghusl is a ritual purification required after certain acts, such as sexual activity, menstruation, or childbirth.",
+        "It is an important aspect of maintaining cleanliness and spiritual purity before performing acts of worship like prayer.",
+        "Ghusl involves washing the entire body with water."
+    ],
+    "what is the significance of the Battle of Badr": [
+        "The Battle of Badr was a pivotal battle in early Islamic history, fought between the Muslims of Medina and the Quraysh of Mecca.",
+        "Despite being outnumbered, the Muslims were victorious, and the battle is seen as a sign of Allah's support for the Prophet Muhammad (PBUH) and his followers.",
+        "The Battle of Badr is celebrated for its lessons of faith, courage, and the power of relying on Allah."
+    ],
+    "what was the Battle of Uhud": [
+        "The Battle of Uhud was fought in 625 CE between the early Muslims of Medina, led by Prophet Muhammad (PBUH), and the Quraysh of Mecca.",
+        "The battle took place near the mountain of Uhud, and although the Muslims initially had the upper hand, they suffered a setback when some archers left their posts, allowing the Quraysh to regroup and counterattack.",
+        "Although the Muslims did not win, the battle was a significant lesson in obedience and faith. It also demonstrated the perseverance and resilience of the Muslim community."
+    ],
+    "what was the Battle of Khandaq (Battle of the Trench)": [
+        "The Battle of Khandaq, also known as the Battle of the Trench, took place in 627 CE between the Muslims of Medina and a coalition of Quraysh and their allies.",
+        "The Muslims, under the leadership of Prophet Muhammad (PBUH), dug a trench around Medina to defend the city, preventing the enemy from entering.",
+        "The battle ended in a stalemate after a siege of several weeks, and it is often seen as a victory for the Muslims, as the enemy coalition eventually disbanded and returned home."
+    ],
+    "what was the significance of the Battle of Badr": [
+        "The Battle of Badr, fought in 624 CE, is one of the most important battles in Islamic history.",
+        "It was the first major battle between the Muslims of Medina and the Quraysh of Mecca. Despite being outnumbered, the Muslims achieved a decisive victory.",
+        "The Battle of Badr is considered a turning point in the early history of Islam, as it boosted the morale of the Muslims and established them as a significant force."
+    ],
+    "what was the Battle of Hunayn": [
+        "The Battle of Hunayn took place in 630 CE after the Muslims' conquest of Mecca, against a coalition of tribes from Hawazin and Thaqif.",
+        "Initially, the Muslims were overwhelmed due to the strength and surprise attack of the enemy, but after regrouping and with the support of Allah, the Muslims achieved victory.",
+        "The battle is significant because it demonstrated the importance of faith and reliance on Allah, even in difficult circumstances."
+    ],
+    "what was the Battle of Tabuk": [
+        "The Battle of Tabuk occurred in 630 CE when Prophet Muhammad (PBUH) led an expedition to the northern borders of Arabia in response to rumors of an impending Byzantine invasion.",
+        "Although no actual battle took place, the Muslims' display of readiness and their journey to Tabuk is considered a victory in itself, as it showed the strength and determination of the Muslim community.",
+        "The Battle of Tabuk also marked the end of many potential threats to the Islamic state and solidified its position in the region."
+    ],
+    "what was the Battle of Yarmouk": [
+        "The Battle of Yarmouk, fought in 636 CE, was a decisive battle between the forces of the Byzantine Empire and the Rashidun Caliphate.",
+        "Under the leadership of Khalid ibn al-Walid, the Muslim army achieved a decisive victory, which led to the fall of Byzantine control over Syria and paved the way for the spread of Islam throughout the Levant.",
+        "The Battle of Yarmouk is considered one of the greatest military victories in Islamic history."
+    ],
+    "what was the significance of the Treaty of Hudaybiyyah": [
+        "The Treaty of Hudaybiyyah was signed in 628 CE between the Muslims of Medina and the Quraysh of Mecca, after a failed attempt by the Muslims to perform Umrah.",
+        "While the treaty seemed unfavorable to the Muslims at first, it laid the groundwork for peace and opened the doors for many tribes to accept Islam.",
+        "The Treaty of Hudaybiyyah is seen as a strategic victory for the Muslims, as it provided a period of peace that allowed the Muslim community to grow and spread Islam."
+    ],
+    "what was the Battle of Mu'tah": [
+        "The Battle of Mu'tah, fought in 629 CE, was the first battle between the Muslims and the Byzantine Empire, near the city of Mu'tah in modern-day Jordan.",
+        "The Muslims, led by Zayd ibn Harithah, faced a much larger Byzantine force. Despite the loss of three Muslim commanders, including Zayd, the battle showed the courage and resilience of the Muslim forces.",
+        "The Battle of Mu'tah set the stage for further conflicts between the Muslims and the Byzantine Empire and established Khalid ibn al-Walid as a prominent military leader."
+    ],
+    "who was Khalid ibn al-Walid": [
+        "Khalid ibn al-Walid, known as the 'Sword of Allah,' was one of the greatest military commanders in Islamic history.",
+        "He played a key role in the early Muslim conquests, including the Battle of Yarmouk, the Battle of Mu'tah, and the Battle of Uhud.",
+        "Khalid was known for his strategic brilliance, leadership, and undefeated record in battle."
+    ],
+    "who was Umar ibn al-Khattab": [
+        "Umar ibn al-Khattab was the second caliph of the Rashidun Caliphate, succeeding Abu Bakr (RA).",
+        "He is known for his strong leadership, administrative reforms, and the rapid expansion of the Islamic state into regions such as Persia, Egypt, and Syria.",
+        "Umar ibn al-Khattab's rule is often seen as a golden age of the Rashidun Caliphate, marked by justice, fairness, and the spread of Islam."
+    ],
+    "what is the Battle of Siffin": [
+        "The Battle of Siffin, fought in 657 CE, was a major conflict between the forces of Ali ibn Abi Talib, the fourth caliph, and Muawiya ibn Abi Sufyan, the governor of Syria.",
+        "The battle ended in a stalemate, and the conflict eventually led to the division of the Muslim community, with the emergence of the Sunni and Shia branches of Islam.",
+        "The Battle of Siffin is significant for its impact on Islamic political history and the early schism in the Muslim ummah."
+    ],
+    "what was the significance of the Battle of the Camel": [
+        "The Battle of the Camel, fought in 656 CE, was a conflict between the forces of Caliph Ali ibn Abi Talib and those of Aisha, Talha, and Zubair, who sought justice for the killing of Uthman ibn Affan, the third caliph.",
+        "Though the battle ended in a decisive victory for Ali, it marked the beginning of internal divisions within the Muslim community.",
+        "The Battle of the Camel is significant for its role in the early civil wars of Islam and the disputes over leadership in the caliphate."
+    ],
+    "what was the Battle of Khyber": [
+        "The Battle of Khyber, fought in 629 CE, was between the Muslims and the Jewish tribes of Khyber, a stronghold in northern Arabia.",
+        "The Muslims, led by Prophet Muhammad (PBUH), were victorious, and the battle resulted in the surrender of the Jewish tribes and the opening of Khyber to Islam.",
+        "The victory at Khyber is considered significant because it strengthened the position of the Muslims in the region and led to further conversions to Islam."
+    ],
+    "what was the significance of the conquest of Mecca": [
+        "The conquest of Mecca in 630 CE marked the peaceful surrender of the Quraysh to the Muslims and the victory of Islam over the opposition in Mecca.",
+        "Prophet Muhammad (PBUH) entered the city with a large army, and he forgave his former enemies, demonstrating mercy and compassion.",
+        "The conquest of Mecca is one of the most pivotal events in Islamic history, as it marked the consolidation of Muslim power in Arabia."
+    ],
+    "who was Ali ibn Abi Talib": [
+        "Ali ibn Abi Talib was the cousin and son-in-law of Prophet Muhammad (PBUH) and the fourth caliph of the Rashidun Caliphate.",
+        "Ali is known for his courage in battles such as Badr, Uhud, and Khaybar, and his knowledge and wisdom in Islamic jurisprudence.",
+        "He is a central figure in both Sunni and Shia Islam, though he is particularly revered by Shia Muslims."
+    ],
+    "what was the Battle of Badar's impact on the Muslim community": [
+        "The Battle of Badr was a major victory for the Muslims, despite being outnumbered.",
+        "It significantly boosted the morale of the early Muslim community, proving that faith in Allah could lead to victory over the enemies of Islam.",
+        "The battle solidified the leadership of Prophet Muhammad (PBUH) and led to the widespread acceptance of Islam in the Arabian Peninsula."
+    ],
+    "who were the Ansar": [
+        "The Ansar were the people of Medina who supported Prophet Muhammad (PBUH) and the early Muslim community when they migrated from Mecca to Medina.",
+        "The Ansar played a crucial role in the success of the Muslim community during the early years of Islam, offering shelter, protection, and support to the Muhajirun (migrants).",
+        "Their support during key battles like Badr and Uhud cemented their position as the helpers of the Prophet."
+    ],
+    "what is the significance of the Battle of Uhud for the Muslim community": [
+        "The Battle of Uhud taught the Muslims important lessons about unity, discipline, and the consequences of disobedience.",
+        "Although the Muslims faced defeat, the battle strengthened their resolve and taught them the importance of following the Prophet's instructions.",
+        "The battle's significance lies in its role in shaping the character and resilience of the early Muslim community."
+    ],
+"What SDG goals does VocalXpert achieve?": [
+        "VocalXpert supports several SDGs, including: 4 - Quality Education, 3 - Good Health and Well-being, 9 - Industry Innovation and Infrastructure, and 10 - Reduced Inequality."
+    ],
+    "How does VocalXpert support health": [
+        "VocalXpert helps users by setting reminders for medication, promoting organization, and reducing stress for better health."
+    ],
+    "What innovation does VocalXpert bring": [
+        "It uses advanced voice recognition and AI technology to automate tasks, making everyday life easier and more efficient."
+    ],
+    "How does VocalXpert reduce inequality": [
+        "VocalXpert is designed to be accessible, providing technology to people from all backgrounds, making tasks more inclusive."
+    ],
+    "How does VocalXpert support innovation": [
+        "VocalXpert uses advanced technology to simplify tasks, showing how innovation can improve lives and build better digital tools."
+    ],
+    "Can VocalXpert help in education": [
+        "Yes, it helps students and teachers by reading PDFs, managing schedules, and making learning resources easily accessible."
+    ],
+    "Does VocalXpert promote health": [
+        "It supports health by setting medication reminders, reducing stress, and helping users stay organized for better well-being."
+    ],
+    "Can VocalXpert improve city life": [
+        "VocalXpert supports smart cities by making daily tasks faster and more efficient, promoting a sustainable lifestyle."
+    ],
+    "Is VocalXpert inclusive": [
+        "Yes, it’s designed for everyone, offering easy access to technology for people of all backgrounds and abilities."
+    ]
+
+}
+
+
+
+

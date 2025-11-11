@@ -1,0 +1,40 @@
+# VocalXpert AI Assistant - Requirements
+# Based on README.md installation instructions
+
+# Speech Recognition & Text-to-Speech
+SpeechRecognition
+pyttsx3
+playsound
+
+# Computer Vision & Face Recognition
+opencv-python
+opencv-contrib-python
+numpy
+
+# GUI & Image Processing
+Pillow
+pyscreenshot
+pynput
+pyautogui
+
+# System & OS
+psutil
+wmi; sys_platform == 'win32'
+
+# Web Scraping & Automation
+beautifulsoup4
+requests
+wikipedia
+youtube-search-python
+
+# Geolocation
+geopy
+
+# Translation
+googletrans==3.1.0a0
+
+# Environment Variables
+python-dotenv
+
+# Note: Some packages may require specific Python versions
+# Recommended: Python 3.8 for best compatibility

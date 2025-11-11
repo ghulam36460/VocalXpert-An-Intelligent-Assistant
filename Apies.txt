@@ -1,0 +1,2 @@
+Weather Api : 0761c6b892e1d7ba60a62bb6d30ad0cf
+News Api    : 4921a85bd3754d0f8720572441982e4d
