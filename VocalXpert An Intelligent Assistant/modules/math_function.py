@@ -1,4 +1,67 @@
+"""
+Math Function Module - Safe Mathematical Operations
+
+Handles voice-commanded mathematical operations including:
+    - Basic arithmetic (add, subtract, multiply, divide)
+    - Number conversions (binary, hexadecimal, octal)
+    - Power and square root calculations
+    - Factorial operations
+    - Trigonometric functions
+
+Security: Uses AST-based safe_eval() instead of dangerous eval()
+to prevent code injection attacks.
+"""
+
 import math
+import ast
+import operator
+
+# Safe math evaluator - replaces dangerous eval()
+SAFE_OPERATORS = {
+    ast.Add: operator.add,
+    ast.Sub: operator.sub,
+    ast.Mult: operator.mul,
+    ast.Div: operator.truediv,
+    ast.Pow: operator.pow,
+    ast.BitAnd: operator.and_,
+    ast.BitOr: operator.or_,
+    ast.BitXor: operator.xor,
+    ast.Invert: operator.invert,
+    ast.LShift: operator.lshift,
+    ast.RShift: operator.rshift,
+    ast.USub: operator.neg,
+    ast.UAdd: operator.pos,
+}
+
+def safe_eval(expr):
+    """Safely evaluate a mathematical expression string."""
+    try:
+        tree = ast.parse(expr, mode='eval')
+        return _eval_node(tree.body)
+    except Exception:
+        raise ValueError(f"Invalid expression: {expr}")
+
+def _eval_node(node):
+    """Recursively evaluate AST nodes for safe math operations."""
+    if isinstance(node, ast.Constant):  # Python 3.8+
+        return node.value
+    elif isinstance(node, ast.Num):  # Python < 3.8
+        return node.n
+    elif isinstance(node, ast.BinOp):
+        left = _eval_node(node.left)
+        right = _eval_node(node.right)
+        op = SAFE_OPERATORS.get(type(node.op))
+        if op is None:
+            raise ValueError(f"Unsupported operator: {type(node.op).__name__}")
+        return op(left, right)
+    elif isinstance(node, ast.UnaryOp):
+        operand = _eval_node(node.operand)
+        op = SAFE_OPERATORS.get(type(node.op))
+        if op is None:
+            raise ValueError(f"Unsupported operator: {type(node.op).__name__}")
+        return op(operand)
+    else:
+        raise ValueError(f"Unsupported expression type: {type(node).__name__}")
 
 def basicOperations(text):
 	if 'root' in text:
@@ -14,7 +77,7 @@ def basicOperations(text):
 	text = text.replace('divided by', '/')
 	text = text.replace('to the power', '**')
 	text = text.replace('power', '**')
-	result = eval(text)
+	result = safe_eval(text)
 	return round(result,2)
 
 def bitwiseOperations(text):
@@ -31,18 +94,18 @@ def bitwiseOperations(text):
 	text = text.replace('not of', '~')
 	text = text.replace('not', '~')
 	text = text.replace('xor', '^')
-	result = eval(text)
+	result = safe_eval(text)
 	return result
 
 def conversions(text):
 	temp = text.rfind(' ')
 	num = int(text[temp+1:])
 	if 'bin' in text:
-		return eval('bin(num)')[2:]
+		return bin(num)[2:]
 	elif 'hex' in text:
-		return eval('hex(num)')[2:]
+		return hex(num)[2:]
 	elif 'oct' in text:
-		return eval('oct(num)')[2:]
+		return oct(num)[2:]
 
 def trigonometry(text):
 	temp = text.replace('degree','')

@@ -1,3 +1,22 @@
+"""
+Web Scrapping Module - External Data Services
+
+Provides web scraping functionality for fetching external data:
+    - Wikipedia search and summaries
+    - Weather information (from weather.com)
+    - Latest news headlines (from indianexpress.com)
+    - YouTube video search and playback
+    - Email sending functionality
+    - WhatsApp message automation
+    - Distance calculation between locations
+
+Dependencies:
+    - beautifulsoup4: HTML parsing
+    - requests: HTTP requests
+    - wikipedia: Wikipedia API wrapper
+    - geopy: Geographic calculations
+"""
+
 import wikipedia
 import webbrowser
 import requests
@@ -7,76 +26,6 @@ import urllib.request
 import os
 from geopy.geocoders import Nominatim
 from geopy.distance import great_circle
-
-# class COVID:
-# 	def __init__(self):
-# 		self.total = 'Not Available'
-# 		self.deaths = 'Not Available'
-# 		self.recovered = 'Not Available'
-# 		self.totalIndia = 'Not Available'
-# 		self.deathsIndia = 'Not Available'
-# 		self.recoveredIndia = 'Not Available'
-
-# 	def covidUpdate(self):
-# 		URL = 'https://www.worldometers.info/coronavirus/'
-# 		result = requests.get(URL)
-# 		src = result.content
-# 		soup = BeautifulSoup(src, 'html.parser')
-
-# 		temp = []
-# 		divs = soup.find_all('div', class_='maincounter-number')
-# 		for div in divs:
-# 			temp.append(div.text.strip())
-# 		self.total, self.deaths, self.recovered = temp[0], temp[1], temp[2]
-
-# 	def covidUpdateIndia(self):
-# 		URL = 'https://www.worldometers.info/coronavirus/country/india/'
-# 		result = requests.get(URL)
-# 		src = result.content
-# 		soup = BeautifulSoup(src, 'html.parser')
-
-# 		temp = []
-# 		divs = soup.find_all('div', class_='maincounter-number')
-# 		for div in divs:
-# 			temp.append(div.text.strip())
-# 		self.totalIndia, self.deathsIndia, self.recoveredIndia = temp[0], temp[1], temp[2]
-
-# 	def totalCases(self,india_bool):
-# 		if india_bool: return self.totalIndia
-# 		return self.total
-
-# 	def totalDeaths(self,india_bool):
-# 		if india_bool: return self.deathsIndia
-# 		return self.deaths
-
-# 	def totalRecovery(self,india_bool):
-# 		if india_bool: return self.recoveredIndia
-# 		return self.recovered
-
-# 	def symptoms(self):
-# 		symt = ['1. Fever',
-# 				'2. Coughing',
-# 				'3. Shortness of breath',
-# 				'4. Trouble breathing',
-# 				'5. Fatigue',
-# 				'6. Chills, sometimes with shaking',
-# 				'7. Body aches',
-# 				'8. Headache',
-# 				'9. Sore throat',
-# 				'10. Loss of smell or taste',
-# 				'11. Nausea',
-# 				'12. Diarrhea']
-# 		return symt
-
-# 	def prevention(self):
-# 		prevention = ['1. Clean your hands often. Use soap and water, or an alcohol-based hand rub.',
-# 						'2. Maintain a safe distance from anyone who is coughing or sneezing.',
-# 						'3. Wear a mask when physical distancing is not possible.',
-# 						'4. Don’t touch your eyes, nose or mouth.',
-# 						'5. Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.',
-# 						'6. Stay home if you feel unwell.',
-# 						'7. If you have a fever, cough and difficulty breathing, seek medical attention.']
-# 		return prevention
 
 def wikiResult(query):
 	query = query.replace('wikipedia','')

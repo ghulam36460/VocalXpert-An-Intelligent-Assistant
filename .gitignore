@@ -1,1 +1,35 @@
-.md
+# Environment and secrets
+.env
+Apies.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# User data (contains face data and settings)
+userData/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.log
+*.tmp
+
+# Downloads folder (generated content)
+Downloads/
+Camera/

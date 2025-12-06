@@ -1,3 +1,20 @@
+"""
+Face Unlocker Module - Face Detection and Recognition
+
+Uses OpenCV's LBPH (Local Binary Patterns Histograms) face recognizer
+for user authentication. Compares detected faces against stored
+training data.
+
+Features:
+    - Face detection using Haar Cascade classifier
+    - Face recognition with confidence scoring
+    - Real-time webcam face tracking
+
+Dependencies:
+    - opencv-python: Face detection and recognition
+    - Pre-trained model: userData/trainer.yml
+"""
+
 import cv2
 import os
 from os.path import isfile, join
@@ -8,7 +25,7 @@ def face_detector(img, size=0.5):
 	gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 	faces = face_classifier.detectMultiScale(gray, 1.3, 5)
 
-	if faces is ():
+	if len(faces) == 0:
 		return img,[]
 
 	for (x,y,w,h) in faces:

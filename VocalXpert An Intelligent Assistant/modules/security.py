@@ -1,3 +1,16 @@
+"""
+Security Module - Face Recognition Login System
+
+Provides a multi-frame Tkinter GUI for user authentication using face recognition.
+Includes registration flow (4 frames) and login functionality.
+
+Frames:
+    - root1: Main login screen with face detection
+    - root2: User registration and face training
+    - root3: Avatar selection for user profile
+    - root4: Final registration confirmation
+"""
+
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk
@@ -9,8 +22,14 @@ from threading import Thread
 from .user_handler import UserData
 from . import face_unlocker as FU
 
-background, textColor = 'black', '#F6FAFB'
-background, textColor = textColor, background
+# Modern Color Palette (matching gui_assistant.py)
+background = '#1e293b'  # Slate 800
+textColor = '#f1f5f9'  # Slate 100
+ACCENT_PRIMARY = '#6366f1'  # Indigo
+ACCENT_SUCCESS = '#10b981'  # Emerald
+ACCENT_DANGER = '#ef4444'  # Red
+TEXT_MUTED = '#94a3b8'  # Slate 400
+SURFACE_DARK = '#0f172a'  # Slate 900
 
 avatarChoosen = 0
 choosedAvtrImage = None
@@ -37,11 +56,11 @@ def startLogin():
 			user = UserData()
 			user.extractData()
 			userName = user.getName().split()[0]
-			welcLbl['text'] = 'Greetings, ' + userName + '!\nWelcome to the realm of\nInnovation and Technology.\n\n~ Shoaib Khan'
-			# welcLbl['text'] = 'Hi '+userName+',\nWelcome to the world of\nScience & Technology'
-			loginStatus['text'] = 'UNLOCKED And Ready To Go!'
-			loginStatus['fg'] = 'green'
-			faceStatus['text']='(Logged In)'
+			welcLbl['text'] = f'Welcome back, {userName}! \n\nYour AI Assistant awaits.'
+			loginStatus['text'] = '🔓 UNLOCKED'
+			loginStatus['fg'] = ACCENT_SUCCESS
+			faceStatus['text']='(✓ Face Recognized)'
+			faceStatus['fg'] = ACCENT_SUCCESS
 			os.system('python modules/gui_assistant.py')
 		else:
 			print('Error Occurred')
@@ -78,7 +97,7 @@ def face_extractor(img):
 	gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 	faces = face_classifier.detectMultiScale(gray, 1.3, 5)
 
-	if faces is ():
+	if len(faces) == 0:
 		return None
 
 	for (x, y, w, h) in faces:
@@ -195,26 +214,27 @@ defaultImg1 = ImageTk.PhotoImage(image1)
 
 dataFrame1 = Frame(root1, bd=10, bg=background)
 dataFrame1.pack()
-logo = Label(dataFrame1, width=300, height=250, image=defaultImg1)
+logo = Label(dataFrame1, width=300, height=250, image=defaultImg1, bg=background)
 logo.pack(padx=10, pady=10)
 
 #welcome label
-welcLbl = Label(root1, text='Hi there,\nWelcome to the world of\nScience & Technology', font=('Arial Bold', 15), fg='#303E54', bg=background)
+welcLbl = Label(root1, text='Welcome to VocalXpert\nYour Intelligent AI Assistant', font=('Segoe UI', 16, 'bold'), fg=textColor, bg=background)
 welcLbl.pack(padx=10, pady=20)
 
 #add face
-loginStatus = Label(root1, text='LOCKED', font=('Arial Bold', 15), bg=background, fg='red')
+loginStatus = Label(root1, text='🔒 LOCKED', font=('Segoe UI', 16, 'bold'), bg=background, fg=ACCENT_DANGER)
 loginStatus.pack(pady=(40,20))	
 
 if os.path.exists('userData/trainer.yml')==False:
-	loginStatus['text'] = 'Your Face is not registered'
-	addFace = Button(root1, text='   Register Face   ', font=('Arial', 12), bg='#018384', fg='white', relief=FLAT, command=lambda:raise_frame(root2))
-	addFace.pack(ipadx=10)
+	loginStatus['text'] = '⚠ Face Not Registered'
+	loginStatus['fg'] = ACCENT_DANGER
+	addFace = Button(root1, text='  📷 Register Face  ', font=('Segoe UI', 12, 'bold'), bg=ACCENT_PRIMARY, fg='white', relief=FLAT, activebackground='#4f46e5', activeforeground='white', cursor='hand2', command=lambda:raise_frame(root2))
+	addFace.pack(ipadx=15, ipady=5)
 else:
 	Thread(target=startLogin).start()
 	
 #status of add face
-faceStatus = Label(root1, text='(Face Not Detected)', font=('Arial 10'), fg=textColor, bg=background)
+faceStatus = Label(root1, text='(Scanning for face...)', font=('Segoe UI', 10), fg=TEXT_MUTED, bg=background)
 faceStatus.pack(pady=5)
 
 ##################################
@@ -227,7 +247,7 @@ defaultImg2 = ImageTk.PhotoImage(image2)
 
 dataFrame2 = Frame(root2, bd=10, bg=background)
 dataFrame2.pack(fill=X)
-lmain = Label(dataFrame2, width=300, height=250, image=defaultImg2)
+lmain = Label(dataFrame2, width=300, height=250, image=defaultImg2, bg=SURFACE_DARK)
 lmain.pack(padx=10, pady=10)
 
 #Details
@@ -240,42 +260,42 @@ userFrame2.pack(padx=10, pady=10)
 progress_bar = ttk.Progressbar(root2, orient=HORIZONTAL, length=303, mode='determinate')
 
 #name
-nameLbl = Label(userFrame2, text='Name', font=('Arial Bold', 12), fg='#303E54', bg=background)
+nameLbl = Label(userFrame2, text='👤 Name', font=('Segoe UI', 12, 'bold'), fg=textColor, bg=background)
 nameLbl.place(x=10,y=10)
-nameField = Entry(userFrame2, bd=5, font=('Arial Bold', 10), width=25, relief=FLAT, bg='#D4D5D7')
+nameField = Entry(userFrame2, bd=0, font=('Segoe UI', 11), width=22, relief=FLAT, bg='#334155', fg=textColor, insertbackground=ACCENT_PRIMARY)
 nameField.focus()
-nameField.place(x=80,y=10)
+nameField.place(x=90,y=10)
 
-genLbl = Label(userFrame2, text='Gender', font=('Arial Bold', 12), fg='#303E54', bg=background)
-genLbl.place(x=10,y=50)
+genLbl = Label(userFrame2, text='♂️ Gender', font=('Segoe UI', 12, 'bold'), fg=textColor, bg=background)
+genLbl.place(x=10,y=55)
 r = IntVar()
 s = ttk.Style()
-s.configure('Wild.TRadiobutton', background=background, foreground=textColor, font=('Arial Bold', 10), focuscolor=s.configure(".")["background"])
-genMale = ttk.Radiobutton(userFrame2, text='Male', value=1, variable=r, style='Wild.TRadiobutton', takefocus=False)
-genMale.place(x=80,y=52)
-genFemale = ttk.Radiobutton(userFrame2, text='Female', value=2, variable=r, style='Wild.TRadiobutton', takefocus=False)
-genFemale.place(x=150,y=52)
+s.configure('Modern.TRadiobutton', background=background, foreground=textColor, font=('Segoe UI', 11), focuscolor=s.configure(".")["background"])
+genMale = ttk.Radiobutton(userFrame2, text='Male', value=1, variable=r, style='Modern.TRadiobutton', takefocus=False)
+genMale.place(x=100,y=57)
+genFemale = ttk.Radiobutton(userFrame2, text='Female', value=2, variable=r, style='Modern.TRadiobutton', takefocus=False)
+genFemale.place(x=175,y=57)
 
 #agreement
 agr = IntVar()
 sc = ttk.Style()
-sc.configure('Wild.TCheckbutton', background=background, foreground='#303E54', font=('Arial Bold',10), focuscolor=sc.configure(".")["background"])
+sc.configure('Modern.TCheckbutton', background=background, foreground=TEXT_MUTED, font=('Segoe UI', 10), focuscolor=sc.configure(".")["background"])
 # agree = Checkbutton(userFrame2, text='I agree to use my face for Security purpose', fg=textColor, bg=background, activebackground=background, activeforeground=textColor)
-agree = ttk.Checkbutton(userFrame2, text='I agree to use my Face for Security', style='Wild.TCheckbutton', takefocus=False, variable=agr)
+agree = ttk.Checkbutton(userFrame2, text='I agree to use my Face for Security', style='Modern.TCheckbutton', takefocus=False, variable=agr)
 agree.place(x=28, y=100)
 #add face
-addBtn = Button(userFrame2, text='    Add Face    ', font=('Arial Bold', 12), bg='#01933B', fg='white', command=Add_Face, relief=FLAT)
-addBtn.place(x=90, y=150)
+addBtn = Button(userFrame2, text='  📷 Add Face  ', font=('Segoe UI', 12, 'bold'), bg=ACCENT_SUCCESS, fg='white', command=Add_Face, relief=FLAT, activebackground='#059669', activeforeground='white', cursor='hand2')
+addBtn.place(x=90, y=145)
 
 #status of add face
-statusLbl = Label(userFrame2, text='', font=('Arial 10'), fg=textColor, bg=background)
+statusLbl = Label(userFrame2, text='', font=('Segoe UI', 10), fg=ACCENT_DANGER, bg=background)
 statusLbl.place(x=80, y=190)
 
 ##########################
 #### AVATAR SELECTION ####
 ##########################
 	
-Label(root3, text="Choose Your Avatar", font=('arial', 15), bg=background, fg='#303E54').pack()
+Label(root3, text="👤 Choose Your Avatar", font=('Segoe UI', 18, 'bold'), bg=background, fg=textColor).pack(pady=15)
 
 avatarContainer = Frame(root3, bg=background, width=300, height=500)
 avatarContainer.pack(pady=10)
@@ -332,7 +352,7 @@ avtb8 = Button(avatarContainer, image=avtr8, bg=background, activebackground=bac
 avtb8.grid(row=3, column=1, ipadx=25, ipady=10)
 
 
-Button(root3, text='         Submit         ', font=('Arial Bold', 15), bg='#01933B', fg='white', bd=0, relief=FLAT, command=SuccessfullyRegistered).pack()
+Button(root3, text='  ✓ Submit  ', font=('Segoe UI', 14, 'bold'), bg=ACCENT_SUCCESS, fg='white', bd=0, relief=FLAT, activebackground='#059669', activeforeground='white', cursor='hand2', command=SuccessfullyRegistered).pack(pady=10)
 
 #########################################
 ######## SUCCESSFULL REGISTRATION #######
@@ -340,13 +360,13 @@ Button(root3, text='         Submit         ', font=('Arial Bold', 15), bg='#019
 
 userPIC = Label(root4, bg=background, image=avtr1)
 userPIC.pack(pady=(40, 10))
-usernameLbl = Label(root4, text="Shoaib Khan", font=('Arial Bold',15), bg=background, fg='#85AD4F')
-usernameLbl.pack(pady=(0, 70))
+usernameLbl = Label(root4, text="User", font=('Segoe UI', 18, 'bold'), bg=background, fg=ACCENT_SUCCESS)
+usernameLbl.pack(pady=(0, 50))
 
-Label(root4, text="Your account has been successfully activated!", font=('Arial Bold',15), bg=background, fg='#303E54', wraplength=300).pack(pady=10)
-Label(root4, text="Launch the APP again to get started the conversation with your Personal Assistant", font=('arial',13), bg=background, fg='#A3A5AB', wraplength=350).pack()
+Label(root4, text="✅ Account Successfully Activated!", font=('Segoe UI', 16, 'bold'), bg=background, fg=textColor, wraplength=300).pack(pady=15)
+Label(root4, text="Launch the app again to start your conversation with VocalXpert - your Personal AI Assistant", font=('Segoe UI', 11), bg=background, fg=TEXT_MUTED, wraplength=320).pack()
 
-Button(root4, text='     OK     ', bg='#0475BB', fg='white',font=('Arial Bold', 18), bd=0, relief=FLAT, command=lambda:quit()).pack(pady=50)
+Button(root4, text='  🚀 Get Started  ', bg=ACCENT_PRIMARY, fg='white', font=('Segoe UI', 14, 'bold'), bd=0, relief=FLAT, activebackground='#4f46e5', activeforeground='white', cursor='hand2', command=lambda:quit()).pack(pady=40)
 
 root.iconbitmap('assets/images/assistant2.ico')
 raise_frame(root1)
@@ -357,167 +377,5 @@ root.mainloop()
 
 #########################################
 #########################################
-#########################################
-#########################################
-#########################################
-#########################################
 
-# from tkinter import *
-# from tkinter import ttk
-# from PIL import Image, ImageTk
-# import cv2
-# import numpy as np
-# import os
-# from os.path import isfile, join
-# from threading import Thread
-# from .user_handler import UserData
-# from . import face_unlocker as FU
-
-# # Theme Colors
-# background, textColor = 'black', '#F6FAFB'
-# background, textColor = textColor, background
-
-# # Global Variables
-# avatarChoosen = 0
-# choosedAvtrImage = None
-# user_name = ''
-# user_gender = ''
-# count = 0
-# cap = None
-
-# # Load Face Cascade
-# try:
-#     face_classifier = cv2.CascadeClassifier('Cascade/haarcascade_frontalface_default.xml')
-# except Exception as e:
-#     print('Cascade File is missing...')
-#     raise SystemExit
-
-# # Directory Setup
-# os.makedirs('userData/faceData', exist_ok=True)
-
-# # ------------------------- LOGIN HANDLER --------------------------
-# def startLogin():
-#     try:
-#         result = FU.startDetecting()
-#         if result:
-#             user = UserData()
-#             user.extractData()
-#             userName = user.getName().split()[0]
-#             welcLbl['text'] = f'Greetings, {userName}!\nWelcome to the realm of\nInnovation and Technology.\n\n~ Shoaib Khan'
-#             loginStatus['text'] = 'UNLOCKED And Ready To Go!'
-#             loginStatus['fg'] = 'green'
-#             faceStatus['text'] = '(Logged In)'
-#             os.system('python modules/gui_assistant.py')
-#         else:
-#             print('Face detection failed.')
-#     except Exception as e:
-#         print(f'Login error: {e}')
-
-# # ------------------------- TRAINING HANDLER --------------------------
-# def trainFace():
-#     data_path = 'userData/faceData/'
-#     onlyfiles = [f for f in os.listdir(data_path) if isfile(join(data_path, f))]
-
-#     Training_data = []
-#     Labels = []
-
-#     for i, file in enumerate(onlyfiles):
-#         image_path = join(data_path, file)
-#         image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
-#         Training_data.append(np.asarray(image, dtype=np.uint8))
-#         Labels.append(i)
-
-#     Labels = np.asarray(Labels, dtype=np.int32)
-#     model = cv2.face.LBPHFaceRecognizer_create()
-#     model.train(np.asarray(Training_data), np.asarray(Labels))
-#     model.save('userData/trainer.yml')
-#     print('Model Trained and Saved Successfully.')
-
-# # ------------------------- FACE CAPTURE HANDLER --------------------------
-# def face_extractor(img):
-#     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-#     faces = face_classifier.detectMultiScale(gray, 1.3, 5)
-#     if len(faces) == 0:
-#         return None
-#     for (x, y, w, h) in faces:
-#         return img[y:y+h, x:x+w]
-
-# def startCapturing():
-#     global count, cap
-#     if cap is None or not cap.isOpened():
-#         cap = cv2.VideoCapture(0)
-
-#     ret, frame = cap.read()
-#     if not ret:
-#         print("Camera not found.")
-#         return
-
-#     face = face_extractor(frame)
-#     if face is not None:
-#         count += 1
-#         face = cv2.resize(face, (200, 200))
-#         face = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
-
-#         file_path = f'userData/faceData/img{count}.png'
-#         cv2.imwrite(file_path, face)
-#         print(f'Captured image {count}')
-#         progress_bar['value'] = count
-
-#     if count >= 100:
-#         progress_bar.destroy()
-#         lmain['image'] = defaultImg2
-#         statusLbl['text'] = '(Face added successfully)'
-#         cap.release()
-#         cv2.destroyAllWindows()
-#         Thread(target=trainFace).start()
-#         addBtn['text'] = '        Next        '
-#         addBtn['command'] = lambda: raise_frame(root3)
-#         return
-
-#     # Show live video feed
-#     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGBA)
-#     frame = cv2.flip(frame, 1)
-#     img = Image.fromarray(frame)
-#     imgtk = ImageTk.PhotoImage(image=img)
-#     lmain.imgtk = imgtk
-#     lmain.configure(image=imgtk)
-#     lmain.after(10, startCapturing)
-
-# def Add_Face():
-#     global cap, user_name, user_gender, count
-#     user_name = nameField.get()
-#     user_gender = r.get()
-
-#     if user_name and user_gender:
-#         if agr.get() == 1:
-#             count = 0
-#             startCapturing()
-#             progress_bar.place(x=20, y=273)
-#             statusLbl['text'] = ''
-#         else:
-#             statusLbl['text'] = '(Please accept the terms)'
-#     else:
-#         statusLbl['text'] = '(Please fill the details)'
-
-# # ------------------------- FINALIZE REGISTRATION --------------------------
-# def SuccessfullyRegistered():
-#     if avatarChoosen:
-#         gender = 'Male' if user_gender == 1 else 'Female'
-#         u = UserData()
-#         u.updateData(user_name, gender, avatarChoosen)
-#         usernameLbl['text'] = user_name
-#         raise_frame(root4)
-
-# # ------------------------- AVATAR SELECTOR --------------------------
-# def selectAVATAR(avt=0):
-#     global avatarChoosen, choosedAvtrImage
-#     avatarChoosen = avt
-#     for idx, avtr in enumerate([avtb1, avtb2, avtb3, avtb4, avtb5, avtb6, avtb7, avtb8], start=1):
-#         avtr['state'] = 'disabled' if idx == avt else 'normal'
-#         if idx == avt:
-#             userPIC['image'] = avtr['image']
-
-# # ------------------------- GUI PAGE SWITCHER --------------------------
-# def raise_frame(frame):
-#     frame.tkraise()
-
+# End of security.py

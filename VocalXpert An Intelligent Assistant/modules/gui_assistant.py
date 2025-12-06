@@ -1,3 +1,20 @@
+"""
+GUI Assistant Module - Main Chat Interface
+
+Provides the main Tkinter-based graphical interface for VocalXpert.
+Handles voice recognition input, text-to-speech output, and all
+user interactions including:
+    - Voice and text command processing
+    - Chat display with scrollable history
+    - Theme switching (light/dark mode)
+    - Integration with all feature modules
+
+Dependencies:
+    - pyttsx3: Text-to-speech engine
+    - speech_recognition: Voice input processing
+    - Custom modules: normal_chat, math_function, web_scrapping, etc.
+"""
+
 #########################
 # GLOBAL VARIABLES USED #
 #########################
@@ -10,18 +27,28 @@ WAEMEntry = None
 avatarChoosen = 0
 choosedAvtrImage = None
 
-botChatTextBg = "#007cc7"
+# Modern Color Palette
+botChatTextBg = "#6366f1"  # Indigo
 botChatText = "white"
-userChatTextBg = "#4da8da"
+userChatTextBg = "#10b981"  # Emerald
 
-chatBgColor = '#12232e'
-background = '#203647'
-textColor = 'white'
-AITaskStatusLblBG = '#203647'
+chatBgColor = '#0f172a'  # Slate 900
+background = '#1e293b'  # Slate 800
+textColor = '#f1f5f9'  # Slate 100
+AITaskStatusLblBG = '#1e293b'
 KCS_IMG = 1 #0 for light, 1 for dark
+
+# Accent colors
+ACCENT_PRIMARY = '#6366f1'  # Indigo
+ACCENT_SECONDARY = '#10b981'  # Emerald
+ACCENT_WARNING = '#f59e0b'  # Amber
+BUTTON_HOVER = '#4f46e5'  # Darker indigo
 voice_id = 0 #0 for female, 1 for male
 ass_volume = 1 #max volume
 ass_voiceRate = 200 #normal voice rate
+
+# AI Status
+AI_ONLINE = False
 
 ####################################### IMPORTING MODULES ###########################################
 """ User Created Modules """
@@ -114,23 +141,41 @@ if os.path.exists('userData/settings.pck')==False:
 def changeTheme():
 	global background, textColor, AITaskStatusLblBG, KCS_IMG, botChatText, botChatTextBg, userChatTextBg, chatBgColor
 	if themeValue.get()==1:
-		background, textColor, AITaskStatusLblBG, KCS_IMG = "#203647", "white", "#203647",1
+		# Modern Dark Theme
+		background, textColor, AITaskStatusLblBG, KCS_IMG = "#1e293b", "#f1f5f9", "#1e293b", 1
 		cbl['image'] = cblDarkImg
 		kbBtn['image'] = kbphDark
 		settingBtn['image'] = sphDark
 		AITaskStatusLbl['bg'] = AITaskStatusLblBG
-		botChatText, botChatTextBg, userChatTextBg = "white", "#007cc7", "#4da8da"
-		chatBgColor = "#12232e"
+		botChatText, botChatTextBg, userChatTextBg = "white", "#6366f1", "#10b981"
+		chatBgColor = "#0f172a"
 		colorbar['bg'] = chatBgColor
+		bottomFrame1['bg'] = '#334155'
+		VoiceModeFrame['bg'] = '#334155'
+		TextModeFrame['bg'] = '#334155'
+		cbl['bg'] = '#334155'
+		settingBtn['bg'] = '#334155'
+		kbBtn['bg'] = '#334155'
+		micBtn['bg'] = '#334155'
+		UserFieldLBL['bg'] = '#334155'
 	else:
-		background, textColor, AITaskStatusLblBG, KCS_IMG = "#F6FAFB", "#303E54", "#14A769", 0
+		# Modern Light Theme
+		background, textColor, AITaskStatusLblBG, KCS_IMG = "#f8fafc", "#1e293b", "#10b981", 0
 		cbl['image'] = cblLightImg
 		kbBtn['image'] = kbphLight
 		settingBtn['image'] = sphLight
 		AITaskStatusLbl['bg'] = AITaskStatusLblBG
-		botChatText, botChatTextBg, userChatTextBg = "#494949", "#EAEAEA", "#23AE79"
-		chatBgColor = "#F6FAFB"
-		colorbar['bg'] = '#E8EBEF'
+		botChatText, botChatTextBg, userChatTextBg = "#1e293b", "#e0e7ff", "#10b981"
+		chatBgColor = "#f8fafc"
+		colorbar['bg'] = '#e2e8f0'
+		bottomFrame1['bg'] = '#e2e8f0'
+		VoiceModeFrame['bg'] = '#e2e8f0'
+		TextModeFrame['bg'] = '#e2e8f0'
+		cbl['bg'] = '#e2e8f0'
+		settingBtn['bg'] = '#e2e8f0'
+		kbBtn['bg'] = '#e2e8f0'
+		micBtn['bg'] = '#e2e8f0'
+		UserFieldLBL['bg'] = '#e2e8f0'
 
 	root['bg'], root2['bg'] = background, background
 	settingsFrame['bg'] = background
@@ -138,7 +183,7 @@ def changeTheme():
 	settingsLbl['bg'], userPhoto['bg'], userName['bg'], assLbl['bg'], voiceRateLbl['bg'], volumeLbl['bg'], themeLbl['bg'], chooseChatLbl['bg'] = background, background, background, background, background, background, background, background
 	s.configure('Wild.TRadiobutton', background=background, foreground=textColor)
 	volumeBar['bg'], volumeBar['fg'], volumeBar['highlightbackground'] = background, textColor, background
-	chat_frame['bg'], root1['bg'] = chatBgColor, chatBgColor
+	chat_frame['bg'], chat_canvas['bg'], chat_container['bg'], root1['bg'] = chatBgColor, chatBgColor, chatBgColor, chatBgColor
 	userPhoto['activebackground'] = background
 	ChangeSettings(True)
 
@@ -545,11 +590,19 @@ def deleteUserData():
 ############ ATTACHING BOT/USER CHAT ON CHAT SCREEN ###########
 def attachTOframe(text,bot=False):
 	if bot:
-		botchat = Label(chat_frame,text=text, bg=botChatTextBg, fg=botChatText, justify=LEFT, wraplength=250, font=('Montserrat',12, 'bold'))
-		botchat.pack(anchor='w',ipadx=5,ipady=5,pady=5)
+		# Bot message with modern styling
+		msg_frame = Frame(chat_frame, bg=chatBgColor)
+		msg_frame.pack(anchor='w', pady=4, padx=5)
+		botchat = Label(msg_frame, text=text, bg=botChatTextBg, fg=botChatText, justify=LEFT, 
+						wraplength=260, font=('Segoe UI', 11), padx=12, pady=8)
+		botchat.pack()
 	else:
-		userchat = Label(chat_frame, text=text, bg=userChatTextBg, fg='white', justify=RIGHT, wraplength=250, font=('Montserrat',12, 'bold'))
-		userchat.pack(anchor='e',ipadx=2,ipady=2,pady=5)
+		# User message with modern styling  
+		msg_frame = Frame(chat_frame, bg=chatBgColor)
+		msg_frame.pack(anchor='e', pady=4, padx=5)
+		userchat = Label(msg_frame, text=text, bg=userChatTextBg, fg='white', justify=RIGHT, 
+						wraplength=260, font=('Segoe UI', 11), padx=12, pady=8)
+		userchat.pack()
 
 def clearChatScreen():
 	for wid in chat_frame.winfo_children():
@@ -650,6 +703,8 @@ def getChatColor():
 	chatBgColor = myColor[1]
 	colorbar['bg'] = chatBgColor
 	chat_frame['bg'] = chatBgColor
+	chat_canvas['bg'] = chatBgColor
+	chat_container['bg'] = chatBgColor
 	root1['bg'] = chatBgColor
 	ChangeSettings(True)
 
@@ -698,9 +753,9 @@ def SelectAvatar():
 def progressbar():
 	s = ttk.Style()
 	s.theme_use('clam')
-	s.configure("white.Horizontal.TProgressbar", foreground='white', background='white')
-	progress_bar = ttk.Progressbar(splash_root,style="white.Horizontal.TProgressbar", orient="horizontal",mode="determinate", length=303)
-	progress_bar.pack()
+	s.configure("modern.Horizontal.TProgressbar", foreground='#6366f1', background='#6366f1', troughcolor='#1e293b', bordercolor='#1e293b', lightcolor='#6366f1', darkcolor='#4f46e5')
+	progress_bar = ttk.Progressbar(splash_root, style="modern.Horizontal.TProgressbar", orient="horizontal", mode="determinate", length=303)
+	progress_bar.pack(pady=10)
 	splash_root.update()
 	progress_bar['value'] = 0
 	splash_root.update()
@@ -716,10 +771,14 @@ def destroySplash():
 
 if __name__ == '__main__':
 	splash_root = Tk()
-	splash_root.configure(bg='#3895d3')
+	splash_root.configure(bg='#0f172a')
 	splash_root.overrideredirect(True)
-	splash_label = Label(splash_root, text="Processing...", font=('montserrat',15),bg='#3895d3',fg='white')
-	splash_label.pack(pady=40)
+	
+	# App title with modern styling
+	Label(splash_root, text="VocalXpert", font=('Segoe UI', 28, 'bold'), bg='#0f172a', fg='#6366f1').pack(pady=(30, 5))
+	Label(splash_root, text="AI Assistant", font=('Segoe UI', 14), bg='#0f172a', fg='#94a3b8').pack(pady=(0, 10))
+	splash_label = Label(splash_root, text="Loading...", font=('Segoe UI', 11), bg='#0f172a', fg='#64748b')
+	splash_label.pack(pady=(10, 15))
 	# splash_percentage_label = Label(splash_root, text="0 %", font=('montserrat',15),bg='#3895d3',fg='white')
 	# splash_percentage_label.pack(pady=(0,10))
 
@@ -753,16 +812,51 @@ if __name__ == '__main__':
 	########  CHAT SCREEN  #########
 	################################
 
-	#Chat Frame
-	chat_frame = Frame(root1, width=380,height=551,bg=chatBgColor)
-	chat_frame.pack(padx=10)
-	chat_frame.pack_propagate(0)
+	# Scrollable Chat Container
+	chat_container = Frame(root1, width=380, height=551, bg=chatBgColor)
+	chat_container.pack(padx=10)
+	chat_container.pack_propagate(0)
+	
+	# Canvas for scrolling
+	chat_canvas = Canvas(chat_container, bg=chatBgColor, highlightthickness=0, width=360, height=551)
+	chat_scrollbar = Scrollbar(chat_container, orient="vertical", command=chat_canvas.yview)
+	
+	# Chat Frame inside Canvas
+	chat_frame = Frame(chat_canvas, bg=chatBgColor, width=360)
+	
+	# Create window in canvas
+	chat_canvas_window = chat_canvas.create_window((0, 0), window=chat_frame, anchor="nw")
+	
+	# Configure scrolling
+	chat_canvas.configure(yscrollcommand=chat_scrollbar.set)
+	
+	def on_chat_frame_configure(event):
+		chat_canvas.configure(scrollregion=chat_canvas.bbox("all"))
+		# Auto-scroll to bottom when new content added
+		chat_canvas.yview_moveto(1.0)
+	
+	def on_canvas_configure(event):
+		chat_canvas.itemconfig(chat_canvas_window, width=event.width)
+	
+	chat_frame.bind("<Configure>", on_chat_frame_configure)
+	chat_canvas.bind("<Configure>", on_canvas_configure)
+	
+	# Mouse wheel scrolling
+	def on_mousewheel(event):
+		chat_canvas.yview_scroll(int(-1*(event.delta/120)), "units")
+	
+	chat_canvas.bind_all("<MouseWheel>", on_mousewheel)
+	
+	# Pack scrollbar and canvas
+	chat_scrollbar.pack(side=RIGHT, fill=Y)
+	chat_canvas.pack(side=LEFT, fill=BOTH, expand=True)
 
-	bottomFrame1 = Frame(root1, bg='#dfdfdf', height=100)
+	# Modern bottom control bar
+	bottomFrame1 = Frame(root1, bg='#334155', height=100)
 	bottomFrame1.pack(fill=X, side=BOTTOM)
-	VoiceModeFrame = Frame(bottomFrame1, bg='#dfdfdf')
+	VoiceModeFrame = Frame(bottomFrame1, bg='#334155')
 	VoiceModeFrame.pack(fill=BOTH)
-	TextModeFrame = Frame(bottomFrame1, bg='#dfdfdf')
+	TextModeFrame = Frame(bottomFrame1, bg='#334155')
 	TextModeFrame.pack(fill=BOTH)
 
 	# VoiceModeFrame.pack_forget()
@@ -772,9 +866,9 @@ if __name__ == '__main__':
 	cblDarkImg = PhotoImage(file='assets/images/centralButton1.png')
 	if KCS_IMG==1: cblimage=cblDarkImg
 	else: cblimage=cblLightImg
-	cbl = Label(VoiceModeFrame, fg='white', image=cblimage, bg='#dfdfdf')
+	cbl = Label(VoiceModeFrame, fg='white', image=cblimage, bg='#334155')
 	cbl.pack(pady=17)
-	AITaskStatusLbl = Label(VoiceModeFrame, text='    Offline', fg='white', bg=AITaskStatusLblBG, font=('montserrat', 16))
+	AITaskStatusLbl = Label(VoiceModeFrame, text='    Offline', fg='#f1f5f9', bg=AITaskStatusLblBG, font=('Segoe UI', 14))
 	AITaskStatusLbl.place(x=140,y=32)
 	
 	#Settings Button
@@ -784,7 +878,7 @@ if __name__ == '__main__':
 	sphDark = sphDark.subsample(2,2)
 	if KCS_IMG==1: sphimage=sphDark
 	else: sphimage=sphLight
-	settingBtn = Button(VoiceModeFrame,image=sphimage,height=30,width=30, bg='#dfdfdf',borderwidth=0,activebackground="#dfdfdf",command=lambda: raise_frame(root2))
+	settingBtn = Button(VoiceModeFrame,image=sphimage,height=30,width=30, bg='#334155',borderwidth=0,activebackground="#475569",command=lambda: raise_frame(root2))
 	settingBtn.place(relx=1.0, y=30,x=-20, anchor="ne")	
 	
 	#Keyboard Button
@@ -794,20 +888,20 @@ if __name__ == '__main__':
 	kbphDark = kbphDark.subsample(2,2)
 	if KCS_IMG==1: kbphimage=kbphDark
 	else: kbphimage=kbphLight
-	kbBtn = Button(VoiceModeFrame,image=kbphimage,height=30,width=30, bg='#dfdfdf',borderwidth=0,activebackground="#dfdfdf", command=changeChatMode)
+	kbBtn = Button(VoiceModeFrame,image=kbphimage,height=30,width=30, bg='#334155',borderwidth=0,activebackground="#475569", command=changeChatMode)
 	kbBtn.place(x=25, y=30)
 
 	#Mic
 	micImg = PhotoImage(file = "assets/images/mic.png")
 	micImg = micImg.subsample(2,2)
-	micBtn = Button(TextModeFrame,image=micImg,height=30,width=30, bg='#dfdfdf',borderwidth=0,activebackground="#dfdfdf", command=changeChatMode)
+	micBtn = Button(TextModeFrame,image=micImg,height=30,width=30, bg='#334155',borderwidth=0,activebackground="#475569", command=changeChatMode)
 	micBtn.place(relx=1.0, y=30,x=-20, anchor="ne")	
 	
 	#Text Field
 	TextFieldImg = PhotoImage(file='assets/images/textField.png')
-	UserFieldLBL = Label(TextModeFrame, fg='white', image=TextFieldImg, bg='#dfdfdf')
+	UserFieldLBL = Label(TextModeFrame, fg='white', image=TextFieldImg, bg='#334155')
 	UserFieldLBL.pack(pady=17, side=LEFT, padx=10)
-	UserField = Entry(TextModeFrame, fg='white', bg='#203647', font=('Montserrat', 16), bd=6, width=22, relief=FLAT)
+	UserField = Entry(TextModeFrame, fg='#f1f5f9', bg='#1e293b', font=('Segoe UI', 14), bd=8, width=22, relief=FLAT, insertbackground='#6366f1')
 	UserField.place(x=20, y=30)
 	UserField.insert(0, "Ask me anything...")
 	UserField.bind('<Return>', keyboardInput)
@@ -822,10 +916,11 @@ if __name__ == '__main__':
 	########  SETTINGS  #######
 	###########################
 
-	settingsLbl = Label(root2, text='Settings', font=('Arial Bold', 15), bg=background, fg=textColor)
-	settingsLbl.pack(pady=10)
+	# Settings header with modern styling
+	settingsLbl = Label(root2, text='⚙ Settings', font=('Segoe UI', 18, 'bold'), bg=background, fg=textColor)
+	settingsLbl.pack(pady=15)
 	separator = ttk.Separator(root2, orient='horizontal')
-	separator.pack(fill=X)
+	separator.pack(fill=X, padx=20)
 	#User Photo
 	userProfileImg = Image.open("assets/images/avatars/a"+str(ownerPhoto)+".png")
 	userProfileImg = ImageTk.PhotoImage(userProfileImg.resize((120, 120)))
@@ -846,36 +941,36 @@ if __name__ == '__main__':
 	settingsFrame = Frame(root2, width=300, height=300, bg=background)
 	settingsFrame.pack(pady=20)
 
-	assLbl = Label(settingsFrame, text='Assistant Voice', font=('Arial', 13), fg=textColor, bg=background)
+	assLbl = Label(settingsFrame, text='🔊 Assistant Voice', font=('Segoe UI', 12), fg=textColor, bg=background)
 	assLbl.place(x=0, y=20)
 	n = StringVar()
-	assVoiceOption = ttk.Combobox(settingsFrame, values=('Female', 'Male'), font=('Arial', 13), width=13, textvariable=n)
+	assVoiceOption = ttk.Combobox(settingsFrame, values=('Female', 'Male'), font=('Segoe UI', 11), width=13, textvariable=n)
 	assVoiceOption.current(voice_id)
 	assVoiceOption.place(x=150, y=20)
 	assVoiceOption.bind('<<ComboboxSelected>>', changeVoice)
 
-	voiceRateLbl = Label(settingsFrame, text='Voice Rate', font=('Arial', 13), fg=textColor, bg=background)
+	voiceRateLbl = Label(settingsFrame, text='⚡ Voice Rate', font=('Segoe UI', 12), fg=textColor, bg=background)
 	voiceRateLbl.place(x=0, y=60)
 	n2 = StringVar()
-	voiceOption = ttk.Combobox(settingsFrame, font=('Arial', 13), width=13, textvariable=n2)
+	voiceOption = ttk.Combobox(settingsFrame, font=('Segoe UI', 11), width=13, textvariable=n2)
 	voiceOption['values'] = ('Very Low', 'Low', 'Normal', 'Fast', 'Very Fast')
 	voiceOption.current(ass_voiceRate//50-2) #100 150 200 250 300
 	voiceOption.place(x=150, y=60)
 	voiceOption.bind('<<ComboboxSelected>>', changeVoiceRate)
 	
-	volumeLbl = Label(settingsFrame, text='Volume', font=('Arial', 13), fg=textColor, bg=background)
+	volumeLbl = Label(settingsFrame, text='🔉 Volume', font=('Segoe UI', 12), fg=textColor, bg=background)
 	volumeLbl.place(x=0, y=105)
-	volumeBar = Scale(settingsFrame, bg=background, fg=textColor, sliderlength=30, length=135, width=16, highlightbackground=background, orient='horizontal', from_=0, to=100, command=changeVolume)
+	volumeBar = Scale(settingsFrame, bg=background, fg=textColor, sliderlength=30, length=135, width=16, highlightbackground=background, troughcolor='#334155', activebackground='#6366f1', orient='horizontal', from_=0, to=100, command=changeVolume)
 	volumeBar.set(int(ass_volume*100))
 	volumeBar.place(x=150, y=85)
 
 
 
-	themeLbl = Label(settingsFrame, text='Theme', font=('Arial', 13), fg=textColor, bg=background)
+	themeLbl = Label(settingsFrame, text='🎨 Theme', font=('Segoe UI', 12), fg=textColor, bg=background)
 	themeLbl.place(x=0,y=143)
 	themeValue = IntVar()
 	s = ttk.Style()
-	s.configure('Wild.TRadiobutton', font=('Arial Bold', 10), background=background, foreground=textColor, focuscolor=s.configure(".")["background"])
+	s.configure('Wild.TRadiobutton', font=('Segoe UI', 10), background=background, foreground=textColor, focuscolor=s.configure(".")["background"])
 	darkBtn = ttk.Radiobutton(settingsFrame, text='Dark', value=1, variable=themeValue, style='Wild.TRadiobutton', command=changeTheme, takefocus=False)
 	darkBtn.place(x=150,y=145)
 	lightBtn = ttk.Radiobutton(settingsFrame, text='Light', value=2, variable=themeValue, style='Wild.TRadiobutton', command=changeTheme, takefocus=False)
@@ -884,7 +979,7 @@ if __name__ == '__main__':
 	if KCS_IMG==0: themeValue.set(2)
 
 
-	chooseChatLbl = Label(settingsFrame, text='Chat Background', font=('Arial', 13), fg=textColor, bg=background)
+	chooseChatLbl = Label(settingsFrame, text='💬 Chat Background', font=('Segoe UI', 12), fg=textColor, bg=background)
 	chooseChatLbl.place(x=0,y=180)
 	cimg = PhotoImage(file = "assets/images/colorchooser.png")
 	cimg = cimg.subsample(3,3)
@@ -893,10 +988,27 @@ if __name__ == '__main__':
 	if KCS_IMG==0: colorbar['bg'] = '#E8EBEF'
 	Button(settingsFrame, image=cimg, relief=FLAT, command=getChatColor).place(x=261, y=180)
 
-	backBtn = Button(settingsFrame, text='   Back   ', bd=0, font=('Arial 12'), fg='white', bg='#14A769', relief=FLAT, command=lambda:raise_frame(root1))
-	clearFaceBtn = Button(settingsFrame, text='   Clear Facial Data   ', bd=0, font=('Arial 12'), fg='white', bg='#14A769', relief=FLAT, command=deleteUserData)
+	backBtn = Button(settingsFrame, text='  ← Back  ', bd=0, font=('Segoe UI', 11, 'bold'), fg='white', bg='#6366f1', relief=FLAT, activebackground='#4f46e5', activeforeground='white', cursor='hand2', command=lambda:raise_frame(root1))
+	clearFaceBtn = Button(settingsFrame, text='  🗑 Clear Facial Data  ', bd=0, font=('Segoe UI', 11, 'bold'), fg='white', bg='#ef4444', relief=FLAT, activebackground='#dc2626', activeforeground='white', cursor='hand2', command=deleteUserData)
 	backBtn.place(x=5, y=250)
-	clearFaceBtn.place(x=120, y=250)
+	clearFaceBtn.place(x=100, y=250)
+
+	# Function to check and update AI status
+	def check_ai_status():
+		global AI_ONLINE
+		try:
+			AI_ONLINE = normal_chat.is_ai_online()
+			if AI_ONLINE:
+				AITaskStatusLbl['text'] = '  🤖 AI Online'
+				AITaskStatusLbl['fg'] = '#10b981'  # Green
+			else:
+				AITaskStatusLbl['text'] = '  📴 Offline Mode'
+				AITaskStatusLbl['fg'] = '#f59e0b'  # Amber
+		except:
+			AITaskStatusLbl['text'] = '  📴 Offline Mode'
+			AITaskStatusLbl['fg'] = '#f59e0b'
+		# Re-check every 30 seconds
+		root.after(30000, check_ai_status)
 
 	try:
 		# pass
@@ -908,6 +1020,9 @@ if __name__ == '__main__':
 		Thread(target=web_scrapping.dataUpdate).start()
 	except Exception as e:
 		print('System is Offline...')
+	
+	# Initial AI status check
+	root.after(2000, check_ai_status)
 	
 	root.iconbitmap('assets/images/assistant2.ico')
 	raise_frame(root1)
