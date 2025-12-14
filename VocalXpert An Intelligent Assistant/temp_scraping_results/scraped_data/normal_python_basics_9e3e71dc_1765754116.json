@@ -1,0 +1,15 @@
+{
+  "task_id": "9e3e71dc-90ab-4ff2-b2f8-9aefe7a9a8b7",
+  "query": "python basics",
+  "mode": "normal",
+  "scraped_at": "2025-12-15T04:15:16.093792",
+  "total_results": 1,
+  "results": [
+    {
+      "title": "Human verification - Stack Overflow",
+      "content": "Human verification\n\nAre you a human being? We apologize for the confusion, but we can't quite tell if you're a person or a script. Please don't take this personally. Bots and scripts can be remarkably lifelike these days!\nCheck the CAPTCHA box, and we'll be out of your way.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            \n\n\nSubmit",
+      "source": "Human verification - Stack Overflow",
+      "type": "general"
+    }
+  ]
+}

@@ -542,27 +542,113 @@ def Tab_Opt(operation):
 # Function to handle system operations like saving, typing, deleting
 def System_Opt(operation):
     s = SystemTasks()
-    if 'delete' in operation:
+    operation_lower = operation.lower()
+    
+    # Text editing operations
+    if 'delete' in operation_lower:
         s.delete()
-    elif 'save' in operation:
+        return "Deleted"
+    elif 'save' in operation_lower:
         s.save(operation)
-    elif 'type' in operation:
+        return "Saved"
+    elif 'type' in operation_lower:
         s.write(operation)
-    elif 'select' in operation:
+        return "Typed"
+    elif 'select' in operation_lower:
         s.select()
-    elif 'enter' in operation:
+        return "Selected all"
+    elif 'enter' in operation_lower or 'press enter' in operation_lower:
         s.hitEnter()
-    elif 'launch' in operation:
-        app_name = operation.replace('launch', '').strip()
-        s.openApp(app_name)
-    elif isContain(operation, ['music', 'video']):
-        s.playMusic(operation)
-    elif 'open' in operation:  # Check if it's a website opening request
-        open_website(operation)
-    else:
-        # If no app or website is detected, perform general operations
-        open_website(operation)
-        return
+        return "Enter pressed"
+    
+    # App launching - extract app name from various command patterns
+    app_keywords = ['launch', 'open', 'start', 'run']
+    app_name = None
+    
+    for keyword in app_keywords:
+        if keyword in operation_lower:
+            # Remove the keyword and common words to get app name
+            app_name = operation_lower.replace(keyword, '').strip()
+            break
+    
+    if app_name:
+        # Clean up common phrases
+        app_name = app_name.replace('the ', '').replace('application', '').replace('app', '').replace('program', '').strip()
+        
+        # Check if it's a website first
+        if isContain(app_name, ['website', 'site', '.com', '.org', '.net', 'www']):
+            return open_website(operation)
+        
+        # Common app name mappings for better recognition
+        app_mappings = {
+            'notepad': 'notepad',
+            'calculator': 'calculator',
+            'calc': 'calculator',
+            'paint': 'paint',
+            'chrome': 'google chrome',
+            'browser': 'google chrome',
+            'firefox': 'mozilla firefox',
+            'edge': 'microsoft edge',
+            'word': 'microsoft word',
+            'excel': 'microsoft excel',
+            'powerpoint': 'microsoft powerpoint',
+            'ppt': 'microsoft powerpoint',
+            'outlook': 'microsoft outlook',
+            'teams': 'microsoft teams',
+            'vs code': 'visual studio code',
+            'vscode': 'visual studio code',
+            'code': 'visual studio code',
+            'spotify': 'spotify',
+            'discord': 'discord',
+            'telegram': 'telegram',
+            'whatsapp': 'whatsapp',
+            'vlc': 'vlc media player',
+            'media player': 'vlc media player',
+            'cmd': 'command prompt',
+            'terminal': 'windows terminal',
+            'powershell': 'windows powershell',
+            'file explorer': 'file explorer',
+            'explorer': 'file explorer',
+            'files': 'file explorer',
+            'settings': 'settings',
+            'control panel': 'control panel',
+            'task manager': 'task manager',
+            'snipping tool': 'snipping tool',
+            'screenshot': 'snipping tool',
+            'camera': 'camera',
+            'photos': 'photos',
+            'calendar': 'calendar',
+            'mail': 'mail',
+            'store': 'microsoft store',
+            'zoom': 'zoom',
+            'skype': 'skype',
+            'slack': 'slack',
+            'notion': 'notion',
+            'obs': 'obs studio',
+            'audacity': 'audacity',
+            'gimp': 'gimp',
+            'photoshop': 'adobe photoshop',
+            'premiere': 'adobe premiere pro',
+            'illustrator': 'adobe illustrator',
+            'blender': 'blender',
+            'steam': 'steam',
+            'epic': 'epic games launcher'
+        }
+        
+        # Try to find a mapping
+        search_name = app_name
+        for key, value in app_mappings.items():
+            if key in app_name:
+                search_name = value
+                break
+        
+        print(f"Attempting to open: {search_name}")
+        s.openApp(search_name)
+        return f"Opening {search_name}"
+    
+    # If nothing matches, try opening as website
+    open_website(operation)
+    return None
 
 
 # Function to handle volume controls like mute, max volume, etc.
@@ -608,18 +694,47 @@ def systemInfo():
             "Manufacturer: " + computer_system.Manufacturer,
             "Model: " + computer_system.Model,
             "Memory: " + str(round(int(computer_system.TotalPhysicalMemory) / (1024**3), 2)) + " GB",
-            "OS: " + computer_system.Caption
         ]
 
-        # Print system information
-        for line in info:
-            print(line)
+        return info
 
     except Exception as e:
         print("An error occurred while fetching system information:", e)
+        return ["Error fetching system info"]
 
-# Test the function
-systemInfo()
+
+def batteryInfo():
+    """Get battery status information"""
+    try:
+        battery = psutil.sensors_battery()
+        if battery is None:
+            return "Battery information not available on this device."
+        
+        pr = str(battery.percent)
+        if battery.power_plugged:
+            return f"Your System is currently charging and it's at {pr}%."
+        else:
+            # Calculate time remaining
+            secs_left = battery.secsleft
+            if secs_left != psutil.POWER_TIME_UNLIMITED and secs_left != psutil.POWER_TIME_UNKNOWN:
+                hours = secs_left // 3600
+                minutes = (secs_left % 3600) // 60
+                return f"Your System is at {pr}% battery. Estimated time remaining: {hours}h {minutes}m."
+            return f"Your System is currently at {pr}% battery life."
+    except Exception as e:
+        return f"Could not get battery info: {str(e)}"
+
+
+def OSHandler(query):
+    """Handle OS-related queries like system info and battery status"""
+    query_lower = query.lower()
+    if isContain(query_lower, ['system', 'info', 'specs', 'specification']):
+        info = systemInfo()
+        return ['Here is your System Information...', '\n'.join(info)]
+    elif isContain(query_lower, ['cpu', 'battery', 'power', 'charge']):
+        return batteryInfo()
+    return "I couldn't understand what system information you need."
+
 
 # # Function to get system information
 # def systemInfo():
@@ -653,7 +768,7 @@ systemInfo()
 #     except FileNotFoundError:
 #         print(f"Error: {websites_file} not found.")
 
-data = json.load(open('assets/websites_v2.json', encoding='utf-8'))
+data = json.load(open('assets/websites.json', encoding='utf-8'))
 
 def open_website(query):
     query = query.replace('open','').strip()
@@ -669,3 +784,125 @@ def open_website(query):
         value = data[matches[0]]
         response = choice(value) if isinstance(value, list) else value
     webbrowser.open(response)
+
+
+# ============================================
+# MODULE-LEVEL HELPER FUNCTIONS
+# These provide easy access to class methods
+# ============================================
+
+def openApp(app_name):
+    """Open an application by name (module-level wrapper)."""
+    s = SystemTasks()
+    s.openApp(app_name)
+    return f"Opening {app_name}..."
+
+
+def write_text(text):
+    """Type text into the currently focused application window."""
+    try:
+        import time
+        s = SystemTasks()
+        # small delay to allow app to open and focus
+        time.sleep(1.5)
+        s.write(text)
+        return "Typed text into active window."
+    except Exception as e:
+        return f"Could not type text: {e}"
+
+
+def volumeUp():
+    """Increase system volume."""
+    try:
+        for _ in range(5):
+            pyautogui.press('volumeup')
+        return "Volume increased"
+    except Exception as e:
+        return f"Could not change volume: {e}"
+
+
+def volumeDown():
+    """Decrease system volume."""
+    try:
+        for _ in range(5):
+            pyautogui.press('volumedown')
+        return "Volume decreased"
+    except Exception as e:
+        return f"Could not change volume: {e}"
+
+
+def volumeMute():
+    """Toggle mute."""
+    try:
+        pyautogui.press('volumemute')
+        return "Volume muted"
+    except Exception as e:
+        return f"Could not mute: {e}"
+
+
+def screenshot():
+    """Take a screenshot."""
+    try:
+        w = WindowOpt()
+        w.takeScreenShot()
+        return "Screenshot captured!"
+    except Exception as e:
+        return f"Could not take screenshot: {e}"
+
+
+def closeWindow():
+    """Close the active window."""
+    w = WindowOpt()
+    w.closeWindow()
+    return "Window closed"
+
+
+def minimizeWindow():
+    """Minimize the active window."""
+    w = WindowOpt()
+    w.minimizeWindow()
+    return "Window minimized"
+
+
+def maximizeWindow():
+    """Maximize the active window."""
+    w = WindowOpt()
+    w.maximizeWindow()
+    return "Window maximized"
+
+
+def lockPC():
+    """Lock the computer."""
+    try:
+        import ctypes
+        ctypes.windll.user32.LockWorkStation()
+        return "PC locked"
+    except Exception as e:
+        return f"Could not lock PC: {e}"
+
+
+def shutdown():
+    """Shutdown the computer."""
+    try:
+        subprocess.run(['shutdown', '/s', '/t', '60'])
+        return "Computer will shutdown in 60 seconds. Run 'shutdown /a' to cancel."
+    except Exception as e:
+        return f"Could not shutdown: {e}"
+
+
+def restart():
+    """Restart the computer."""
+    try:
+        subprocess.run(['shutdown', '/r', '/t', '60'])
+        return "Computer will restart in 60 seconds. Run 'shutdown /a' to cancel."
+    except Exception as e:
+        return f"Could not restart: {e}"
+
+
+def sleep_pc():
+    """Put computer to sleep."""
+    try:
+        subprocess.run(['rundll32.exe', 'powrprof.dll,SetSuspendState', '0', '1', '0'])
+        return "Going to sleep..."
+    except Exception as e:
+        return f"Could not sleep: {e}"

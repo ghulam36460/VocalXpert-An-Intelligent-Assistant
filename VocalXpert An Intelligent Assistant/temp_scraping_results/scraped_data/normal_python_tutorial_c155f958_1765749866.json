@@ -1,0 +1,21 @@
+{
+  "task_id": "c155f958-060f-4afa-80b6-6a1caf5f7d01",
+  "query": "python tutorial",
+  "mode": "normal",
+  "scraped_at": "2025-12-15T03:04:26.311146",
+  "total_results": 2,
+  "results": [
+    {
+      "title": "Human verification - Stack Overflow",
+      "content": "Human verification\n\nAre you a human being? We apologize for the confusion, but we can't quite tell if you're a person or a script. Please don't take this personally. Bots and scripts can be remarkably lifelike these days!\nCheck the CAPTCHA box, and we'll be out of your way.\n\n\n\n\n\n\n\n\n\n\n\n\n\n                            \n\n\nSubmit",
+      "source": "Human verification - Stack Overflow",
+      "type": "general"
+    },
+    {
+      "title": "Repository search results · GitHub",
+      "content": "repositories Search Results · python tutorialFilter byCode... (...)resultsRepositoriesresultsIssuesresultsPull requestsresultsDiscussionsresultsUsersresultsMoreLanguagesPythonJupyter NotebookHTMLJavaScriptCSSC++ShellDockerfileJavaCMore languages...AdvancedOwnerSizeNumber of followersNumber of forksNumber of starsDate createdDate pushedTopicLicenseArchivedPublicPrivateAdvanced searchRepositories41k...",
+      "source": "Repository search results · GitHub",
+      "type": "general"
+    }
+  ]
+}

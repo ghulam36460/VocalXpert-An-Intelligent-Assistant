@@ -9,7 +9,7 @@
   "i am alone": ["You're not alone—I'm here.", "I'll stay with you. Ask me anything."],
   "who are you": ["I'm VocalXpert—your desktop assistant.", "I'm VocalXpert, built to make tasks easier."],
   "what is your name": ["My name is VocalXpert.", "You can call me VocalXpert."],
-  "who is your creator": ["I was created by Ghulam Murtaza, Capt. Asim Iqbal, Capt. Bilal Zaib and Huzaifa Kahut as semester project.", "I am built me for learning and productivity."],
+  "who is your creator": ["I was created by Ghulam Murtaza and his team - Capt. Asim Iqbal, Capt. Bilal Zaib, and Huzaifa Kahut as a semester project.", "I was built by Ghulam Murtaza & team for learning and productivity."],
   "who made you": ["Engineered by Ghulam Murtaza, Capt Asim Iqbal , Capt Bilal Zaib and Huzaifa Kahut as an academic assistant project."],
   "who developed you": ["Ghulam Murtaza, Capt Asim Iqbal, Capt Bilal Zaib and Huzaifa Kahut developed me with dedication and Python."],
   "who built you": ["I was built by Ghulam Murtaza, Capt. Asim Iqbal , Capt Bilal Zaib and Huzaifa Kahut as an academic assistant project."],
@@ -1702,7 +1702,18 @@
   "tell me a quote": [
     "'There is no power on earth that can undo Pakistan.' — Muhammad Ali Jinnah",
     "'The ultimate aim of the ego is not to see something, but to be something.' — Allama Iqbal"
-  ]
+  ],
+  "view history": ["I'll show you your recent conversations. Here's what we've talked about lately..."],
+  "show history": ["Let me display your conversation history for you."],
+  "my history": ["Here's a summary of our recent interactions."],
+  "conversation history": ["Accessing your chat history..."],
+  "search history": ["What would you like to search for in your conversation history?"],
+  "delete history item": ["Please specify which history item to delete by its ID number."],
+  "clear history": ["This will delete all your conversation history. Are you sure?"],
+  "delete all history": ["Clearing all conversation history..."],
+  "history stats": ["Let me show you some analytics about your conversations."],
+  "history analytics": ["Here's your conversation analytics and insights."],
+  "my stats": ["Your personal conversation statistics..."]
 }
 
 

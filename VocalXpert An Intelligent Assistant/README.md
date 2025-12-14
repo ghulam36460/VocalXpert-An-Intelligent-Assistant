@@ -28,6 +28,7 @@ A Windows desktop voice assistant application featuring face recognition login, 
 | 📺 YouTube | Search and play videos |
 | 📧 Email | Send emails via voice commands |
 | 💬 WhatsApp | Automated WhatsApp messaging |
+| 🌐 Web Scraping | Advanced intelligent web data extraction |
 | 📝 Todo List | Task management and reminders |
 | ⏰ Timer/Alarm | Time-based alerts |
 | 🎮 Games | Interactive games (Dice, Rock-Paper-Scissors) |
@@ -163,6 +164,64 @@ Main dependencies (see `requirements.txt` for complete list):
 ### Keyboard Shortcuts
 - `Enter` - Send text message
 - `Ctrl+D` - Toggle dark/light theme
+
+## 🌐 Advanced Web Scraping
+
+VocalXpert includes a powerful intelligent web scraping system that can extract information from multiple sources simultaneously.
+
+### Scraping Modes
+
+| Mode | Command Format | Description |
+|------|----------------|-------------|
+| **Normal** | `web scrapper : [query]` | Quick surface-level scraping from 3 sources |
+| **Deep** | `web scrapper -deep : [query]` | Thorough scraping from 10+ sources with cross-references |
+| **Force** | `web scrapper -force : [query]` | Maximum depth scraping (same as deep mode) |
+
+### Usage Examples
+
+```bash
+# Basic information gathering
+"web scrapper : list of programming languages"
+"web scrapper : types of fruits"
+"web scrapper : history of artificial intelligence"
+
+# Deep research
+"web scrapper -deep : quantum computing explained"
+"web scrapper -force : machine learning algorithms"
+```
+
+### Task Management
+
+Monitor and retrieve scraping results:
+
+```bash
+# Check scraping progress
+"scraping status [task_id]"
+
+# Get completed results
+"scraping results [task_id]"
+
+# List active scraping tasks
+"list scrapers"
+```
+
+### Features
+
+- **Background Processing** - Scraping runs asynchronously without blocking the UI
+- **Multi-Source Aggregation** - Combines data from Wikipedia, dictionaries, encyclopedias, and more
+- **Intelligent Deduplication** - Removes duplicate information automatically
+- **Result Persistence** - Large result sets saved to temporary JSON files
+- **Progress Tracking** - Real-time status updates with completion percentages
+- **Error Handling** - Graceful failure handling with detailed error reporting
+
+### Supported Libraries
+
+- **BeautifulSoup4** - HTML parsing and data extraction
+- **Requests** - HTTP client for web requests
+- **Selenium** - Browser automation for JavaScript-heavy sites
+- **lxml** - Fast XML/HTML processing
+- **fake-useragent** - User agent rotation to avoid detection
+- **aiohttp** - Asynchronous HTTP requests (future enhancement)
 
 ## ⚙️ Configuration
 

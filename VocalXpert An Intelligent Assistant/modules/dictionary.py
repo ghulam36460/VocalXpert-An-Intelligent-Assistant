@@ -1,8 +1,22 @@
 from difflib import get_close_matches
 import json
 from random import choice
+import os
 
-data = json.load(open('assets/dict_data.json', encoding='utf-8'))
+# Get the directory where this module is located
+_module_dir = os.path.dirname(os.path.abspath(__file__))
+_project_dir = os.path.dirname(_module_dir)
+_json_path = os.path.join(_project_dir, 'assets', 'dict_data.json')
+
+try:
+    data = json.load(open(_json_path, encoding='utf-8'))
+except FileNotFoundError:
+    # Fallback to relative path (when run from project directory)
+    try:
+        data = json.load(open('assets/dict_data.json', encoding='utf-8'))
+    except FileNotFoundError:
+        print("Warning: dict_data.json not found!")
+        data = {}
 
 def getMeaning(word):
 	if word in data:
