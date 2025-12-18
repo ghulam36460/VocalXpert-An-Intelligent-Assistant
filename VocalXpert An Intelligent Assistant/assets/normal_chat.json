@@ -1713,7 +1713,8 @@
   "delete all history": ["Clearing all conversation history..."],
   "history stats": ["Let me show you some analytics about your conversations."],
   "history analytics": ["Here's your conversation analytics and insights."],
-  "my stats": ["Your personal conversation statistics..."]
+  "my stats": ["Your personal conversation statistics..."],
+  "what was the question asked today": ["thread."]
 }
 
 

@@ -8,6 +8,7 @@ import os
 import sys
 import subprocess
 
+
 def main():
     print("Face Registration Helper - VocalXpert")
     print("=" * 40)
@@ -26,9 +27,11 @@ def main():
 
     try:
         # Run the security.py script
-        result = subprocess.run([sys.executable, 'modules/security.py'],
-                              cwd=os.path.dirname(os.path.abspath(__file__)),
-                              capture_output=False)
+        result = subprocess.run(
+            [sys.executable, "modules/security.py"],
+            cwd=os.path.dirname(os.path.abspath(__file__)),
+            capture_output=False,
+        )
 
         if result.returncode == 0:
             print("\n✅ Face registration completed successfully!")
@@ -40,6 +43,7 @@ def main():
     except Exception as e:
         print(f"\n❌ Error running face registration: {e}")
         print("Make sure all required packages are installed.")
+
 
 if __name__ == "__main__":
     main()

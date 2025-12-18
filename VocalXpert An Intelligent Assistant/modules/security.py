@@ -27,10 +27,12 @@ from os.path import isfile, join
 import sys
 from pathlib import Path
 
+
 def assure_path_exists(path):
     """Create directory if it doesn't exist."""
     if not os.path.exists(path):
         os.makedirs(path)
+
 
 def collect_face_data():
     """Collect face samples from webcam for training."""
@@ -38,17 +40,16 @@ def collect_face_data():
     print("=" * 50)
 
     # Initialize face detector
-    face_classifier = cv2.CascadeClassifier('Cascade/haarcascade_frontalface_default.xml')
+    face_classifier = cv2.CascadeClassifier(
+        "Cascade/haarcascade_frontalface_default.xml")
 
     def face_detector(img, size=0.5):
         """Detect face in image and return cropped face region."""
         gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        faces = face_classifier.detectMultiScale(
-            gray,
-            scaleFactor=1.3,
-            minNeighbors=5,
-            minSize=(30, 30)
-        )
+        faces = face_classifier.detectMultiScale(gray,
+                                                 scaleFactor=1.3,
+                                                 minNeighbors=5,
+                                                 minSize=(30, 30))
 
         if len(faces) == 0:
             return img, []
@@ -57,15 +58,15 @@ def collect_face_data():
         largest_face = max(faces, key=lambda f: f[2] * f[3])
         x, y, w, h = largest_face
 
-        cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 255), 2)
-        roi = img[y:y+h, x:x+w]
+        cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 255), 2)
+        roi = img[y:y + h, x:x + w]
         roi = cv2.resize(roi, (200, 200))
 
         return img, roi
 
     # Create directories
-    assure_path_exists('userData')
-    assure_path_exists('userData/faceData')
+    assure_path_exists("userData")
+    assure_path_exists("userData/faceData")
 
     # Initialize camera
     cam = cv2.VideoCapture(0)
@@ -102,44 +103,60 @@ def collect_face_data():
 
             # Save face sample
             face_samples.append(face_gray)
-            
+
             # Save individual face image for retraining capability
-            face_filename = f'userData/faceData/face_{face_id}_{count:03d}.jpg'
+            face_filename = f"userData/faceData/face_{face_id}_{count:03d}.jpg"
             cv2.imwrite(face_filename, face_gray)
             print(f"Saved face sample: {face_filename}")
 
             # Display progress
             progress = int((count / max_samples) * 100)
-            cv2.putText(image, f"Capturing... {count}/{max_samples} ({progress}%)",
-                       (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+            cv2.putText(
+                image,
+                f"Capturing... {count}/{max_samples} ({progress}%)",
+                (10, 30),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.7,
+                (0, 255, 0),
+                2,
+            )
         else:
-            cv2.putText(image, "No face detected - position yourself",
-                       (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 0, 255), 2)
+            cv2.putText(
+                image,
+                "No face detected - position yourself",
+                (10, 30),
+                cv2.FONT_HERSHEY_SIMPLEX,
+                0.7,
+                (0, 0, 255),
+                2,
+            )
 
-        cv2.imshow('Face Registration - VocalXpert', image)
+        cv2.imshow("Face Registration - VocalXpert", image)
 
         key = cv2.waitKey(1) & 0xFF
-        if key == ord('q') or key == 27:  # q or ESC
+        if key == ord("q") or key == 27:  # q or ESC
             print("Registration cancelled by user.")
             break
-        elif key == ord('c'):  # Manual capture
+        elif key == ord("c"):  # Manual capture
             if len(face) > 0:
                 count += 1
                 face_gray = cv2.cvtColor(face, cv2.COLOR_BGR2GRAY)
                 face_samples.append(face_gray)
-                
+
                 # Save individual face image for retraining capability
-                face_filename = f'userData/faceData/face_{face_id}_{count:03d}.jpg'
+                face_filename = f"userData/faceData/face_{face_id}_{count:03d}.jpg"
                 cv2.imwrite(face_filename, face_gray)
                 print(f"Manual capture saved: {face_filename}")
-                
+
                 print(f"Manual capture: {count}/{max_samples}")
 
     cam.release()
     cv2.destroyAllWindows()
 
     if len(face_samples) < 10:
-        print(f"❌ Error: Only collected {len(face_samples)} samples. Need at least 10.")
+        print(
+            f"❌ Error: Only collected {len(face_samples)} samples. Need at least 10."
+        )
         return False
 
     print(f"✅ Collected {len(face_samples)} face samples")
@@ -157,7 +174,7 @@ def collect_face_data():
         recognizer.train(faces, np.array(labels))
 
         # Save the trained model
-        model_path = 'userData/trainer.yml'
+        model_path = "userData/trainer.yml"
         recognizer.save(model_path)
 
         print(f"✅ Model trained and saved to: {model_path}")
@@ -170,15 +187,16 @@ def collect_face_data():
         print(f"❌ Error training model: {e}")
         return False
 
+
 def main():
     """Main function."""
     try:
         success = collect_face_data()
         if success:
-            print("\n" + "="*50)
+            print("\n" + "=" * 50)
             print("🎊 REGISTRATION COMPLETE!")
             print("You can now close this window and use VocalXpert.")
-            print("="*50)
+            print("=" * 50)
             input("Press Enter to exit...")
         else:
             print("\n❌ Registration failed. Please try again.")
@@ -190,6 +208,7 @@ def main():
     except Exception as e:
         print(f"\n❌ Unexpected error: {e}")
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()

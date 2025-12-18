@@ -6,47 +6,57 @@ import os
 # Get the directory where this module is located
 _module_dir = os.path.dirname(os.path.abspath(__file__))
 _project_dir = os.path.dirname(_module_dir)
-_json_path = os.path.join(_project_dir, 'assets', 'dict_data.json')
+_json_path = os.path.join(_project_dir, "assets", "dict_data.json")
 
 try:
-    data = json.load(open(_json_path, encoding='utf-8'))
+    data = json.load(open(_json_path, encoding="utf-8"))
 except FileNotFoundError:
     # Fallback to relative path (when run from project directory)
     try:
-        data = json.load(open('assets/dict_data.json', encoding='utf-8'))
+        data = json.load(open("assets/dict_data.json", encoding="utf-8"))
     except FileNotFoundError:
         print("Warning: dict_data.json not found!")
         data = {}
 
+
 def getMeaning(word):
-	if word in data:
-		return word, data[word], 1
-	elif len(get_close_matches(word, data.keys())) > 0:
-		word = get_close_matches(word, data.keys())[0]
-		return word, data[word], 0
-	else:
-		return word, ["This word doesn't exists in the dictionary."], -1
+    if word in data:
+        return word, data[word], 1
+    elif len(get_close_matches(word, data.keys())) > 0:
+        word = get_close_matches(word, data.keys())[0]
+        return word, data[word], 0
+    else:
+        return word, ["This word doesn't exists in the dictionary."], -1
+
 
 def translate(query):
-	query = query.replace('dictionary', '')
-	if 'meaning' in query:
-		ind = query.index('meaning of')
-		word = query[ind+10:].strip().lower()
-	elif 'definition' in query:
-		try:
-			ind = query.index('definition of')
-			word = query[ind+13:].strip().lower()
-		except:
-			ind = query.index('definition')
-			word = query[ind+10:].strip().lower()
-	else: word = query
+    query = query.replace("dictionary", "")
+    if "meaning" in query:
+        ind = query.index("meaning of")
+        word = query[ind + 10:].strip().lower()
+    elif "definition" in query:
+        try:
+            ind = query.index("definition of")
+            word = query[ind + 13:].strip().lower()
+        except BaseException:
+            ind = query.index("definition")
+            word = query[ind + 10:].strip().lower()
+    else:
+        word = query
 
-	word, result, check = getMeaning(word)
-	result = choice(result)
+    word, result, check = getMeaning(word)
+    result = choice(result)
 
-	if check==1:
-		return ["Here's the definition of \"" +word.capitalize()+ '"', result]
-	elif check==0:
-		return ["I think you're looking for \"" +word.capitalize()+ '"', "It's definition is,\n" + result]
-	else:
-		return [result, '']
+    if check == 1:
+        return [
+            "Here's the definition of \"" +
+            word.capitalize() +
+            '"',
+            result]
+    elif check == 0:
+        return [
+            "I think you're looking for \"" + word.capitalize() + '"',
+            "It's definition is,\n" + result,
+        ]
+    else:
+        return [result, ""]

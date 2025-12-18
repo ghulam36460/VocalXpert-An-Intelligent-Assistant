@@ -5,7 +5,6 @@
 # import psutil
 # import pyautogui
 
-
 # class SystemTasks:
 #     def __init__(self):
 #         self.keyboard = Controller()
@@ -16,7 +15,7 @@
 #         If that fails, it uses pyautogui to search for the app in the Start Menu.
 #         """
 #         appName = appName.lower()
-        
+
 #         # Replacements for common apps
 #         app_replacements = {
 #             'paint': 'mspaint',
@@ -36,7 +35,7 @@
 #             'discord': 'discord',
 #             'spotify': 'spotify'
 #         }
-        
+
 #         # Apply known replacements
 #         for old, new in app_replacements.items():
 #             appName = appName.replace(old, new)
@@ -87,7 +86,7 @@
 #     def save(self, text):
 #         if "don't" in text:
 #             self.keyboard.press(Key.right)
-#         else: 
+#         else:
 #             self.keyboard.press(Key.ctrl)
 #             self.keyboard.press('s')
 #             self.keyboard.release('s')
@@ -129,7 +128,7 @@
 # # 	def save(self, text):
 # # 		if "don't" in text:
 # # 			self.keyboard.press(Key.right)
-# # 		else: 
+# # 		else:
 # # 			self.keyboard.press(Key.ctrl)
 # # 			self.keyboard.press('s')
 # # 			self.keyboard.release('s')
@@ -158,20 +157,19 @@
 # 		self.keyboard.release('n')
 # 		self.keyboard.release(Key.ctrl)
 
-
 # class WindowOpt:
 # 	def __init__(self):
 # 		self.keyboard = Controller()
 
 # 	def openWindow(self):
 # 		self.maximizeWindow()
-	
+
 # 	def closeWindow(self):
 # 		self.keyboard.press(Key.alt_l)
 # 		self.keyboard.press(Key.f4)
 # 		self.keyboard.release(Key.f4)
 # 		self.keyboard.release(Key.alt_l)
-	
+
 # 	def minimizeWindow(self):
 # 		for i in range(2):
 # 			self.keyboard.press(Key.cmd)
@@ -179,7 +177,7 @@
 # 			self.keyboard.release(Key.down)
 # 			self.keyboard.release(Key.cmd)
 # 			time.sleep(0.05)
-	
+
 # 	def maximizeWindow(self):
 # 		self.keyboard.press(Key.cmd)
 # 		self.keyboard.press(Key.up)
@@ -208,7 +206,6 @@
 # 		self.keyboard.press(Key.tab)
 # 		self.keyboard.release(Key.tab)
 # 		self.keyboard.release(Key.alt_l)
-		
 
 # 	def takeScreenShot(self):
 # 		from random import randint
@@ -250,7 +247,6 @@
 # 	else:
 # 		return
 
-
 # def System_Opt(operation):
 # 	s = SystemTasks()
 # 	if 'delete' in operation:
@@ -271,7 +267,6 @@
 # 		open_website(operation)
 # 		return
 
-
 # ###############################
 # ###########  VOLUME ###########
 # ###############################
@@ -287,7 +282,6 @@
 # 		keyboard.press(Key.media_volume_up)
 # 		keyboard.release(Key.media_volume_up)
 
-
 # def volumeControl(text):
 # 	if 'full' in text or 'max' in text: full()
 # 	elif 'mute' in text or 'min' in text: mute()
@@ -302,7 +296,7 @@
 
 # def systemInfo():
 # 	import wmi
-# 	c = wmi.WMI()  
+# 	c = wmi.WMI()
 # 	my_system_1 = c.Win32_LogicalDisk()[0]
 # 	my_system_2 = c.Win32_ComputerSystem()[0]
 # 	info = ["Total Disk Space: " + str(round(int(my_system_1.Size)/(1024**3),2)) + " GB",
@@ -327,7 +321,6 @@
 # 		return ['Here is your System Information...', '\n'.join(systemInfo())]
 # 	elif isContain(query, ['cpu', 'battery']):
 # 		return batteryInfo()
-
 
 # from difflib import get_close_matches
 # import json
@@ -360,6 +353,7 @@ import wmi
 
 # Class to handle system tasks such as opening apps, writing, etc.
 class SystemTasks:
+
     def __init__(self):
         self.keyboard = Controller()
 
@@ -368,7 +362,7 @@ class SystemTasks:
         Searches for the application in the Start Menu and opens it.
         """
         appName = appName.lower()  # Convert app name to lowercase
-        
+
         # Try searching for the app in the Start Menu
         self.searchAppInStartMenu(appName)
 
@@ -377,15 +371,15 @@ class SystemTasks:
         Uses PyAutoGUI to search for the app in the Start Menu and open it.
         """
         try:
-            pyautogui.hotkey('winleft')  # Open Start Menu
+            pyautogui.hotkey("winleft")  # Open Start Menu
             time.sleep(1)
             pyautogui.write(appName)  # Type the app name to search for it
             time.sleep(1)
-            pyautogui.press('enter')  # Press Enter to open the app
+            pyautogui.press("enter")  # Press Enter to open the app
             print(f"App '{appName}' opened from Start Menu.")
         except Exception as e:
             print(f"Failed to open '{appName}' from Start Menu. Error: {e}")
-    
+
     def write(self, text):
         text = text[5:]  # Remove any leading 'write' command
         for char in text:
@@ -394,8 +388,8 @@ class SystemTasks:
 
     def select(self):
         self.keyboard.press(Key.ctrl)
-        self.keyboard.press('a')
-        self.keyboard.release('a')
+        self.keyboard.press("a")
+        self.keyboard.release("a")
         self.keyboard.release(Key.ctrl)
 
     def hitEnter(self):
@@ -409,16 +403,17 @@ class SystemTasks:
     def save(self, text):
         if "don't" in text:
             self.keyboard.press(Key.right)
-        else: 
+        else:
             self.keyboard.press(Key.ctrl)
-            self.keyboard.press('s')
-            self.keyboard.release('s')
+            self.keyboard.press("s")
+            self.keyboard.release("s")
             self.keyboard.release(Key.ctrl)
         self.hitEnter()
 
 
 # Class to handle tab operations like switching tabs, closing tabs, etc.
 class TabOpt:
+
     def __init__(self):
         self.keyboard = Controller()
 
@@ -430,31 +425,32 @@ class TabOpt:
 
     def closeTab(self):
         self.keyboard.press(Key.ctrl)
-        self.keyboard.press('w')
-        self.keyboard.release('w')
+        self.keyboard.press("w")
+        self.keyboard.release("w")
         self.keyboard.release(Key.ctrl)
 
     def newTab(self):
         self.keyboard.press(Key.ctrl)
-        self.keyboard.press('n')
-        self.keyboard.release('n')
+        self.keyboard.press("n")
+        self.keyboard.release("n")
         self.keyboard.release(Key.ctrl)
 
 
 # Class to handle window operations like minimizing, maximizing, closing, etc.
 class WindowOpt:
+
     def __init__(self):
         self.keyboard = Controller()
 
     def openWindow(self):
         self.maximizeWindow()
-    
+
     def closeWindow(self):
         self.keyboard.press(Key.alt_l)
         self.keyboard.press(Key.f4)
         self.keyboard.release(Key.f4)
         self.keyboard.release(Key.alt_l)
-    
+
     def minimizeWindow(self):
         for i in range(2):
             self.keyboard.press(Key.cmd)
@@ -462,7 +458,7 @@ class WindowOpt:
             self.keyboard.release(Key.down)
             self.keyboard.release(Key.cmd)
             time.sleep(0.05)
-    
+
     def maximizeWindow(self):
         self.keyboard.press(Key.cmd)
         self.keyboard.press(Key.up)
@@ -491,11 +487,12 @@ class WindowOpt:
         self.keyboard.press(Key.tab)
         self.keyboard.release(Key.tab)
         self.keyboard.release(Key.alt_l)
-        
+
     def takeScreenShot(self):
         from random import randint
+
         im = ImageGrab.grab()
-        im.save(f'Files and Document/ss_{randint(1, 100)}.jpg')
+        im.save(f"Files and Document/ss_{randint(1, 100)}.jpg")
 
 
 # Function to check if a text contains a list of keywords
@@ -509,19 +506,19 @@ def isContain(text, lst):
 # Function to handle window operations
 def Win_Opt(operation):
     w = WindowOpt()
-    if isContain(operation, ['open']):
+    if isContain(operation, ["open"]):
         w.openWindow()
-    elif isContain(operation, ['close']):
+    elif isContain(operation, ["close"]):
         w.closeWindow()
-    elif isContain(operation, ['mini']):
+    elif isContain(operation, ["mini"]):
         w.minimizeWindow()
-    elif isContain(operation, ['maxi']):
+    elif isContain(operation, ["maxi"]):
         w.maximizeWindow()
-    elif isContain(operation, ['move', 'slide']):
+    elif isContain(operation, ["move", "slide"]):
         w.moveWindow(operation)
-    elif isContain(operation, ['switch','which']):
+    elif isContain(operation, ["switch", "which"]):
         w.switchWindow()
-    elif isContain(operation, ['screenshot','capture','snapshot']):
+    elif isContain(operation, ["screenshot", "capture", "snapshot"]):
         w.takeScreenShot()
     return
 
@@ -529,11 +526,12 @@ def Win_Opt(operation):
 # Function to handle tab operations
 def Tab_Opt(operation):
     t = TabOpt()
-    if isContain(operation, ['new','open','another','create']):
+    if isContain(operation, ["new", "open", "another", "create"]):
         t.newTab()
-    elif isContain(operation, ['switch','move','another','next','previous','which']):
+    elif isContain(operation,
+                   ["switch", "move", "another", "next", "previous", "which"]):
         t.switchTab()
-    elif isContain(operation, ['close','delete']):
+    elif isContain(operation, ["close", "delete"]):
         t.closeTab()
     else:
         return
@@ -543,109 +541,113 @@ def Tab_Opt(operation):
 def System_Opt(operation):
     s = SystemTasks()
     operation_lower = operation.lower()
-    
+
     # Text editing operations
-    if 'delete' in operation_lower:
+    if "delete" in operation_lower:
         s.delete()
         return "Deleted"
-    elif 'save' in operation_lower:
+    elif "save" in operation_lower:
         s.save(operation)
         return "Saved"
-    elif 'type' in operation_lower:
+    elif "type" in operation_lower:
         s.write(operation)
         return "Typed"
-    elif 'select' in operation_lower:
+    elif "select" in operation_lower:
         s.select()
         return "Selected all"
-    elif 'enter' in operation_lower or 'press enter' in operation_lower:
+    elif "enter" in operation_lower or "press enter" in operation_lower:
         s.hitEnter()
         return "Enter pressed"
-    
+
     # App launching - extract app name from various command patterns
-    app_keywords = ['launch', 'open', 'start', 'run']
+    app_keywords = ["launch", "open", "start", "run"]
     app_name = None
-    
+
     for keyword in app_keywords:
         if keyword in operation_lower:
             # Remove the keyword and common words to get app name
-            app_name = operation_lower.replace(keyword, '').strip()
+            app_name = operation_lower.replace(keyword, "").strip()
             break
-    
+
     if app_name:
         # Clean up common phrases
-        app_name = app_name.replace('the ', '').replace('application', '').replace('app', '').replace('program', '').strip()
-        
+        app_name = (app_name.replace("the ",
+                                     "").replace("application", "").replace(
+                                         "app", "").replace("program",
+                                                            "").strip())
+
         # Check if it's a website first
-        if isContain(app_name, ['website', 'site', '.com', '.org', '.net', 'www']):
+        if isContain(app_name,
+                     ["website", "site", ".com", ".org", ".net", "www"]):
             return open_website(operation)
-        
+
         # Common app name mappings for better recognition
         app_mappings = {
-            'notepad': 'notepad',
-            'calculator': 'calculator',
-            'calc': 'calculator',
-            'paint': 'paint',
-            'chrome': 'google chrome',
-            'browser': 'google chrome',
-            'firefox': 'mozilla firefox',
-            'edge': 'microsoft edge',
-            'word': 'microsoft word',
-            'excel': 'microsoft excel',
-            'powerpoint': 'microsoft powerpoint',
-            'ppt': 'microsoft powerpoint',
-            'outlook': 'microsoft outlook',
-            'teams': 'microsoft teams',
-            'vs code': 'visual studio code',
-            'vscode': 'visual studio code',
-            'code': 'visual studio code',
-            'spotify': 'spotify',
-            'discord': 'discord',
-            'telegram': 'telegram',
-            'whatsapp': 'whatsapp',
-            'vlc': 'vlc media player',
-            'media player': 'vlc media player',
-            'cmd': 'command prompt',
-            'terminal': 'windows terminal',
-            'powershell': 'windows powershell',
-            'file explorer': 'file explorer',
-            'explorer': 'file explorer',
-            'files': 'file explorer',
-            'settings': 'settings',
-            'control panel': 'control panel',
-            'task manager': 'task manager',
-            'snipping tool': 'snipping tool',
-            'screenshot': 'snipping tool',
-            'camera': 'camera',
-            'photos': 'photos',
-            'calendar': 'calendar',
-            'mail': 'mail',
-            'store': 'microsoft store',
-            'zoom': 'zoom',
-            'skype': 'skype',
-            'slack': 'slack',
-            'notion': 'notion',
-            'obs': 'obs studio',
-            'audacity': 'audacity',
-            'gimp': 'gimp',
-            'photoshop': 'adobe photoshop',
-            'premiere': 'adobe premiere pro',
-            'illustrator': 'adobe illustrator',
-            'blender': 'blender',
-            'steam': 'steam',
-            'epic': 'epic games launcher'
+            "notepad": "notepad",
+            "calculator": "calculator",
+            "calc": "calculator",
+            "paint": "paint",
+            "chrome": "google chrome",
+            "browser": "google chrome",
+            "firefox": "mozilla firefox",
+            "edge": "microsoft edge",
+            "word": "microsoft word",
+            "excel": "microsoft excel",
+            "powerpoint": "microsoft powerpoint",
+            "ppt": "microsoft powerpoint",
+            "outlook": "microsoft outlook",
+            "teams": "microsoft teams",
+            "vs code": "visual studio code",
+            "vscode": "visual studio code",
+            "code": "visual studio code",
+            "spotify": "spotify",
+            "discord": "discord",
+            "telegram": "telegram",
+            "whatsapp": "whatsapp",
+            "vlc": "vlc media player",
+            "media player": "vlc media player",
+            "cmd": "command prompt",
+            "terminal": "windows terminal",
+            "powershell": "windows powershell",
+            "file explorer": "file explorer",
+            "explorer": "file explorer",
+            "files": "file explorer",
+            "settings": "settings",
+            "control panel": "control panel",
+            "task manager": "task manager",
+            "snipping tool": "snipping tool",
+            "screenshot": "snipping tool",
+            "camera": "camera",
+            "photos": "photos",
+            "calendar": "calendar",
+            "mail": "mail",
+            "store": "microsoft store",
+            "zoom": "zoom",
+            "skype": "skype",
+            "slack": "slack",
+            "notion": "notion",
+            "obs": "obs studio",
+            "audacity": "audacity",
+            "gimp": "gimp",
+            "photoshop": "adobe photoshop",
+            "premiere": "adobe premiere pro",
+            "illustrator": "adobe illustrator",
+            "blender": "blender",
+            "steam": "steam",
+            "epic": "epic games launcher",
         }
-        
+
         # Try to find a mapping
         search_name = app_name
         for key, value in app_mappings.items():
             if key in app_name:
                 search_name = value
                 break
-        
+
         print(f"Attempting to open: {search_name}")
         s.openApp(search_name)
         return f"Opening {search_name}"
-    
+
     # If nothing matches, try opening as website
     open_website(operation)
     return None
@@ -653,10 +655,13 @@ def System_Opt(operation):
 
 # Function to handle volume controls like mute, max volume, etc.
 keyboard = Controller()
+
+
 def mute():
     for i in range(50):
         keyboard.press(Key.media_volume_down)
         keyboard.release(Key.media_volume_down)
+
 
 def full():
     for i in range(50):
@@ -665,18 +670,19 @@ def full():
 
 
 def volumeControl(text):
-    if 'full' in text or 'max' in text: full()
-    elif 'mute' in text or 'min' in text: mute()
-    elif 'incre' in text:
+    if "full" in text or "max" in text:
+        full()
+    elif "mute" in text or "min" in text:
+        mute()
+    elif "incre" in text:
         for i in range(5):
             keyboard.press(Key.media_volume_up)
             keyboard.release(Key.media_volume_up)
-    elif 'decre' in text:
+    elif "decre" in text:
         for i in range(5):
             keyboard.press(Key.media_volume_down)
             keyboard.release(Key.media_volume_down)
 
-import wmi
 
 def systemInfo():
     try:
@@ -689,11 +695,15 @@ def systemInfo():
 
         # Prepare system information
         info = [
-            "Total Disk Space: " + str(round(int(logical_disk.Size) / (1024**3), 2)) + " GB",
-            "Free Disk Space: " + str(round(int(logical_disk.Freespace) / (1024**3), 2)) + " GB",
+            "Total Disk Space: " +
+            str(round(int(logical_disk.Size) / (1024**3), 2)) + " GB",
+            "Free Disk Space: " +
+            str(round(int(logical_disk.Freespace) / (1024**3), 2)) + " GB",
             "Manufacturer: " + computer_system.Manufacturer,
             "Model: " + computer_system.Model,
-            "Memory: " + str(round(int(computer_system.TotalPhysicalMemory) / (1024**3), 2)) + " GB",
+            "Memory: " +
+            str(round(int(computer_system.TotalPhysicalMemory) /
+                      (1024**3), 2)) + " GB",
         ]
 
         return info
@@ -709,14 +719,15 @@ def batteryInfo():
         battery = psutil.sensors_battery()
         if battery is None:
             return "Battery information not available on this device."
-        
+
         pr = str(battery.percent)
         if battery.power_plugged:
             return f"Your System is currently charging and it's at {pr}%."
         else:
             # Calculate time remaining
             secs_left = battery.secsleft
-            if secs_left != psutil.POWER_TIME_UNLIMITED and secs_left != psutil.POWER_TIME_UNKNOWN:
+            if (secs_left != psutil.POWER_TIME_UNLIMITED and
+                    secs_left != psutil.POWER_TIME_UNKNOWN):
                 hours = secs_left // 3600
                 minutes = (secs_left % 3600) // 60
                 return f"Your System is at {pr}% battery. Estimated time remaining: {hours}h {minutes}m."
@@ -728,17 +739,17 @@ def batteryInfo():
 def OSHandler(query):
     """Handle OS-related queries like system info and battery status"""
     query_lower = query.lower()
-    if isContain(query_lower, ['system', 'info', 'specs', 'specification']):
+    if isContain(query_lower, ["system", "info", "specs", "specification"]):
         info = systemInfo()
-        return ['Here is your System Information...', '\n'.join(info)]
-    elif isContain(query_lower, ['cpu', 'battery', 'power', 'charge']):
+        return ["Here is your System Information...", "\n".join(info)]
+    elif isContain(query_lower, ["cpu", "battery", "power", "charge"]):
         return batteryInfo()
     return "I couldn't understand what system information you need."
 
 
 # # Function to get system information
 # def systemInfo():
-#     c = wmi.WMI()  
+#     c = wmi.WMI()
 #     my_system_1 = c.Win32_LogicalDisk()[0]
 #     my_system_2 = c.Win32_ComputerSystem()[0]
 #     info = ["Total Disk Space: " + str(round(int(my_system_1.Size)/(1024**3),2)) + " GB",
@@ -750,7 +761,6 @@ def OSHandler(query):
 
 #     for line in info:
 #         print(line)
-
 
 # Function to open a website based on user query
 # def open_website(query):
@@ -768,10 +778,11 @@ def OSHandler(query):
 #     except FileNotFoundError:
 #         print(f"Error: {websites_file} not found.")
 
-data = json.load(open('assets/websites.json', encoding='utf-8'))
+data = json.load(open("assets/websites.json", encoding="utf-8"))
+
 
 def open_website(query):
-    query = query.replace('open','').strip()
+    query = query.replace("open", "").strip()
     # Exact match first
     if query in data:
         value = data[query]
@@ -791,6 +802,7 @@ def open_website(query):
 # These provide easy access to class methods
 # ============================================
 
+
 def openApp(app_name):
     """Open an application by name (module-level wrapper)."""
     s = SystemTasks()
@@ -802,6 +814,7 @@ def write_text(text):
     """Type text into the currently focused application window."""
     try:
         import time
+
         s = SystemTasks()
         # small delay to allow app to open and focus
         time.sleep(1.5)
@@ -815,7 +828,7 @@ def volumeUp():
     """Increase system volume."""
     try:
         for _ in range(5):
-            pyautogui.press('volumeup')
+            pyautogui.press("volumeup")
         return "Volume increased"
     except Exception as e:
         return f"Could not change volume: {e}"
@@ -825,7 +838,7 @@ def volumeDown():
     """Decrease system volume."""
     try:
         for _ in range(5):
-            pyautogui.press('volumedown')
+            pyautogui.press("volumedown")
         return "Volume decreased"
     except Exception as e:
         return f"Could not change volume: {e}"
@@ -834,7 +847,7 @@ def volumeDown():
 def volumeMute():
     """Toggle mute."""
     try:
-        pyautogui.press('volumemute')
+        pyautogui.press("volumemute")
         return "Volume muted"
     except Exception as e:
         return f"Could not mute: {e}"
@@ -875,6 +888,7 @@ def lockPC():
     """Lock the computer."""
     try:
         import ctypes
+
         ctypes.windll.user32.LockWorkStation()
         return "PC locked"
     except Exception as e:
@@ -884,7 +898,7 @@ def lockPC():
 def shutdown():
     """Shutdown the computer."""
     try:
-        subprocess.run(['shutdown', '/s', '/t', '60'])
+        subprocess.run(["shutdown", "/s", "/t", "60"])
         return "Computer will shutdown in 60 seconds. Run 'shutdown /a' to cancel."
     except Exception as e:
         return f"Could not shutdown: {e}"
@@ -893,7 +907,7 @@ def shutdown():
 def restart():
     """Restart the computer."""
     try:
-        subprocess.run(['shutdown', '/r', '/t', '60'])
+        subprocess.run(["shutdown", "/r", "/t", "60"])
         return "Computer will restart in 60 seconds. Run 'shutdown /a' to cancel."
     except Exception as e:
         return f"Could not restart: {e}"
@@ -902,7 +916,8 @@ def restart():
 def sleep_pc():
     """Put computer to sleep."""
     try:
-        subprocess.run(['rundll32.exe', 'powrprof.dll,SetSuspendState', '0', '1', '0'])
+        subprocess.run(
+            ["rundll32.exe", "powrprof.dll,SetSuspendState", "0", "1", "0"])
         return "Going to sleep..."
     except Exception as e:
         return f"Could not sleep: {e}"
